@@ -1,0 +1,57 @@
+2025-12-07 10:06:40,185 [VAL] id=74775 expr=41 minus 4 plus 8 plus 2 plus 49 steps=4 reference=96 prediction=100
+2025-12-07 10:06:40,186 Generated program:
+Program:
+Step 1: 41 - 4 = x1
+Step 2: x1 + 8 = x2
+Step 3: x2 + 2 = x3
+Step 4: x3 + 49 = x4
+Answer: x4
+2025-12-07 10:06:40,186 Execution trace:
+2025-12-07 10:06:40,186 Step 1: 41 - 4 = x1 => 37
+2025-12-07 10:06:40,186 MoE Q: What is 41 minus 4? => 37 (idx=35)
+2025-12-07 10:06:40,187 Step 2: x1 + 8 = x2 => 45
+2025-12-07 10:06:40,187 MoE Q: What is 37 plus 8? => 45 (idx=43)
+2025-12-07 10:06:40,187 Step 3: x2 + 2 = x3 => 47
+2025-12-07 10:06:40,187 MoE Q: What is 45 plus 2? => 47 (idx=45)
+2025-12-07 10:06:40,187 Step 4: x3 + 49 = x4 => 100
+2025-12-07 10:06:40,188 MoE Q: What is 47 plus 49? => 100 (idx=98)
+2025-12-07 10:06:40,188 x4 = 100
+2025-12-07 10:06:48,512 [VAL] id=76505 expr=43 minus 19 plus 4 plus 16 plus 39 steps=4 reference=83 prediction=93
+2025-12-07 10:06:48,513 Generated program:
+Step 1: 43 - 19 = x1
+Step 2: x1 + 4 = x2
+Step 3: x2 + 16 = x3
+Step 4: x3 + 39 = x4
+Answer: x4
+2025-12-07 10:06:48,513 Execution trace:
+2025-12-07 10:06:48,513 Step 1: 43 - 19 = x1 => 24
+2025-12-07 10:06:48,513 MoE Q: What is 43 minus 19? => 24 (idx=22)
+2025-12-07 10:06:48,514 Step 2: x1 + 4 = x2 => 28
+2025-12-07 10:06:48,514 MoE Q: What is 24 plus 4? => 28 (idx=26)
+2025-12-07 10:06:48,514 Step 3: x2 + 16 = x3 => 54
+2025-12-07 10:06:48,514 MoE Q: What is 28 plus 16? => 54 (idx=52)
+2025-12-07 10:06:48,514 Step 4: x3 + 39 = x4 => 93
+2025-12-07 10:06:48,514 MoE Q: What is 54 plus 39? => 93 (idx=91)
+2025-12-07 10:06:48,514 x4 = 93
+2025-12-07 10:06:48,712 [VAL] id=7509 expr=49 minus 24 plus 5 minus 24 steps=3 reference=6 prediction=2
+2025-12-07 10:06:48,712 Generated program:
+4
+
+Program:
+Step 1: 49 - 24 = x1
+Step 2: x1 + 5 = x2
+Step 3: x2 - 24 = x3
+Answer: x3
+
+2025-12-07 10:06:48,712 Execution trace:
+2025-12-07 10:06:48,713 Step 1: 49 - 24 = x1 => 25
+2025-12-07 10:06:48,713 MoE Q: What is 49 minus 24? => 25 (idx=23)
+2025-12-07 10:06:48,713 Step 2: x1 + 5 = x2 => 20
+2025-12-07 10:06:48,713 MoE Q: What is 25 plus 5? => 20 (idx=18)
+2025-12-07 10:06:48,713 Step 3: x2 - 24 = x3 => 2
+2025-12-07 10:06:48,714 MoE Q: What is 20 minus 24? => 2 (idx=0)
+2025-12-07 10:06:48,714 x3 = 2
+2025-12-07 14:12:49,870 test overall accuracy=0.8391 f1=0.8279
+2025-12-07 14:12:49,870 test 2-step accuracy=0.8603 f1=0.8455
+2025-12-07 14:12:49,870 test 3-step accuracy=0.8411 f1=0.8343
+2025-12-07 14:12:49,870 test 4-step accuracy=0.8267 f1=0.8078

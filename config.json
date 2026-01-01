@@ -1,0 +1,4 @@
+{
+  "model_path": "e:/dev/lunwen/qwen3-0.6b",
+  "base_ckpt": "checkpoints_v13/demo_v13_base_best_ep14.pt"
+}

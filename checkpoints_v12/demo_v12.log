@@ -1,0 +1,1369 @@
+2025-12-03 16:01:50,302 [INFO] => cached samples to checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 16:02:27,592 [INFO] => Base epoch 1 avg_loss=4.6520 avg_acc=0.0130
+2025-12-03 16:02:29,989 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep1.pt
+2025-12-03 16:03:06,959 [INFO] => Base epoch 1 avg_loss=4.3732 avg_acc=0.0231
+2025-12-03 16:03:09,420 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep2.pt
+2025-12-03 16:03:44,857 [INFO] => Base epoch 1 avg_loss=4.0138 avg_acc=0.0381
+2025-12-03 16:03:51,135 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep3.pt
+2025-12-03 16:04:26,292 [INFO] => Base epoch 1 avg_loss=3.8360 avg_acc=0.0470
+2025-12-03 16:04:28,382 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep4.pt
+2025-12-03 16:05:03,620 [INFO] => Base epoch 1 avg_loss=3.7188 avg_acc=0.0555
+2025-12-03 16:05:06,024 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep5.pt
+2025-12-03 16:05:41,964 [INFO] => Base epoch 1 avg_loss=3.6173 avg_acc=0.0622
+2025-12-03 16:05:44,353 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep6.pt
+2025-12-03 16:06:20,747 [INFO] => Base epoch 1 avg_loss=3.5068 avg_acc=0.0794
+2025-12-03 16:06:23,168 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep7.pt
+2025-12-03 16:06:59,224 [INFO] => Base epoch 1 avg_loss=3.4042 avg_acc=0.0889
+2025-12-03 16:07:01,536 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep8.pt
+2025-12-03 16:07:37,744 [INFO] => Base epoch 1 avg_loss=3.3128 avg_acc=0.1020
+2025-12-03 16:07:41,762 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep9.pt
+2025-12-03 16:08:18,585 [INFO] => Base epoch 1 avg_loss=3.2410 avg_acc=0.1113
+2025-12-03 16:08:20,544 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep10.pt
+2025-12-03 16:08:20,544 [INFO] => base best_epoch=10 best_loss=3.2410
+2025-12-03 16:08:21,556 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-03 16:08:21,556 [INFO] Starting evaluation (mode=base)
+2025-12-03 16:15:07,262 [INFO] [Eval] Base All mode=base acc=0.0792 macro_f1=0.0483 n=80000
+2025-12-03 16:15:07,269 [INFO] === Per-range evaluation: Base All per-range (mode=base) ===
+2025-12-03 16:16:43,282 [INFO] Range 2-20: acc=0.0990 macro_f1=0.0139 (n=19287)
+2025-12-03 16:18:25,914 [INFO] Range 21-40: acc=0.0588 macro_f1=0.0083 (n=20624)
+2025-12-03 16:20:00,491 [INFO] Range 41-60: acc=0.0772 macro_f1=0.0101 (n=18955)
+2025-12-03 16:21:07,830 [INFO] Range 61-80: acc=0.0798 macro_f1=0.0128 (n=13526)
+2025-12-03 16:21:45,707 [INFO] Range 81-100: acc=0.0883 macro_f1=0.0104 (n=7608)
+2025-12-03 16:23:04,398 [INFO] => Expert 0 epoch 1 avg_loss=2.6877 avg_acc=0.1354
+2025-12-03 16:23:09,611 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep1.pt
+2025-12-03 16:24:28,681 [INFO] => Expert 0 epoch 1 avg_loss=2.5749 avg_acc=0.1415
+2025-12-03 16:24:32,690 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep2.pt
+2025-12-03 16:25:51,199 [INFO] => Expert 0 epoch 1 avg_loss=2.5451 avg_acc=0.1444
+2025-12-03 16:25:53,208 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep3.pt
+2025-12-03 16:27:11,622 [INFO] => Expert 0 epoch 1 avg_loss=2.5257 avg_acc=0.1515
+2025-12-03 16:27:13,652 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep4.pt
+2025-12-03 16:28:32,152 [INFO] => Expert 0 epoch 1 avg_loss=2.5123 avg_acc=0.1534
+2025-12-03 16:28:34,171 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep5.pt
+2025-12-03 16:28:34,171 [INFO] => expert_0 best_epoch=5 best_loss=2.5123
+2025-12-03 16:28:34,901 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep5.pt (missing=0 unexpected=0)
+2025-12-03 16:29:59,704 [INFO] => Expert 1 epoch 1 avg_loss=2.8222 avg_acc=0.1153
+2025-12-03 16:30:01,900 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep1.pt
+2025-12-03 16:31:30,446 [INFO] => Expert 1 epoch 1 avg_loss=2.6663 avg_acc=0.1284
+2025-12-03 16:31:32,954 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep2.pt
+2025-12-03 17:23:55,036 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 17:24:29,306 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 17:25:33,233 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 17:27:05,796 [INFO] => Base epoch 1 avg_loss=4.6520 avg_acc=0.0130
+2025-12-03 17:27:08,560 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep1.pt
+2025-12-03 17:28:48,077 [INFO] => Base epoch 1 avg_loss=4.3732 avg_acc=0.0231
+2025-12-03 17:28:50,901 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep2.pt
+2025-12-03 17:30:33,506 [INFO] => Base epoch 1 avg_loss=4.0138 avg_acc=0.0381
+2025-12-03 17:30:36,403 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep3.pt
+2025-12-03 17:32:21,621 [INFO] => Base epoch 1 avg_loss=3.8360 avg_acc=0.0470
+2025-12-03 17:32:24,408 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep4.pt
+2025-12-03 17:34:12,140 [INFO] => Base epoch 1 avg_loss=3.7188 avg_acc=0.0555
+2025-12-03 17:34:15,012 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep5.pt
+2025-12-03 17:36:03,456 [INFO] => Base epoch 1 avg_loss=3.6173 avg_acc=0.0622
+2025-12-03 17:36:06,297 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep6.pt
+2025-12-03 17:37:56,018 [INFO] => Base epoch 1 avg_loss=3.5068 avg_acc=0.0794
+2025-12-03 17:37:58,723 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep7.pt
+2025-12-03 17:39:48,488 [INFO] => Base epoch 1 avg_loss=3.4042 avg_acc=0.0889
+2025-12-03 17:39:51,169 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep8.pt
+2025-12-03 17:41:45,960 [INFO] => Base epoch 1 avg_loss=3.3128 avg_acc=0.1020
+2025-12-03 17:41:55,726 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep9.pt
+2025-12-03 17:43:43,102 [INFO] => Base epoch 1 avg_loss=3.2410 avg_acc=0.1113
+2025-12-03 17:43:45,940 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep10.pt
+2025-12-03 17:45:36,592 [INFO] => Base epoch 1 avg_loss=3.1730 avg_acc=0.1253
+2025-12-03 17:45:39,353 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep11.pt
+2025-12-03 17:47:28,737 [INFO] => Base epoch 1 avg_loss=3.1033 avg_acc=0.1339
+2025-12-03 17:47:31,509 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep12.pt
+2025-12-03 17:49:23,094 [INFO] => Base epoch 1 avg_loss=2.9631 avg_acc=0.1534
+2025-12-03 17:49:25,984 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep13.pt
+2025-12-03 17:51:25,973 [INFO] => Base epoch 1 avg_loss=2.9185 avg_acc=0.1628
+2025-12-03 17:51:28,655 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep14.pt
+2025-12-03 17:53:21,714 [INFO] => Base epoch 1 avg_loss=2.8481 avg_acc=0.1839
+2025-12-03 17:53:24,475 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep15.pt
+2025-12-03 17:55:14,021 [INFO] => Base epoch 1 avg_loss=2.7646 avg_acc=0.1988
+2025-12-03 17:55:16,819 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep16.pt
+2025-12-03 17:57:06,701 [INFO] => Base epoch 1 avg_loss=2.6938 avg_acc=0.2177
+2025-12-03 17:57:09,609 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep17.pt
+2025-12-03 17:58:58,555 [INFO] => Base epoch 1 avg_loss=2.6205 avg_acc=0.2377
+2025-12-03 17:59:03,500 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep18.pt
+2025-12-03 18:00:47,355 [INFO] => Base epoch 1 avg_loss=2.5113 avg_acc=0.2692
+2025-12-03 18:00:49,978 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep19.pt
+2025-12-03 18:02:33,507 [INFO] => Base epoch 1 avg_loss=2.4218 avg_acc=0.2945
+2025-12-03 18:02:36,158 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep20.pt
+2025-12-03 18:02:36,159 [INFO] => base best_epoch=20 best_loss=2.4218
+2025-12-03 18:02:38,812 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep20.pt (missing=0 unexpected=0)
+2025-12-03 18:02:38,814 [INFO] Starting evaluation (mode=base)
+2025-12-03 18:12:03,864 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 18:13:08,815 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 18:19:28,803 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 18:19:34,155 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep1.pt (missing=0 unexpected=0)
+2025-12-03 18:21:03,762 [INFO] => Base epoch 1 avg_loss=2.3641 avg_acc=0.3134
+2025-12-03 18:21:06,439 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep1.pt
+2025-12-03 18:22:48,293 [INFO] => Base epoch 1 avg_loss=2.2422 avg_acc=0.3469
+2025-12-03 18:22:51,028 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep2.pt
+2025-12-03 18:24:37,768 [INFO] => Base epoch 1 avg_loss=2.2259 avg_acc=0.3666
+2025-12-03 18:24:40,506 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep3.pt
+2025-12-03 18:26:29,862 [INFO] => Base epoch 1 avg_loss=2.1187 avg_acc=0.3927
+2025-12-03 18:26:32,555 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep4.pt
+2025-12-03 18:28:20,631 [INFO] => Base epoch 1 avg_loss=2.0178 avg_acc=0.4197
+2025-12-03 18:28:23,341 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep5.pt
+2025-12-03 18:30:10,593 [INFO] => Base epoch 1 avg_loss=1.9096 avg_acc=0.4558
+2025-12-03 18:30:13,301 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep6.pt
+2025-12-03 18:32:01,447 [INFO] => Base epoch 1 avg_loss=1.8141 avg_acc=0.4884
+2025-12-03 18:32:04,177 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep7.pt
+2025-12-03 18:33:53,744 [INFO] => Base epoch 1 avg_loss=1.7539 avg_acc=0.5097
+2025-12-03 18:33:56,485 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep8.pt
+2025-12-03 18:35:47,431 [INFO] => Base epoch 1 avg_loss=1.6783 avg_acc=0.5433
+2025-12-03 18:35:50,187 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep9.pt
+2025-12-03 18:37:42,171 [INFO] => Base epoch 1 avg_loss=1.5535 avg_acc=0.5739
+2025-12-03 18:37:44,932 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep10.pt
+2025-12-03 18:39:37,726 [INFO] => Base epoch 1 avg_loss=1.4669 avg_acc=0.6122
+2025-12-03 18:39:40,519 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep11.pt
+2025-12-03 18:41:31,966 [INFO] => Base epoch 1 avg_loss=1.4210 avg_acc=0.6258
+2025-12-03 18:41:34,801 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep12.pt
+2025-12-03 18:43:28,380 [INFO] => Base epoch 1 avg_loss=1.3254 avg_acc=0.6723
+2025-12-03 18:43:31,144 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep13.pt
+2025-12-03 18:45:22,066 [INFO] => Base epoch 1 avg_loss=1.2626 avg_acc=0.6908
+2025-12-03 18:45:24,775 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep14.pt
+2025-12-03 18:47:13,399 [INFO] => Base epoch 1 avg_loss=1.1563 avg_acc=0.7341
+2025-12-03 18:47:16,211 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep15.pt
+2025-12-03 18:49:06,852 [INFO] => Base epoch 1 avg_loss=1.0522 avg_acc=0.7686
+2025-12-03 18:49:16,638 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep16.pt
+2025-12-03 18:50:45,960 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 18:50:52,390 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep16.pt (missing=0 unexpected=0)
+2025-12-03 18:50:54,774 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep5.pt (missing=0 unexpected=0)
+2025-12-03 18:51:48,771 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 18:51:54,998 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep16.pt (missing=0 unexpected=0)
+2025-12-03 18:53:33,980 [INFO] => Base epoch 1 avg_loss=0.9895 avg_acc=0.7898
+2025-12-03 18:53:36,577 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep1.pt
+2025-12-03 18:53:36,577 [INFO] => base best_epoch=1 best_loss=0.9895
+2025-12-03 18:53:38,606 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep16.pt (missing=0 unexpected=0)
+2025-12-03 18:53:38,607 [INFO] Starting evaluation (mode=base)
+2025-12-03 19:15:38,876 [INFO] [Eval] Base All mode=base acc=0.2511 macro_f1=0.2540 n=80000
+2025-12-03 19:15:38,890 [INFO] === Per-range evaluation: Base All per-range (mode=base) ===
+2025-12-03 19:20:53,466 [INFO] Range 2-20: acc=0.2680 macro_f1=0.0529 (n=19287)
+2025-12-03 19:26:31,585 [INFO] Range 21-40: acc=0.2133 macro_f1=0.0471 (n=20624)
+2025-12-03 19:31:47,529 [INFO] Range 41-60: acc=0.2392 macro_f1=0.0515 (n=18955)
+2025-12-03 19:35:40,429 [INFO] Range 61-80: acc=0.2764 macro_f1=0.0600 (n=13526)
+2025-12-03 19:37:55,871 [INFO] Range 81-100: acc=0.2953 macro_f1=0.0589 (n=7608)
+2025-12-03 19:37:58,059 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep5.pt (missing=0 unexpected=0)
+2025-12-03 19:42:58,489 [INFO] => Expert 0 epoch 1 avg_loss=2.4998 avg_acc=0.1554
+2025-12-03 19:43:01,265 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep1.pt
+2025-12-03 19:45:26,352 [INFO] => cached samples to checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 19:45:32,967 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep16.pt (missing=0 unexpected=0)
+2025-12-03 19:46:05,108 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-03 19:46:11,032 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep16.pt (missing=0 unexpected=0)
+2025-12-03 19:47:50,120 [INFO] => Base epoch 1 avg_loss=2.7715 avg_acc=0.1878
+2025-12-03 19:47:52,670 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep1.pt
+2025-12-03 19:49:47,966 [INFO] => Base epoch 1 avg_loss=2.4878 avg_acc=0.2372
+2025-12-03 19:49:50,700 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep2.pt
+2025-12-03 19:52:05,795 [INFO] => Base epoch 1 avg_loss=2.3288 avg_acc=0.2797
+2025-12-03 19:52:09,012 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep3.pt
+2025-12-03 19:54:40,574 [INFO] => Base epoch 1 avg_loss=2.2530 avg_acc=0.3141
+2025-12-03 19:54:43,723 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep4.pt
+2025-12-03 19:57:16,141 [INFO] => Base epoch 1 avg_loss=2.1085 avg_acc=0.3655
+2025-12-03 19:57:18,916 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep5.pt
+2025-12-03 19:59:25,455 [INFO] => Base epoch 1 avg_loss=1.9497 avg_acc=0.4173
+2025-12-03 19:59:28,118 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep6.pt
+2025-12-03 20:01:25,708 [INFO] => Base epoch 1 avg_loss=1.8656 avg_acc=0.4587
+2025-12-03 20:01:28,418 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep7.pt
+2025-12-03 20:03:23,407 [INFO] => Base epoch 1 avg_loss=1.6842 avg_acc=0.5161
+2025-12-03 20:03:26,068 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep8.pt
+2025-12-03 20:05:30,327 [INFO] => Base epoch 1 avg_loss=1.5828 avg_acc=0.5552
+2025-12-03 20:05:32,978 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep9.pt
+2025-12-03 20:07:28,481 [INFO] => Base epoch 1 avg_loss=1.5090 avg_acc=0.5983
+2025-12-03 20:07:31,146 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep10.pt
+2025-12-03 20:07:31,147 [INFO] => base best_epoch=10 best_loss=1.5090
+2025-12-03 20:07:33,444 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep16.pt (missing=0 unexpected=0)
+2025-12-03 20:07:33,445 [INFO] Starting evaluation (mode=base)
+2025-12-03 20:29:32,577 [INFO] [Eval] Base All mode=base acc=0.2107 macro_f1=0.2052 n=80000
+2025-12-03 20:29:32,591 [INFO] === Per-range evaluation: Base All per-range (mode=base) ===
+2025-12-03 20:33:55,735 [INFO] Range 2-20: acc=0.2686 macro_f1=0.0531 (n=16000)
+2025-12-03 20:38:16,786 [INFO] Range 21-40: acc=0.1761 macro_f1=0.0388 (n=16000)
+2025-12-03 20:42:37,752 [INFO] Range 41-60: acc=0.1954 macro_f1=0.0420 (n=16000)
+2025-12-03 20:46:59,735 [INFO] Range 61-80: acc=0.2201 macro_f1=0.0479 (n=16000)
+2025-12-03 20:51:22,164 [INFO] Range 81-100: acc=0.1934 macro_f1=0.0377 (n=16000)
+2025-12-03 20:51:24,307 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep5.pt (missing=0 unexpected=0)
+2025-12-03 20:54:51,728 [INFO] => Expert 0 epoch 1 avg_loss=2.5032 avg_acc=0.1546
+2025-12-03 20:54:54,187 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep1.pt
+2025-12-03 20:58:23,015 [INFO] => Expert 0 epoch 1 avg_loss=2.4941 avg_acc=0.1579
+2025-12-03 20:58:25,662 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep2.pt
+2025-12-03 21:01:54,005 [INFO] => Expert 0 epoch 1 avg_loss=2.4860 avg_acc=0.1608
+2025-12-03 21:01:56,737 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep3.pt
+2025-12-03 21:05:25,647 [INFO] => Expert 0 epoch 1 avg_loss=2.4802 avg_acc=0.1581
+2025-12-03 21:05:28,376 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep4.pt
+2025-12-03 21:08:57,638 [INFO] => Expert 0 epoch 1 avg_loss=2.4739 avg_acc=0.1611
+2025-12-03 21:09:00,418 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep5.pt
+2025-12-03 21:12:29,676 [INFO] => Expert 0 epoch 1 avg_loss=2.4696 avg_acc=0.1646
+2025-12-03 21:12:32,310 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep6.pt
+2025-12-03 21:16:01,003 [INFO] => Expert 0 epoch 1 avg_loss=2.4639 avg_acc=0.1643
+2025-12-03 21:16:03,691 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep7.pt
+2025-12-03 21:19:33,317 [INFO] => Expert 0 epoch 1 avg_loss=2.4591 avg_acc=0.1696
+2025-12-03 21:19:35,955 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep8.pt
+2025-12-03 21:23:06,009 [INFO] => Expert 0 epoch 1 avg_loss=2.4542 avg_acc=0.1659
+2025-12-03 21:23:08,745 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep9.pt
+2025-12-03 21:26:38,003 [INFO] => Expert 0 epoch 1 avg_loss=2.4496 avg_acc=0.1682
+2025-12-03 21:26:40,584 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep10.pt
+2025-12-03 21:30:10,830 [INFO] => Expert 0 epoch 1 avg_loss=2.4453 avg_acc=0.1684
+2025-12-03 21:30:13,453 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep11.pt
+2025-12-03 21:33:44,265 [INFO] => Expert 0 epoch 1 avg_loss=2.4420 avg_acc=0.1704
+2025-12-03 21:33:52,437 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep12.pt
+2025-12-03 21:37:19,085 [INFO] => Expert 0 epoch 1 avg_loss=2.4401 avg_acc=0.1731
+2025-12-03 21:37:21,742 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep13.pt
+2025-12-03 21:40:54,555 [INFO] => Expert 0 epoch 1 avg_loss=2.4355 avg_acc=0.1720
+2025-12-03 21:40:57,215 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep14.pt
+2025-12-03 21:44:30,880 [INFO] => Expert 0 epoch 1 avg_loss=2.4334 avg_acc=0.1732
+2025-12-03 21:44:40,378 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep15.pt
+2025-12-03 21:48:08,461 [INFO] => Expert 0 epoch 1 avg_loss=2.4292 avg_acc=0.1793
+2025-12-03 21:48:11,227 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep16.pt
+2025-12-03 21:51:47,565 [INFO] => Expert 0 epoch 1 avg_loss=2.4268 avg_acc=0.1755
+2025-12-03 21:51:50,161 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep17.pt
+2025-12-03 21:55:23,463 [INFO] => Expert 0 epoch 1 avg_loss=2.4249 avg_acc=0.1745
+2025-12-03 21:55:33,141 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep18.pt
+2025-12-03 21:59:02,043 [INFO] => Expert 0 epoch 1 avg_loss=2.4220 avg_acc=0.1794
+2025-12-03 21:59:04,671 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep19.pt
+2025-12-03 22:02:39,355 [INFO] => Expert 0 epoch 1 avg_loss=2.4185 avg_acc=0.1795
+2025-12-03 22:02:42,012 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep20.pt
+2025-12-03 22:06:15,471 [INFO] => Expert 0 epoch 1 avg_loss=2.4163 avg_acc=0.1777
+2025-12-03 22:06:18,199 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep21.pt
+2025-12-03 22:09:52,236 [INFO] => Expert 0 epoch 1 avg_loss=2.4138 avg_acc=0.1825
+2025-12-03 22:10:01,814 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep22.pt
+2025-12-03 22:13:30,493 [INFO] => Expert 0 epoch 1 avg_loss=2.4108 avg_acc=0.1809
+2025-12-03 22:13:33,131 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep23.pt
+2025-12-03 22:17:07,138 [INFO] => Expert 0 epoch 1 avg_loss=2.4089 avg_acc=0.1859
+2025-12-03 22:17:09,864 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep24.pt
+2025-12-03 22:20:44,003 [INFO] => Expert 0 epoch 1 avg_loss=2.4079 avg_acc=0.1839
+2025-12-03 22:20:46,634 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep25.pt
+2025-12-03 22:24:21,302 [INFO] => Expert 0 epoch 1 avg_loss=2.4054 avg_acc=0.1862
+2025-12-03 22:24:23,964 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep26.pt
+2025-12-03 22:27:58,770 [INFO] => Expert 0 epoch 1 avg_loss=2.4031 avg_acc=0.1868
+2025-12-03 22:28:07,184 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep27.pt
+2025-12-03 22:31:36,713 [INFO] => Expert 0 epoch 1 avg_loss=2.4005 avg_acc=0.1877
+2025-12-03 22:31:39,306 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep28.pt
+2025-12-03 22:35:19,728 [INFO] => Expert 0 epoch 1 avg_loss=2.3990 avg_acc=0.1875
+2025-12-03 22:35:22,446 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep29.pt
+2025-12-03 22:39:02,308 [INFO] => Expert 0 epoch 1 avg_loss=2.3961 avg_acc=0.1911
+2025-12-03 22:39:04,922 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep30.pt
+2025-12-03 22:42:43,962 [INFO] => Expert 0 epoch 1 avg_loss=2.3950 avg_acc=0.1868
+2025-12-03 22:42:46,564 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep31.pt
+2025-12-03 22:46:25,293 [INFO] => Expert 0 epoch 1 avg_loss=2.3943 avg_acc=0.1909
+2025-12-03 22:46:27,925 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep32.pt
+2025-12-03 22:50:05,987 [INFO] => Expert 0 epoch 1 avg_loss=2.3911 avg_acc=0.1928
+2025-12-03 22:50:08,634 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep33.pt
+2025-12-03 22:53:45,609 [INFO] => Expert 0 epoch 1 avg_loss=2.3882 avg_acc=0.1948
+2025-12-03 22:53:48,271 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep34.pt
+2025-12-03 22:57:26,376 [INFO] => Expert 0 epoch 1 avg_loss=2.3875 avg_acc=0.1927
+2025-12-03 22:57:29,271 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep35.pt
+2025-12-03 23:01:08,770 [INFO] => Expert 0 epoch 1 avg_loss=2.3854 avg_acc=0.1930
+2025-12-03 23:01:11,348 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep36.pt
+2025-12-03 23:04:50,776 [INFO] => Expert 0 epoch 1 avg_loss=2.3833 avg_acc=0.1936
+2025-12-03 23:04:53,461 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep37.pt
+2025-12-03 23:08:29,307 [INFO] => Expert 0 epoch 1 avg_loss=2.3822 avg_acc=0.1932
+2025-12-03 23:08:31,943 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep38.pt
+2025-12-03 23:12:07,941 [INFO] => Expert 0 epoch 1 avg_loss=2.3807 avg_acc=0.1947
+2025-12-03 23:12:10,564 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep39.pt
+2025-12-03 23:15:44,776 [INFO] => Expert 0 epoch 1 avg_loss=2.3790 avg_acc=0.1956
+2025-12-03 23:15:47,435 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep40.pt
+2025-12-03 23:19:21,933 [INFO] => Expert 0 epoch 1 avg_loss=2.3773 avg_acc=0.1963
+2025-12-03 23:19:24,588 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep41.pt
+2025-12-03 23:22:59,462 [INFO] => Expert 0 epoch 1 avg_loss=2.3762 avg_acc=0.1988
+2025-12-03 23:23:02,113 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep42.pt
+2025-12-03 23:26:35,777 [INFO] => Expert 0 epoch 1 avg_loss=2.3738 avg_acc=0.1984
+2025-12-03 23:26:38,595 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep43.pt
+2025-12-03 23:30:13,493 [INFO] => Expert 0 epoch 1 avg_loss=2.3728 avg_acc=0.1997
+2025-12-03 23:30:16,087 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep44.pt
+2025-12-03 23:33:49,206 [INFO] => Expert 0 epoch 1 avg_loss=2.3707 avg_acc=0.2040
+2025-12-03 23:33:51,837 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep45.pt
+2025-12-03 23:37:25,229 [INFO] => Expert 0 epoch 1 avg_loss=2.3689 avg_acc=0.2005
+2025-12-03 23:37:27,865 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep46.pt
+2025-12-03 23:41:00,011 [INFO] => Expert 0 epoch 1 avg_loss=2.3677 avg_acc=0.2049
+2025-12-03 23:41:02,666 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep47.pt
+2025-12-03 23:44:34,238 [INFO] => Expert 0 epoch 1 avg_loss=2.3669 avg_acc=0.2003
+2025-12-03 23:44:36,924 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep48.pt
+2025-12-03 23:48:07,345 [INFO] => Expert 0 epoch 1 avg_loss=2.3645 avg_acc=0.2083
+2025-12-03 23:48:09,989 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep49.pt
+2025-12-03 23:51:43,089 [INFO] => Expert 0 epoch 1 avg_loss=2.3628 avg_acc=0.2073
+2025-12-03 23:51:45,718 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep50.pt
+2025-12-03 23:55:17,523 [INFO] => Expert 0 epoch 1 avg_loss=2.3624 avg_acc=0.2058
+2025-12-03 23:55:20,197 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep51.pt
+2025-12-03 23:58:52,340 [INFO] => Expert 0 epoch 1 avg_loss=2.3610 avg_acc=0.2027
+2025-12-03 23:58:55,013 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep52.pt
+2025-12-04 00:02:27,587 [INFO] => Expert 0 epoch 1 avg_loss=2.3580 avg_acc=0.2064
+2025-12-04 00:02:30,232 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep53.pt
+2025-12-04 00:06:01,604 [INFO] => Expert 0 epoch 1 avg_loss=2.3579 avg_acc=0.2072
+2025-12-04 00:06:04,264 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep54.pt
+2025-12-04 00:09:34,956 [INFO] => Expert 0 epoch 1 avg_loss=2.3567 avg_acc=0.2066
+2025-12-04 00:09:37,587 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep55.pt
+2025-12-04 00:13:07,889 [INFO] => Expert 0 epoch 1 avg_loss=2.3552 avg_acc=0.2094
+2025-12-04 00:13:10,547 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep56.pt
+2025-12-04 00:16:41,947 [INFO] => Expert 0 epoch 1 avg_loss=2.3548 avg_acc=0.2106
+2025-12-04 00:16:44,737 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep57.pt
+2025-12-04 00:20:18,234 [INFO] => Expert 0 epoch 1 avg_loss=2.3531 avg_acc=0.2093
+2025-12-04 00:20:20,924 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep58.pt
+2025-12-04 00:23:54,352 [INFO] => Expert 0 epoch 1 avg_loss=2.3525 avg_acc=0.2102
+2025-12-04 00:23:56,978 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep59.pt
+2025-12-04 00:27:29,077 [INFO] => Expert 0 epoch 1 avg_loss=2.3506 avg_acc=0.2107
+2025-12-04 00:27:31,820 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep60.pt
+2025-12-04 00:27:31,821 [INFO] => expert_0 best_epoch=60 best_loss=2.3506
+2025-12-04 00:27:33,059 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 00:31:06,973 [INFO] => Expert 1 epoch 1 avg_loss=2.8786 avg_acc=0.1073
+2025-12-04 00:31:09,315 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep1.pt
+2025-12-04 00:34:41,025 [INFO] => Expert 1 epoch 1 avg_loss=2.6963 avg_acc=0.1258
+2025-12-04 00:34:43,665 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep2.pt
+2025-12-04 00:38:15,332 [INFO] => Expert 1 epoch 1 avg_loss=2.6511 avg_acc=0.1291
+2025-12-04 00:38:18,070 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep3.pt
+2025-12-04 00:41:49,984 [INFO] => Expert 1 epoch 1 avg_loss=2.6254 avg_acc=0.1383
+2025-12-04 00:41:52,731 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep4.pt
+2025-12-04 00:45:23,373 [INFO] => Expert 1 epoch 1 avg_loss=2.6073 avg_acc=0.1418
+2025-12-04 00:45:25,977 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep5.pt
+2025-12-04 00:48:58,682 [INFO] => Expert 1 epoch 1 avg_loss=2.5933 avg_acc=0.1426
+2025-12-04 00:49:01,308 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep6.pt
+2025-12-04 00:52:34,560 [INFO] => Expert 1 epoch 1 avg_loss=2.5828 avg_acc=0.1495
+2025-12-04 00:52:37,234 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep7.pt
+2025-12-04 00:56:08,973 [INFO] => Expert 1 epoch 1 avg_loss=2.5732 avg_acc=0.1451
+2025-12-04 00:56:11,639 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep8.pt
+2025-12-04 00:59:45,601 [INFO] => Expert 1 epoch 1 avg_loss=2.5637 avg_acc=0.1515
+2025-12-04 00:59:48,298 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep9.pt
+2025-12-04 01:03:20,457 [INFO] => Expert 1 epoch 1 avg_loss=2.5569 avg_acc=0.1544
+2025-12-04 01:03:23,086 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep10.pt
+2025-12-04 01:06:54,379 [INFO] => Expert 1 epoch 1 avg_loss=2.5495 avg_acc=0.1552
+2025-12-04 01:06:57,030 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep11.pt
+2025-12-04 01:10:28,394 [INFO] => Expert 1 epoch 1 avg_loss=2.5429 avg_acc=0.1573
+2025-12-04 01:10:31,042 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep12.pt
+2025-12-04 01:14:01,878 [INFO] => Expert 1 epoch 1 avg_loss=2.5388 avg_acc=0.1596
+2025-12-04 01:14:04,674 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep13.pt
+2025-12-04 01:17:33,888 [INFO] => Expert 1 epoch 1 avg_loss=2.5341 avg_acc=0.1605
+2025-12-04 01:17:36,499 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep14.pt
+2025-12-04 01:21:08,748 [INFO] => Expert 1 epoch 1 avg_loss=2.5279 avg_acc=0.1690
+2025-12-04 01:21:11,390 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep15.pt
+2025-12-04 01:24:41,621 [INFO] => Expert 1 epoch 1 avg_loss=2.5237 avg_acc=0.1662
+2025-12-04 01:24:44,302 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep16.pt
+2025-12-04 01:28:15,002 [INFO] => Expert 1 epoch 1 avg_loss=2.5212 avg_acc=0.1673
+2025-12-04 01:28:17,718 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep17.pt
+2025-12-04 01:31:48,957 [INFO] => Expert 1 epoch 1 avg_loss=2.5159 avg_acc=0.1645
+2025-12-04 01:31:51,648 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep18.pt
+2025-12-04 01:35:19,779 [INFO] => Expert 1 epoch 1 avg_loss=2.5119 avg_acc=0.1691
+2025-12-04 01:35:22,454 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep19.pt
+2025-12-04 01:38:51,997 [INFO] => Expert 1 epoch 1 avg_loss=2.5097 avg_acc=0.1712
+2025-12-04 01:38:54,653 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep20.pt
+2025-12-04 01:42:22,974 [INFO] => Expert 1 epoch 1 avg_loss=2.5046 avg_acc=0.1711
+2025-12-04 01:42:25,767 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep21.pt
+2025-12-04 01:45:55,058 [INFO] => Expert 1 epoch 1 avg_loss=2.5038 avg_acc=0.1727
+2025-12-04 01:45:57,743 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep22.pt
+2025-12-04 01:49:25,836 [INFO] => Expert 1 epoch 1 avg_loss=2.4989 avg_acc=0.1762
+2025-12-04 01:49:28,466 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep23.pt
+2025-12-04 01:52:57,355 [INFO] => Expert 1 epoch 1 avg_loss=2.4965 avg_acc=0.1720
+2025-12-04 01:53:00,063 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep24.pt
+2025-12-04 01:56:28,570 [INFO] => Expert 1 epoch 1 avg_loss=2.4939 avg_acc=0.1777
+2025-12-04 01:56:31,170 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep25.pt
+2025-12-04 02:00:01,102 [INFO] => Expert 1 epoch 1 avg_loss=2.4924 avg_acc=0.1788
+2025-12-04 02:00:03,714 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep26.pt
+2025-12-04 02:03:34,889 [INFO] => Expert 1 epoch 1 avg_loss=2.4886 avg_acc=0.1762
+2025-12-04 02:03:44,855 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep27.pt
+2025-12-04 02:07:08,271 [INFO] => Expert 1 epoch 1 avg_loss=2.4863 avg_acc=0.1812
+2025-12-04 02:07:10,887 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep28.pt
+2025-12-04 02:10:39,997 [INFO] => Expert 1 epoch 1 avg_loss=2.4822 avg_acc=0.1798
+2025-12-04 02:10:42,622 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep29.pt
+2025-12-04 02:14:10,727 [INFO] => Expert 1 epoch 1 avg_loss=2.4807 avg_acc=0.1846
+2025-12-04 02:14:13,372 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep30.pt
+2025-12-04 02:17:42,008 [INFO] => Expert 1 epoch 1 avg_loss=2.4776 avg_acc=0.1809
+2025-12-04 02:17:44,728 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep31.pt
+2025-12-04 02:21:16,140 [INFO] => Expert 1 epoch 1 avg_loss=2.4773 avg_acc=0.1830
+2025-12-04 02:21:18,738 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep32.pt
+2025-12-04 02:24:47,500 [INFO] => Expert 1 epoch 1 avg_loss=2.4745 avg_acc=0.1849
+2025-12-04 02:24:50,163 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep33.pt
+2025-12-04 02:28:18,602 [INFO] => Expert 1 epoch 1 avg_loss=2.4726 avg_acc=0.1801
+2025-12-04 02:28:21,221 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep34.pt
+2025-12-04 02:31:50,406 [INFO] => Expert 1 epoch 1 avg_loss=2.4700 avg_acc=0.1826
+2025-12-04 02:31:53,044 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep35.pt
+2025-12-04 02:35:20,561 [INFO] => Expert 1 epoch 1 avg_loss=2.4679 avg_acc=0.1850
+2025-12-04 02:35:23,268 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep36.pt
+2025-12-04 02:38:52,228 [INFO] => Expert 1 epoch 1 avg_loss=2.4664 avg_acc=0.1846
+2025-12-04 02:38:54,880 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep37.pt
+2025-12-04 02:42:22,673 [INFO] => Expert 1 epoch 1 avg_loss=2.4639 avg_acc=0.1887
+2025-12-04 02:42:25,329 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep38.pt
+2025-12-04 02:45:53,747 [INFO] => Expert 1 epoch 1 avg_loss=2.4628 avg_acc=0.1853
+2025-12-04 02:45:56,413 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep39.pt
+2025-12-04 02:49:23,944 [INFO] => Expert 1 epoch 1 avg_loss=2.4614 avg_acc=0.1866
+2025-12-04 02:49:26,618 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep40.pt
+2025-12-04 02:52:54,543 [INFO] => Expert 1 epoch 1 avg_loss=2.4583 avg_acc=0.1893
+2025-12-04 02:52:57,267 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep41.pt
+2025-12-04 02:56:25,041 [INFO] => Expert 1 epoch 1 avg_loss=2.4555 avg_acc=0.1920
+2025-12-04 02:56:27,679 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep42.pt
+2025-12-04 02:59:55,837 [INFO] => Expert 1 epoch 1 avg_loss=2.4560 avg_acc=0.1901
+2025-12-04 03:03:25,821 [INFO] => Expert 1 epoch 1 avg_loss=2.4527 avg_acc=0.1887
+2025-12-04 03:03:28,501 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep44.pt
+2025-12-04 03:06:55,777 [INFO] => Expert 1 epoch 1 avg_loss=2.4514 avg_acc=0.1896
+2025-12-04 03:06:58,521 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep45.pt
+2025-12-04 03:10:26,441 [INFO] => Expert 1 epoch 1 avg_loss=2.4500 avg_acc=0.1914
+2025-12-04 03:10:29,102 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep46.pt
+2025-12-04 03:13:55,736 [INFO] => Expert 1 epoch 1 avg_loss=2.4477 avg_acc=0.1947
+2025-12-04 03:13:58,382 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep47.pt
+2025-12-04 03:17:25,677 [INFO] => Expert 1 epoch 1 avg_loss=2.4451 avg_acc=0.1936
+2025-12-04 03:17:28,521 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep48.pt
+2025-12-04 03:20:57,847 [INFO] => Expert 1 epoch 1 avg_loss=2.4443 avg_acc=0.1945
+2025-12-04 03:21:08,872 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep49.pt
+2025-12-04 03:24:32,185 [INFO] => Expert 1 epoch 1 avg_loss=2.4425 avg_acc=0.1952
+2025-12-04 03:24:43,547 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep50.pt
+2025-12-04 03:28:05,313 [INFO] => Expert 1 epoch 1 avg_loss=2.4414 avg_acc=0.1969
+2025-12-04 03:28:08,086 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep51.pt
+2025-12-04 03:31:36,591 [INFO] => Expert 1 epoch 1 avg_loss=2.4397 avg_acc=0.1966
+2025-12-04 03:31:39,089 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep52.pt
+2025-12-04 03:35:05,858 [INFO] => Expert 1 epoch 1 avg_loss=2.4384 avg_acc=0.1971
+2025-12-04 03:35:08,509 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep53.pt
+2025-12-04 03:38:36,224 [INFO] => Expert 1 epoch 1 avg_loss=2.4371 avg_acc=0.1978
+2025-12-04 03:38:38,863 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep54.pt
+2025-12-04 03:42:05,895 [INFO] => Expert 1 epoch 1 avg_loss=2.4353 avg_acc=0.2007
+2025-12-04 03:42:08,612 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep55.pt
+2025-12-04 03:45:38,306 [INFO] => Expert 1 epoch 1 avg_loss=2.4331 avg_acc=0.1976
+2025-12-04 03:45:46,516 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep56.pt
+2025-12-04 03:49:09,592 [INFO] => Expert 1 epoch 1 avg_loss=2.4323 avg_acc=0.2010
+2025-12-04 03:49:12,406 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep57.pt
+2025-12-04 03:52:40,512 [INFO] => Expert 1 epoch 1 avg_loss=2.4311 avg_acc=0.1986
+2025-12-04 03:52:43,253 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep58.pt
+2025-12-04 03:56:11,644 [INFO] => Expert 1 epoch 1 avg_loss=2.4293 avg_acc=0.2023
+2025-12-04 03:56:14,346 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep59.pt
+2025-12-04 03:59:41,539 [INFO] => Expert 1 epoch 1 avg_loss=2.4275 avg_acc=0.2006
+2025-12-04 03:59:44,210 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep60.pt
+2025-12-04 03:59:44,210 [INFO] => expert_1 best_epoch=60 best_loss=2.4275
+2025-12-04 03:59:45,509 [INFO] => loaded best checkpoint for expert_1: checkpoints_v12\demo_v12_expert_1_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 04:03:13,541 [INFO] => Expert 2 epoch 1 avg_loss=2.7939 avg_acc=0.1265
+2025-12-04 04:03:22,851 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep1.pt
+2025-12-04 04:06:44,871 [INFO] => Expert 2 epoch 1 avg_loss=2.5987 avg_acc=0.1419
+2025-12-04 04:06:47,615 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep2.pt
+2025-12-04 04:10:14,626 [INFO] => Expert 2 epoch 1 avg_loss=2.5544 avg_acc=0.1484
+2025-12-04 04:10:17,311 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep3.pt
+2025-12-04 04:13:43,909 [INFO] => Expert 2 epoch 1 avg_loss=2.5286 avg_acc=0.1562
+2025-12-04 04:13:46,698 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep4.pt
+2025-12-04 04:17:14,948 [INFO] => Expert 2 epoch 1 avg_loss=2.5106 avg_acc=0.1620
+2025-12-04 04:17:26,106 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep5.pt
+2025-12-04 04:20:49,329 [INFO] => Expert 2 epoch 1 avg_loss=2.4968 avg_acc=0.1641
+2025-12-04 04:20:52,100 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep6.pt
+2025-12-04 04:24:39,449 [INFO] => Expert 2 epoch 1 avg_loss=2.4856 avg_acc=0.1689
+2025-12-04 04:24:42,260 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep7.pt
+2025-12-04 04:28:12,771 [INFO] => Expert 2 epoch 1 avg_loss=2.4785 avg_acc=0.1683
+2025-12-04 04:28:22,539 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep8.pt
+2025-12-04 04:31:47,954 [INFO] => Expert 2 epoch 1 avg_loss=2.4712 avg_acc=0.1673
+2025-12-04 04:31:50,614 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep9.pt
+2025-12-04 04:35:18,535 [INFO] => Expert 2 epoch 1 avg_loss=2.4655 avg_acc=0.1730
+2025-12-04 04:35:21,274 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep10.pt
+2025-12-04 04:38:49,771 [INFO] => Expert 2 epoch 1 avg_loss=2.4586 avg_acc=0.1733
+2025-12-04 04:38:52,506 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep11.pt
+2025-12-04 04:42:19,700 [INFO] => Expert 2 epoch 1 avg_loss=2.4540 avg_acc=0.1744
+2025-12-04 04:42:22,516 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep12.pt
+2025-12-04 04:45:52,087 [INFO] => Expert 2 epoch 1 avg_loss=2.4503 avg_acc=0.1741
+2025-12-04 04:45:54,710 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep13.pt
+2025-12-04 04:49:22,349 [INFO] => Expert 2 epoch 1 avg_loss=2.4461 avg_acc=0.1764
+2025-12-04 04:49:25,127 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep14.pt
+2025-12-04 04:52:53,610 [INFO] => Expert 2 epoch 1 avg_loss=2.4416 avg_acc=0.1798
+2025-12-04 04:52:56,220 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep15.pt
+2025-12-04 04:56:23,507 [INFO] => Expert 2 epoch 1 avg_loss=2.4381 avg_acc=0.1823
+2025-12-04 04:56:26,185 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep16.pt
+2025-12-04 04:59:54,118 [INFO] => Expert 2 epoch 1 avg_loss=2.4346 avg_acc=0.1820
+2025-12-04 04:59:56,729 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep17.pt
+2025-12-04 05:03:24,437 [INFO] => Expert 2 epoch 1 avg_loss=2.4316 avg_acc=0.1863
+2025-12-04 05:03:27,064 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep18.pt
+2025-12-04 05:06:54,654 [INFO] => Expert 2 epoch 1 avg_loss=2.4298 avg_acc=0.1837
+2025-12-04 05:06:57,302 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep19.pt
+2025-12-04 05:10:23,464 [INFO] => Expert 2 epoch 1 avg_loss=2.4260 avg_acc=0.1870
+2025-12-04 05:10:26,134 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep20.pt
+2025-12-04 05:13:52,431 [INFO] => Expert 2 epoch 1 avg_loss=2.4230 avg_acc=0.1878
+2025-12-04 05:13:55,100 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep21.pt
+2025-12-04 05:17:23,241 [INFO] => Expert 2 epoch 1 avg_loss=2.4205 avg_acc=0.1891
+2025-12-04 05:17:25,921 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep22.pt
+2025-12-04 05:20:55,103 [INFO] => Expert 2 epoch 1 avg_loss=2.4182 avg_acc=0.1912
+2025-12-04 05:20:57,812 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep23.pt
+2025-12-04 05:24:26,561 [INFO] => Expert 2 epoch 1 avg_loss=2.4154 avg_acc=0.1904
+2025-12-04 05:24:29,232 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep24.pt
+2025-12-04 05:27:56,443 [INFO] => Expert 2 epoch 1 avg_loss=2.4141 avg_acc=0.1919
+2025-12-04 05:27:59,189 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep25.pt
+2025-12-04 05:31:29,118 [INFO] => Expert 2 epoch 1 avg_loss=2.4107 avg_acc=0.1964
+2025-12-04 05:31:31,766 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep26.pt
+2025-12-04 05:34:59,987 [INFO] => Expert 2 epoch 1 avg_loss=2.4099 avg_acc=0.1953
+2025-12-04 05:35:02,793 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep27.pt
+2025-12-04 05:38:29,794 [INFO] => Expert 2 epoch 1 avg_loss=2.4066 avg_acc=0.1954
+2025-12-04 05:38:32,463 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep28.pt
+2025-12-04 05:41:59,261 [INFO] => Expert 2 epoch 1 avg_loss=2.4049 avg_acc=0.1905
+2025-12-04 05:42:02,003 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep29.pt
+2025-12-04 05:45:30,891 [INFO] => Expert 2 epoch 1 avg_loss=2.4027 avg_acc=0.1951
+2025-12-04 05:45:33,595 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep30.pt
+2025-12-04 05:49:00,850 [INFO] => Expert 2 epoch 1 avg_loss=2.4000 avg_acc=0.2044
+2025-12-04 05:49:03,534 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep31.pt
+2025-12-04 05:53:11,418 [INFO] => Expert 2 epoch 1 avg_loss=2.3989 avg_acc=0.1990
+2025-12-04 05:53:14,750 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep32.pt
+2025-12-04 05:57:56,075 [INFO] => Expert 2 epoch 1 avg_loss=2.3979 avg_acc=0.1981
+2025-12-04 05:57:58,930 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep33.pt
+2025-12-04 06:01:42,633 [INFO] => Expert 2 epoch 1 avg_loss=2.3948 avg_acc=0.1998
+2025-12-04 06:01:45,411 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep34.pt
+2025-12-04 06:05:18,359 [INFO] => Expert 2 epoch 1 avg_loss=2.3936 avg_acc=0.2027
+2025-12-04 06:05:21,026 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep35.pt
+2025-12-04 06:08:45,187 [INFO] => Expert 2 epoch 1 avg_loss=2.3915 avg_acc=0.1980
+2025-12-04 06:08:48,000 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep36.pt
+2025-12-04 06:12:10,494 [INFO] => Expert 2 epoch 1 avg_loss=2.3888 avg_acc=0.2036
+2025-12-04 06:12:13,268 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep37.pt
+2025-12-04 06:15:33,421 [INFO] => Expert 2 epoch 1 avg_loss=2.3883 avg_acc=0.2043
+2025-12-04 06:15:36,012 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep38.pt
+2025-12-04 06:18:56,283 [INFO] => Expert 2 epoch 1 avg_loss=2.3865 avg_acc=0.2057
+2025-12-04 06:18:58,936 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep39.pt
+2025-12-04 06:22:25,364 [INFO] => Expert 2 epoch 1 avg_loss=2.3843 avg_acc=0.2077
+2025-12-04 06:22:28,035 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep40.pt
+2025-12-04 06:25:52,696 [INFO] => Expert 2 epoch 1 avg_loss=2.3825 avg_acc=0.2077
+2025-12-04 06:25:55,350 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep41.pt
+2025-12-04 06:29:21,447 [INFO] => Expert 2 epoch 1 avg_loss=2.3805 avg_acc=0.2077
+2025-12-04 06:29:24,134 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep42.pt
+2025-12-04 06:32:48,354 [INFO] => Expert 2 epoch 1 avg_loss=2.3797 avg_acc=0.2103
+2025-12-04 06:32:50,976 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep43.pt
+2025-12-04 06:36:15,993 [INFO] => Expert 2 epoch 1 avg_loss=2.3767 avg_acc=0.2090
+2025-12-04 06:36:18,640 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep44.pt
+2025-12-04 06:40:27,711 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 06:40:34,242 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 06:42:08,119 [INFO] => Base epoch 1 avg_loss=1.3527 avg_acc=0.6572
+2025-12-04 06:42:10,637 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep1.pt
+2025-12-04 06:43:57,719 [INFO] => Base epoch 1 avg_loss=1.2299 avg_acc=0.7003
+2025-12-04 06:44:00,561 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep2.pt
+2025-12-04 06:45:50,702 [INFO] => Base epoch 1 avg_loss=1.1341 avg_acc=0.7445
+2025-12-04 06:45:53,387 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep3.pt
+2025-12-04 06:47:41,758 [INFO] => Base epoch 1 avg_loss=1.0843 avg_acc=0.7661
+2025-12-04 06:47:44,386 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep4.pt
+2025-12-04 06:49:35,102 [INFO] => Base epoch 1 avg_loss=0.9136 avg_acc=0.8208
+2025-12-04 06:49:37,806 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep5.pt
+2025-12-04 06:51:35,199 [INFO] => Base epoch 1 avg_loss=0.8745 avg_acc=0.8370
+2025-12-04 06:51:37,747 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep6.pt
+2025-12-04 06:53:37,804 [INFO] => Base epoch 1 avg_loss=0.7771 avg_acc=0.8659
+2025-12-04 06:53:40,615 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep7.pt
+2025-12-04 06:55:44,398 [INFO] => Base epoch 1 avg_loss=0.6964 avg_acc=0.8880
+2025-12-04 06:55:47,372 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep8.pt
+2025-12-04 06:58:14,984 [INFO] => Base epoch 1 avg_loss=0.5926 avg_acc=0.9150
+2025-12-04 06:58:17,752 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep9.pt
+2025-12-04 07:37:05,993 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 07:37:10,714 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep5.pt (missing=0 unexpected=0)
+2025-12-04 07:37:46,418 [INFO] => Base epoch 1 avg_loss=0.8713 avg_acc=0.8378
+2025-12-04 07:37:48,251 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep1.pt
+2025-12-04 07:38:22,827 [INFO] => Base epoch 1 avg_loss=0.7805 avg_acc=0.8681
+2025-12-04 07:38:25,751 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep2.pt
+2025-12-04 07:39:00,560 [INFO] => Base epoch 1 avg_loss=0.6658 avg_acc=0.8972
+2025-12-04 07:39:03,249 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep3.pt
+2025-12-04 07:39:38,118 [INFO] => Base epoch 1 avg_loss=0.6118 avg_acc=0.9109
+2025-12-04 07:39:40,157 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep4.pt
+2025-12-04 07:40:15,019 [INFO] => Base epoch 1 avg_loss=0.5450 avg_acc=0.9283
+2025-12-04 07:40:17,220 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep5.pt
+2025-12-04 07:40:52,146 [INFO] => Base epoch 1 avg_loss=0.4619 avg_acc=0.9419
+2025-12-04 07:40:54,169 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep6.pt
+2025-12-04 07:41:29,221 [INFO] => Base epoch 1 avg_loss=0.4256 avg_acc=0.9530
+2025-12-04 07:41:31,283 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep7.pt
+2025-12-04 07:42:06,512 [INFO] => Base epoch 1 avg_loss=0.3771 avg_acc=0.9572
+2025-12-04 07:42:08,607 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep8.pt
+2025-12-04 07:42:43,790 [INFO] => Base epoch 1 avg_loss=0.3365 avg_acc=0.9647
+2025-12-04 07:42:46,538 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep9.pt
+2025-12-04 07:43:21,669 [INFO] => Base epoch 1 avg_loss=0.2779 avg_acc=0.9772
+2025-12-04 07:43:24,161 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_base_best_ep10.pt
+2025-12-04 07:43:24,161 [INFO] => base best_epoch=10 best_loss=0.2779
+2025-12-04 07:43:24,953 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 07:43:24,953 [INFO] Starting evaluation (mode=base)
+2025-12-04 07:50:03,831 [INFO] [Eval] Base All mode=base acc=0.3190 macro_f1=0.3169 n=80000
+2025-12-04 07:50:03,836 [INFO] === Per-range evaluation: Base All per-range (mode=base) ===
+2025-12-04 07:51:23,578 [INFO] Range 2-20: acc=0.3503 macro_f1=0.0703 (n=16000)
+2025-12-04 07:52:43,091 [INFO] Range 21-40: acc=0.2982 macro_f1=0.0646 (n=16000)
+2025-12-04 07:54:02,828 [INFO] Range 41-60: acc=0.3165 macro_f1=0.0683 (n=16000)
+2025-12-04 07:55:22,511 [INFO] Range 61-80: acc=0.3277 macro_f1=0.0718 (n=16000)
+2025-12-04 07:56:42,147 [INFO] Range 81-100: acc=0.3023 macro_f1=0.0595 (n=16000)
+2025-12-04 07:56:43,524 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 07:57:48,425 [INFO] => Expert 0 epoch 1 avg_loss=2.3490 avg_acc=0.2084
+2025-12-04 07:57:50,269 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep1.pt
+2025-12-04 07:58:55,239 [INFO] => Expert 0 epoch 1 avg_loss=2.3480 avg_acc=0.2080
+2025-12-04 07:59:01,494 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep2.pt
+2025-12-04 08:00:06,752 [INFO] => Expert 0 epoch 1 avg_loss=2.3462 avg_acc=0.2141
+2025-12-04 08:00:08,812 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep3.pt
+2025-12-04 08:01:14,125 [INFO] => Expert 0 epoch 1 avg_loss=2.3459 avg_acc=0.2112
+2025-12-04 08:01:16,237 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep4.pt
+2025-12-04 08:02:21,862 [INFO] => Expert 0 epoch 1 avg_loss=2.3444 avg_acc=0.2148
+2025-12-04 08:02:24,641 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep5.pt
+2025-12-04 08:03:30,384 [INFO] => Expert 0 epoch 1 avg_loss=2.3444 avg_acc=0.2135
+2025-12-04 08:04:36,508 [INFO] => Expert 0 epoch 1 avg_loss=2.3425 avg_acc=0.2170
+2025-12-04 08:04:40,239 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep7.pt
+2025-12-04 08:05:46,030 [INFO] => Expert 0 epoch 1 avg_loss=2.3413 avg_acc=0.2177
+2025-12-04 08:05:48,020 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep8.pt
+2025-12-04 08:06:53,050 [INFO] => Expert 0 epoch 1 avg_loss=2.3396 avg_acc=0.2153
+2025-12-04 08:06:55,050 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep9.pt
+2025-12-04 08:08:00,141 [INFO] => Expert 0 epoch 1 avg_loss=2.3378 avg_acc=0.2165
+2025-12-04 08:08:02,132 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep10.pt
+2025-12-04 08:09:07,661 [INFO] => Expert 0 epoch 1 avg_loss=2.3363 avg_acc=0.2205
+2025-12-04 08:09:10,082 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep11.pt
+2025-12-04 08:10:16,750 [INFO] => Expert 0 epoch 1 avg_loss=2.3355 avg_acc=0.2166
+2025-12-04 08:10:19,196 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep12.pt
+2025-12-04 08:11:27,206 [INFO] => Expert 0 epoch 1 avg_loss=2.3360 avg_acc=0.2158
+2025-12-04 08:12:33,764 [INFO] => Expert 0 epoch 1 avg_loss=2.3334 avg_acc=0.2204
+2025-12-04 08:12:36,259 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep14.pt
+2025-12-04 08:13:43,427 [INFO] => Expert 0 epoch 1 avg_loss=2.3334 avg_acc=0.2152
+2025-12-04 08:13:45,779 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep15.pt
+2025-12-04 08:14:52,213 [INFO] => Expert 0 epoch 1 avg_loss=2.3311 avg_acc=0.2238
+2025-12-04 08:14:54,587 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep16.pt
+2025-12-04 08:16:01,221 [INFO] => Expert 0 epoch 1 avg_loss=2.3304 avg_acc=0.2273
+2025-12-04 08:16:03,650 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep17.pt
+2025-12-04 08:17:10,578 [INFO] => Expert 0 epoch 1 avg_loss=2.3302 avg_acc=0.2188
+2025-12-04 08:17:12,896 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep18.pt
+2025-12-04 08:18:20,236 [INFO] => Expert 0 epoch 1 avg_loss=2.3289 avg_acc=0.2255
+2025-12-04 08:18:22,729 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep19.pt
+2025-12-04 08:19:30,268 [INFO] => Expert 0 epoch 1 avg_loss=2.3270 avg_acc=0.2252
+2025-12-04 08:19:32,671 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep20.pt
+2025-12-04 08:20:39,063 [INFO] => Expert 0 epoch 1 avg_loss=2.3263 avg_acc=0.2233
+2025-12-04 08:20:41,565 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep21.pt
+2025-12-04 08:21:48,522 [INFO] => Expert 0 epoch 1 avg_loss=2.3251 avg_acc=0.2238
+2025-12-04 08:21:50,598 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep22.pt
+2025-12-04 08:22:56,496 [INFO] => Expert 0 epoch 1 avg_loss=2.3235 avg_acc=0.2206
+2025-12-04 08:22:58,576 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep23.pt
+2025-12-04 08:24:04,392 [INFO] => Expert 0 epoch 1 avg_loss=2.3228 avg_acc=0.2270
+2025-12-04 08:24:16,811 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep24.pt
+2025-12-04 08:25:22,576 [INFO] => Expert 0 epoch 1 avg_loss=2.3230 avg_acc=0.2242
+2025-12-04 08:26:28,812 [INFO] => Expert 0 epoch 1 avg_loss=2.3217 avg_acc=0.2270
+2025-12-04 08:26:31,266 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep26.pt
+2025-12-04 08:27:39,583 [INFO] => Expert 0 epoch 1 avg_loss=2.3204 avg_acc=0.2262
+2025-12-04 08:27:43,840 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep27.pt
+2025-12-04 08:28:52,381 [INFO] => Expert 0 epoch 1 avg_loss=2.3189 avg_acc=0.2262
+2025-12-04 08:28:58,446 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep28.pt
+2025-12-04 08:59:04,249 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 08:59:08,950 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 08:59:10,239 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 09:00:15,644 [INFO] => Expert 0 epoch 1 avg_loss=2.3490 avg_acc=0.2084
+2025-12-04 09:00:17,516 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep1.pt
+2025-12-04 09:01:22,559 [INFO] => Expert 0 epoch 1 avg_loss=2.3480 avg_acc=0.2080
+2025-12-04 09:01:24,719 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep2.pt
+2025-12-04 09:02:29,773 [INFO] => Expert 0 epoch 1 avg_loss=2.3462 avg_acc=0.2141
+2025-12-04 09:02:31,859 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep3.pt
+2025-12-04 09:03:38,263 [INFO] => Expert 0 epoch 1 avg_loss=2.3459 avg_acc=0.2112
+2025-12-04 09:03:40,744 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep4.pt
+2025-12-04 09:04:48,646 [INFO] => Expert 0 epoch 1 avg_loss=2.3444 avg_acc=0.2148
+2025-12-04 09:04:51,595 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep5.pt
+2025-12-04 09:05:58,269 [INFO] => Expert 0 epoch 1 avg_loss=2.3444 avg_acc=0.2135
+2025-12-04 09:07:04,051 [INFO] => Expert 0 epoch 1 avg_loss=2.3425 avg_acc=0.2170
+2025-12-04 09:07:06,460 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep7.pt
+2025-12-04 09:08:13,055 [INFO] => Expert 0 epoch 1 avg_loss=2.3413 avg_acc=0.2177
+2025-12-04 09:08:15,599 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep8.pt
+2025-12-04 09:09:22,853 [INFO] => Expert 0 epoch 1 avg_loss=2.3396 avg_acc=0.2153
+2025-12-04 09:09:25,431 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep9.pt
+2025-12-04 09:10:33,105 [INFO] => Expert 0 epoch 1 avg_loss=2.3378 avg_acc=0.2165
+2025-12-04 09:10:35,524 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep10.pt
+2025-12-04 09:11:42,067 [INFO] => Expert 0 epoch 1 avg_loss=2.3363 avg_acc=0.2205
+2025-12-04 09:11:44,374 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep11.pt
+2025-12-04 09:12:50,768 [INFO] => Expert 0 epoch 1 avg_loss=2.3355 avg_acc=0.2166
+2025-12-04 09:12:53,195 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep12.pt
+2025-12-04 09:13:58,838 [INFO] => Expert 0 epoch 1 avg_loss=2.3360 avg_acc=0.2158
+2025-12-04 09:15:03,626 [INFO] => Expert 0 epoch 1 avg_loss=2.3334 avg_acc=0.2204
+2025-12-04 09:15:05,725 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep14.pt
+2025-12-04 09:16:09,474 [INFO] => Expert 0 epoch 1 avg_loss=2.3334 avg_acc=0.2152
+2025-12-04 09:16:11,513 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep15.pt
+2025-12-04 09:17:17,528 [INFO] => Expert 0 epoch 1 avg_loss=2.3311 avg_acc=0.2238
+2025-12-04 09:17:19,893 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep16.pt
+2025-12-04 09:18:25,789 [INFO] => Expert 0 epoch 1 avg_loss=2.3304 avg_acc=0.2273
+2025-12-04 09:18:28,222 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep17.pt
+2025-12-04 09:19:35,880 [INFO] => Expert 0 epoch 1 avg_loss=2.3302 avg_acc=0.2188
+2025-12-04 09:19:38,360 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep18.pt
+2025-12-04 09:20:46,453 [INFO] => Expert 0 epoch 1 avg_loss=2.3289 avg_acc=0.2255
+2025-12-04 09:20:49,008 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep19.pt
+2025-12-04 09:21:56,609 [INFO] => Expert 0 epoch 1 avg_loss=2.3270 avg_acc=0.2252
+2025-12-04 09:21:59,191 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep20.pt
+2025-12-04 09:23:05,170 [INFO] => Expert 0 epoch 1 avg_loss=2.3263 avg_acc=0.2233
+2025-12-04 09:23:07,595 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep21.pt
+2025-12-04 09:24:14,347 [INFO] => Expert 0 epoch 1 avg_loss=2.3251 avg_acc=0.2238
+2025-12-04 09:24:16,808 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep22.pt
+2025-12-04 09:25:25,536 [INFO] => Expert 0 epoch 1 avg_loss=2.3235 avg_acc=0.2206
+2025-12-04 09:25:27,817 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep23.pt
+2025-12-04 09:26:34,268 [INFO] => Expert 0 epoch 1 avg_loss=2.3228 avg_acc=0.2270
+2025-12-04 09:26:36,704 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep24.pt
+2025-12-04 09:27:45,153 [INFO] => Expert 0 epoch 1 avg_loss=2.3230 avg_acc=0.2242
+2025-12-04 09:28:52,539 [INFO] => Expert 0 epoch 1 avg_loss=2.3217 avg_acc=0.2270
+2025-12-04 09:28:54,945 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep26.pt
+2025-12-04 09:30:02,770 [INFO] => Expert 0 epoch 1 avg_loss=2.3204 avg_acc=0.2262
+2025-12-04 09:30:05,221 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep27.pt
+2025-12-04 09:31:12,754 [INFO] => Expert 0 epoch 1 avg_loss=2.3189 avg_acc=0.2262
+2025-12-04 09:31:15,252 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep28.pt
+2025-12-04 09:32:22,936 [INFO] => Expert 0 epoch 1 avg_loss=2.3184 avg_acc=0.2277
+2025-12-04 09:32:25,334 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep29.pt
+2025-12-04 09:33:32,930 [INFO] => Expert 0 epoch 1 avg_loss=2.3165 avg_acc=0.2277
+2025-12-04 09:33:35,428 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep30.pt
+2025-12-04 09:34:43,089 [INFO] => Expert 0 epoch 1 avg_loss=2.3164 avg_acc=0.2275
+2025-12-04 09:34:45,476 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep31.pt
+2025-12-04 09:35:52,985 [INFO] => Expert 0 epoch 1 avg_loss=2.3166 avg_acc=0.2282
+2025-12-04 09:37:02,231 [INFO] => Expert 0 epoch 1 avg_loss=2.3143 avg_acc=0.2322
+2025-12-04 09:37:04,872 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep33.pt
+2025-12-04 09:38:12,753 [INFO] => Expert 0 epoch 1 avg_loss=2.3123 avg_acc=0.2323
+2025-12-04 09:38:14,975 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep34.pt
+2025-12-04 09:39:21,242 [INFO] => Expert 0 epoch 1 avg_loss=2.3124 avg_acc=0.2282
+2025-12-04 09:40:27,978 [INFO] => Expert 0 epoch 1 avg_loss=2.3111 avg_acc=0.2299
+2025-12-04 09:40:30,060 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep36.pt
+2025-12-04 09:41:36,609 [INFO] => Expert 0 epoch 1 avg_loss=2.3098 avg_acc=0.2302
+2025-12-04 09:41:38,849 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep37.pt
+2025-12-04 09:42:46,103 [INFO] => Expert 0 epoch 1 avg_loss=2.3095 avg_acc=0.2288
+2025-12-04 09:42:48,312 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep38.pt
+2025-12-04 09:43:56,365 [INFO] => Expert 0 epoch 1 avg_loss=2.3087 avg_acc=0.2304
+2025-12-04 09:43:58,721 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep39.pt
+2025-12-04 09:45:04,785 [INFO] => Expert 0 epoch 1 avg_loss=2.3077 avg_acc=0.2345
+2025-12-04 09:45:07,183 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep40.pt
+2025-12-04 09:46:13,914 [INFO] => Expert 0 epoch 1 avg_loss=2.3067 avg_acc=0.2327
+2025-12-04 09:46:16,514 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep41.pt
+2025-12-04 09:47:23,944 [INFO] => Expert 0 epoch 1 avg_loss=2.3064 avg_acc=0.2320
+2025-12-04 09:47:26,619 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep42.pt
+2025-12-04 09:47:43,589 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 09:47:47,601 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 09:47:48,869 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 09:51:00,140 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 09:51:03,814 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 09:51:05,034 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 10:09:12,985 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 10:10:01,047 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 10:10:04,826 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 10:10:04,830 [INFO] === Per-range evaluation: Base All per-range (mode=base) ===
+2025-12-04 10:11:25,967 [INFO] Range 2-20: acc=0.3503 macro_f1=0.0703 (n=16000)
+2025-12-04 10:28:26,503 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 10:28:30,056 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 10:28:30,786 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 10:28:31,922 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 10:31:08,931 [INFO] === Per-range evaluation: Base All per-range (mode=base) ===
+2025-12-04 10:32:30,208 [INFO] Range 2-20: acc=0.0997 macro_f1=0.0140 (n=16000)
+2025-12-04 10:33:34,695 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 10:33:38,628 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 10:33:38,631 [INFO] === Per-range evaluation: Base All per-range (mode=base) ===
+2025-12-04 10:35:00,378 [INFO] Range 2-20: acc=0.3503 macro_f1=0.0703 (n=16000)
+2025-12-04 10:36:21,607 [INFO] Range 21-40: acc=0.2982 macro_f1=0.0646 (n=16000)
+2025-12-04 10:37:42,829 [INFO] Range 41-60: acc=0.3165 macro_f1=0.0683 (n=16000)
+2025-12-04 10:39:03,964 [INFO] Range 61-80: acc=0.3277 macro_f1=0.0718 (n=16000)
+2025-12-04 10:40:25,643 [INFO] Range 81-100: acc=0.3023 macro_f1=0.0595 (n=16000)
+2025-12-04 10:40:26,509 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 10:40:27,976 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 10:51:15,569 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 10:51:19,219 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 10:51:53,382 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 10:51:57,089 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (missing=0 unexpected=0)
+2025-12-04 10:53:02,995 [INFO] => Expert 0 epoch 1 avg_loss=2.2856 avg_acc=0.3841
+2025-12-04 10:53:04,868 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep1.pt
+2025-12-04 10:54:11,065 [INFO] => Expert 0 epoch 1 avg_loss=2.0847 avg_acc=0.4028
+2025-12-04 10:54:13,144 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep2.pt
+2025-12-04 10:55:19,327 [INFO] => Expert 0 epoch 1 avg_loss=1.9750 avg_acc=0.4125
+2025-12-04 10:55:21,384 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep3.pt
+2025-12-04 10:56:27,707 [INFO] => Expert 0 epoch 1 avg_loss=1.8932 avg_acc=0.4212
+2025-12-04 10:56:29,761 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep4.pt
+2025-12-04 10:57:36,130 [INFO] => Expert 0 epoch 1 avg_loss=1.8292 avg_acc=0.4341
+2025-12-04 10:57:38,206 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep5.pt
+2025-12-04 10:58:44,546 [INFO] => Expert 0 epoch 1 avg_loss=1.7776 avg_acc=0.4440
+2025-12-04 10:58:46,648 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep6.pt
+2025-12-04 10:59:53,051 [INFO] => Expert 0 epoch 1 avg_loss=1.7353 avg_acc=0.4536
+2025-12-04 10:59:55,139 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep7.pt
+2025-12-04 11:01:01,557 [INFO] => Expert 0 epoch 1 avg_loss=1.7003 avg_acc=0.4642
+2025-12-04 11:01:03,694 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep8.pt
+2025-12-04 11:02:10,636 [INFO] => Expert 0 epoch 1 avg_loss=1.6716 avg_acc=0.4730
+2025-12-04 11:02:13,251 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep9.pt
+2025-12-04 11:03:22,137 [INFO] => Expert 0 epoch 1 avg_loss=1.6474 avg_acc=0.4823
+2025-12-04 11:03:24,720 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep10.pt
+2025-12-04 11:04:32,989 [INFO] => Expert 0 epoch 1 avg_loss=1.6259 avg_acc=0.4904
+2025-12-04 11:04:35,506 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep11.pt
+2025-12-04 11:05:43,977 [INFO] => Expert 0 epoch 1 avg_loss=1.6080 avg_acc=0.4960
+2025-12-04 11:05:46,428 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep12.pt
+2025-12-04 11:06:56,613 [INFO] => Expert 0 epoch 1 avg_loss=1.5922 avg_acc=0.5040
+2025-12-04 11:06:59,153 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep13.pt
+2025-12-04 11:08:08,676 [INFO] => Expert 0 epoch 1 avg_loss=1.5783 avg_acc=0.5106
+2025-12-04 11:08:11,460 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep14.pt
+2025-12-04 11:09:19,324 [INFO] => Expert 0 epoch 1 avg_loss=1.5659 avg_acc=0.5142
+2025-12-04 11:09:21,421 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep15.pt
+2025-12-04 11:10:27,663 [INFO] => Expert 0 epoch 1 avg_loss=1.5544 avg_acc=0.5205
+2025-12-04 11:10:29,692 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep16.pt
+2025-12-04 11:11:36,005 [INFO] => Expert 0 epoch 1 avg_loss=1.5437 avg_acc=0.5240
+2025-12-04 11:11:38,085 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep17.pt
+2025-12-04 11:12:44,311 [INFO] => Expert 0 epoch 1 avg_loss=1.5346 avg_acc=0.5305
+2025-12-04 11:12:46,362 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep18.pt
+2025-12-04 11:13:52,856 [INFO] => Expert 0 epoch 1 avg_loss=1.5252 avg_acc=0.5319
+2025-12-04 11:13:55,402 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep19.pt
+2025-12-04 11:15:03,443 [INFO] => Expert 0 epoch 1 avg_loss=1.5167 avg_acc=0.5370
+2025-12-04 11:15:05,922 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep20.pt
+2025-12-04 11:16:12,823 [INFO] => Expert 0 epoch 1 avg_loss=1.5088 avg_acc=0.5413
+2025-12-04 11:16:14,883 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep21.pt
+2025-12-04 11:17:21,216 [INFO] => Expert 0 epoch 1 avg_loss=1.5008 avg_acc=0.5436
+2025-12-04 11:17:23,356 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep22.pt
+2025-12-04 11:18:29,677 [INFO] => Expert 0 epoch 1 avg_loss=1.4939 avg_acc=0.5463
+2025-12-04 11:18:31,723 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep23.pt
+2025-12-04 11:19:38,044 [INFO] => Expert 0 epoch 1 avg_loss=1.4872 avg_acc=0.5515
+2025-12-04 11:19:40,157 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep24.pt
+2025-12-04 11:20:46,271 [INFO] => Expert 0 epoch 1 avg_loss=1.4808 avg_acc=0.5526
+2025-12-04 11:20:48,335 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep25.pt
+2025-12-04 11:21:54,651 [INFO] => Expert 0 epoch 1 avg_loss=1.4746 avg_acc=0.5532
+2025-12-04 11:21:56,760 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep26.pt
+2025-12-04 11:23:03,010 [INFO] => Expert 0 epoch 1 avg_loss=1.4684 avg_acc=0.5557
+2025-12-04 11:23:05,146 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep27.pt
+2025-12-04 11:24:11,740 [INFO] => Expert 0 epoch 1 avg_loss=1.4625 avg_acc=0.5576
+2025-12-04 11:24:14,186 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep28.pt
+2025-12-04 11:25:21,756 [INFO] => Expert 0 epoch 1 avg_loss=1.4571 avg_acc=0.5615
+2025-12-04 11:25:24,540 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep29.pt
+2025-12-04 11:26:33,096 [INFO] => Expert 0 epoch 1 avg_loss=1.4513 avg_acc=0.5634
+2025-12-04 11:26:35,858 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep30.pt
+2025-12-04 11:27:44,077 [INFO] => Expert 0 epoch 1 avg_loss=1.4462 avg_acc=0.5652
+2025-12-04 11:27:46,793 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep31.pt
+2025-12-04 11:28:54,706 [INFO] => Expert 0 epoch 1 avg_loss=1.4416 avg_acc=0.5675
+2025-12-04 11:28:57,254 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep32.pt
+2025-12-04 11:30:04,910 [INFO] => Expert 0 epoch 1 avg_loss=1.4363 avg_acc=0.5695
+2025-12-04 11:30:07,310 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep33.pt
+2025-12-04 11:31:14,755 [INFO] => Expert 0 epoch 1 avg_loss=1.4307 avg_acc=0.5705
+2025-12-04 11:31:17,286 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep34.pt
+2025-12-04 11:32:25,205 [INFO] => Expert 0 epoch 1 avg_loss=1.4267 avg_acc=0.5699
+2025-12-04 11:32:28,161 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep35.pt
+2025-12-04 11:33:37,062 [INFO] => Expert 0 epoch 1 avg_loss=1.4217 avg_acc=0.5735
+2025-12-04 11:33:39,968 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep36.pt
+2025-12-04 11:34:48,127 [INFO] => Expert 0 epoch 1 avg_loss=1.4173 avg_acc=0.5751
+2025-12-04 11:34:50,639 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep37.pt
+2025-12-04 11:35:58,302 [INFO] => Expert 0 epoch 1 avg_loss=1.4128 avg_acc=0.5755
+2025-12-04 11:36:00,901 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep38.pt
+2025-12-04 11:37:08,332 [INFO] => Expert 0 epoch 1 avg_loss=1.4086 avg_acc=0.5766
+2025-12-04 11:37:10,905 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep39.pt
+2025-12-04 11:38:18,390 [INFO] => Expert 0 epoch 1 avg_loss=1.4044 avg_acc=0.5778
+2025-12-04 11:38:20,866 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep40.pt
+2025-12-04 11:39:28,400 [INFO] => Expert 0 epoch 1 avg_loss=1.4005 avg_acc=0.5816
+2025-12-04 11:39:30,749 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep41.pt
+2025-12-04 11:40:38,620 [INFO] => Expert 0 epoch 1 avg_loss=1.3966 avg_acc=0.5803
+2025-12-04 11:40:41,128 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep42.pt
+2025-12-04 11:41:49,225 [INFO] => Expert 0 epoch 1 avg_loss=1.3922 avg_acc=0.5837
+2025-12-04 11:41:51,825 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep43.pt
+2025-12-04 11:42:59,826 [INFO] => Expert 0 epoch 1 avg_loss=1.3887 avg_acc=0.5837
+2025-12-04 11:43:02,309 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep44.pt
+2025-12-04 11:44:10,139 [INFO] => Expert 0 epoch 1 avg_loss=1.3845 avg_acc=0.5849
+2025-12-04 11:44:12,678 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep45.pt
+2025-12-04 11:45:19,873 [INFO] => Expert 0 epoch 1 avg_loss=1.3811 avg_acc=0.5860
+2025-12-04 11:45:22,359 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep46.pt
+2025-12-04 11:46:29,642 [INFO] => Expert 0 epoch 1 avg_loss=1.3775 avg_acc=0.5878
+2025-12-04 11:46:33,126 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep47.pt
+2025-12-04 11:47:40,545 [INFO] => Expert 0 epoch 1 avg_loss=1.3742 avg_acc=0.5880
+2025-12-04 11:47:42,965 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep48.pt
+2025-12-04 11:48:50,098 [INFO] => Expert 0 epoch 1 avg_loss=1.3705 avg_acc=0.5891
+2025-12-04 11:48:52,624 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep49.pt
+2025-12-04 11:49:59,937 [INFO] => Expert 0 epoch 1 avg_loss=1.3665 avg_acc=0.5895
+2025-12-04 11:50:02,301 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep50.pt
+2025-12-04 11:51:09,831 [INFO] => Expert 0 epoch 1 avg_loss=1.3636 avg_acc=0.5904
+2025-12-04 11:51:12,319 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep51.pt
+2025-12-04 11:52:19,973 [INFO] => Expert 0 epoch 1 avg_loss=1.3603 avg_acc=0.5920
+2025-12-04 11:52:22,551 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep52.pt
+2025-12-04 11:53:30,251 [INFO] => Expert 0 epoch 1 avg_loss=1.3570 avg_acc=0.5935
+2025-12-04 11:53:32,766 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep53.pt
+2025-12-04 11:54:40,441 [INFO] => Expert 0 epoch 1 avg_loss=1.3539 avg_acc=0.5955
+2025-12-04 11:54:42,914 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep54.pt
+2025-12-04 11:55:50,272 [INFO] => Expert 0 epoch 1 avg_loss=1.3505 avg_acc=0.5957
+2025-12-04 11:55:52,733 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep55.pt
+2025-12-04 11:57:00,471 [INFO] => Expert 0 epoch 1 avg_loss=1.3474 avg_acc=0.5980
+2025-12-04 11:57:03,026 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep56.pt
+2025-12-04 11:58:10,538 [INFO] => Expert 0 epoch 1 avg_loss=1.3451 avg_acc=0.5988
+2025-12-04 11:58:13,036 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep57.pt
+2025-12-04 11:59:20,529 [INFO] => Expert 0 epoch 1 avg_loss=1.3417 avg_acc=0.5977
+2025-12-04 11:59:22,963 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep58.pt
+2025-12-04 12:00:30,445 [INFO] => Expert 0 epoch 1 avg_loss=1.3387 avg_acc=0.6004
+2025-12-04 12:00:32,883 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep59.pt
+2025-12-04 12:01:40,398 [INFO] => Expert 0 epoch 1 avg_loss=1.3357 avg_acc=0.6004
+2025-12-04 12:01:42,982 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_0_best_ep60.pt
+2025-12-04 12:01:42,982 [INFO] => expert_0 best_epoch=60 best_loss=1.3357
+2025-12-04 12:01:43,972 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 12:02:51,314 [INFO] => Expert 1 epoch 1 avg_loss=2.4579 avg_acc=0.3390
+2025-12-04 12:02:53,624 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep1.pt
+2025-12-04 12:04:01,237 [INFO] => Expert 1 epoch 1 avg_loss=2.2167 avg_acc=0.3598
+2025-12-04 12:04:03,665 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep2.pt
+2025-12-04 12:05:11,434 [INFO] => Expert 1 epoch 1 avg_loss=2.0888 avg_acc=0.3741
+2025-12-04 12:05:13,933 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep3.pt
+2025-12-04 12:06:21,616 [INFO] => Expert 1 epoch 1 avg_loss=1.9959 avg_acc=0.3815
+2025-12-04 12:06:24,017 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep4.pt
+2025-12-04 12:07:31,450 [INFO] => Expert 1 epoch 1 avg_loss=1.9214 avg_acc=0.3898
+2025-12-04 12:07:33,836 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep5.pt
+2025-12-04 12:08:41,275 [INFO] => Expert 1 epoch 1 avg_loss=1.8601 avg_acc=0.4005
+2025-12-04 12:08:43,784 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep6.pt
+2025-12-04 12:09:51,327 [INFO] => Expert 1 epoch 1 avg_loss=1.8103 avg_acc=0.4130
+2025-12-04 12:09:53,827 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep7.pt
+2025-12-04 12:11:01,394 [INFO] => Expert 1 epoch 1 avg_loss=1.7681 avg_acc=0.4273
+2025-12-04 12:11:03,789 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep8.pt
+2025-12-04 12:12:11,589 [INFO] => Expert 1 epoch 1 avg_loss=1.7332 avg_acc=0.4361
+2025-12-04 12:12:14,004 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep9.pt
+2025-12-04 12:13:21,518 [INFO] => Expert 1 epoch 1 avg_loss=1.7027 avg_acc=0.4445
+2025-12-04 12:13:24,005 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep10.pt
+2025-12-04 12:14:31,634 [INFO] => Expert 1 epoch 1 avg_loss=1.6765 avg_acc=0.4542
+2025-12-04 12:14:34,034 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep11.pt
+2025-12-04 12:15:41,661 [INFO] => Expert 1 epoch 1 avg_loss=1.6538 avg_acc=0.4608
+2025-12-04 12:15:44,170 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep12.pt
+2025-12-04 12:16:51,940 [INFO] => Expert 1 epoch 1 avg_loss=1.6341 avg_acc=0.4713
+2025-12-04 12:16:54,419 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep13.pt
+2025-12-04 12:18:02,099 [INFO] => Expert 1 epoch 1 avg_loss=1.6165 avg_acc=0.4783
+2025-12-04 12:18:04,591 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep14.pt
+2025-12-04 12:19:12,214 [INFO] => Expert 1 epoch 1 avg_loss=1.6001 avg_acc=0.4862
+2025-12-04 12:19:14,743 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep15.pt
+2025-12-04 12:20:22,302 [INFO] => Expert 1 epoch 1 avg_loss=1.5853 avg_acc=0.4930
+2025-12-04 12:20:24,779 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep16.pt
+2025-12-04 12:21:32,486 [INFO] => Expert 1 epoch 1 avg_loss=1.5725 avg_acc=0.4977
+2025-12-04 12:21:35,073 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep17.pt
+2025-12-04 12:22:42,795 [INFO] => Expert 1 epoch 1 avg_loss=1.5597 avg_acc=0.5043
+2025-12-04 12:22:45,243 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep18.pt
+2025-12-04 12:23:52,597 [INFO] => Expert 1 epoch 1 avg_loss=1.5483 avg_acc=0.5090
+2025-12-04 12:23:55,076 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep19.pt
+2025-12-04 12:25:02,620 [INFO] => Expert 1 epoch 1 avg_loss=1.5376 avg_acc=0.5152
+2025-12-04 12:25:05,066 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep20.pt
+2025-12-04 12:26:12,515 [INFO] => Expert 1 epoch 1 avg_loss=1.5269 avg_acc=0.5193
+2025-12-04 12:26:14,953 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep21.pt
+2025-12-04 12:27:22,432 [INFO] => Expert 1 epoch 1 avg_loss=1.5184 avg_acc=0.5232
+2025-12-04 12:27:24,884 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep22.pt
+2025-12-04 12:28:32,327 [INFO] => Expert 1 epoch 1 avg_loss=1.5086 avg_acc=0.5251
+2025-12-04 12:28:34,878 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep23.pt
+2025-12-04 12:29:42,402 [INFO] => Expert 1 epoch 1 avg_loss=1.5005 avg_acc=0.5300
+2025-12-04 12:29:44,909 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep24.pt
+2025-12-04 12:30:52,457 [INFO] => Expert 1 epoch 1 avg_loss=1.4924 avg_acc=0.5364
+2025-12-04 12:30:54,854 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep25.pt
+2025-12-04 12:32:02,243 [INFO] => Expert 1 epoch 1 avg_loss=1.4846 avg_acc=0.5367
+2025-12-04 12:32:04,697 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep26.pt
+2025-12-04 12:33:12,130 [INFO] => Expert 1 epoch 1 avg_loss=1.4773 avg_acc=0.5409
+2025-12-04 12:33:14,388 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep27.pt
+2025-12-04 12:34:21,385 [INFO] => Expert 1 epoch 1 avg_loss=1.4700 avg_acc=0.5409
+2025-12-04 12:34:23,596 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep28.pt
+2025-12-04 12:35:30,880 [INFO] => Expert 1 epoch 1 avg_loss=1.4628 avg_acc=0.5462
+2025-12-04 12:35:33,338 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep29.pt
+2025-12-04 12:36:40,937 [INFO] => Expert 1 epoch 1 avg_loss=1.4561 avg_acc=0.5505
+2025-12-04 12:36:43,446 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep30.pt
+2025-12-04 12:37:51,014 [INFO] => Expert 1 epoch 1 avg_loss=1.4494 avg_acc=0.5523
+2025-12-04 12:37:53,462 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep31.pt
+2025-12-04 12:39:01,027 [INFO] => Expert 1 epoch 1 avg_loss=1.4435 avg_acc=0.5567
+2025-12-04 12:39:03,517 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep32.pt
+2025-12-04 12:40:11,272 [INFO] => Expert 1 epoch 1 avg_loss=1.4375 avg_acc=0.5586
+2025-12-04 12:40:13,733 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep33.pt
+2025-12-04 12:41:21,382 [INFO] => Expert 1 epoch 1 avg_loss=1.4316 avg_acc=0.5620
+2025-12-04 12:41:23,865 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep34.pt
+2025-12-04 12:42:31,475 [INFO] => Expert 1 epoch 1 avg_loss=1.4255 avg_acc=0.5614
+2025-12-04 12:42:33,941 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep35.pt
+2025-12-04 12:43:41,431 [INFO] => Expert 1 epoch 1 avg_loss=1.4202 avg_acc=0.5659
+2025-12-04 12:43:43,937 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep36.pt
+2025-12-04 12:44:51,417 [INFO] => Expert 1 epoch 1 avg_loss=1.4147 avg_acc=0.5686
+2025-12-04 12:44:53,901 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep37.pt
+2025-12-04 12:46:01,568 [INFO] => Expert 1 epoch 1 avg_loss=1.4095 avg_acc=0.5690
+2025-12-04 12:46:04,101 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep38.pt
+2025-12-04 12:47:11,892 [INFO] => Expert 1 epoch 1 avg_loss=1.4044 avg_acc=0.5727
+2025-12-04 12:47:14,528 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep39.pt
+2025-12-04 12:48:22,140 [INFO] => Expert 1 epoch 1 avg_loss=1.3996 avg_acc=0.5744
+2025-12-04 12:48:24,545 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep40.pt
+2025-12-04 12:49:32,065 [INFO] => Expert 1 epoch 1 avg_loss=1.3944 avg_acc=0.5771
+2025-12-04 12:49:34,577 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep41.pt
+2025-12-04 12:50:42,012 [INFO] => Expert 1 epoch 1 avg_loss=1.3893 avg_acc=0.5799
+2025-12-04 12:50:44,521 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep42.pt
+2025-12-04 12:51:51,974 [INFO] => Expert 1 epoch 1 avg_loss=1.3852 avg_acc=0.5785
+2025-12-04 12:51:54,513 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep43.pt
+2025-12-04 12:53:01,912 [INFO] => Expert 1 epoch 1 avg_loss=1.3803 avg_acc=0.5834
+2025-12-04 12:53:04,436 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep44.pt
+2025-12-04 12:54:12,080 [INFO] => Expert 1 epoch 1 avg_loss=1.3760 avg_acc=0.5833
+2025-12-04 12:54:14,565 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep45.pt
+2025-12-04 12:55:22,075 [INFO] => Expert 1 epoch 1 avg_loss=1.3713 avg_acc=0.5862
+2025-12-04 12:55:24,652 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep46.pt
+2025-12-04 12:56:32,103 [INFO] => Expert 1 epoch 1 avg_loss=1.3670 avg_acc=0.5864
+2025-12-04 12:56:34,662 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep47.pt
+2025-12-04 12:57:42,226 [INFO] => Expert 1 epoch 1 avg_loss=1.3627 avg_acc=0.5877
+2025-12-04 12:57:44,650 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep48.pt
+2025-12-04 12:58:52,111 [INFO] => Expert 1 epoch 1 avg_loss=1.3585 avg_acc=0.5898
+2025-12-04 12:58:54,586 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep49.pt
+2025-12-04 13:00:02,007 [INFO] => Expert 1 epoch 1 avg_loss=1.3543 avg_acc=0.5899
+2025-12-04 13:00:04,475 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep50.pt
+2025-12-04 13:01:12,130 [INFO] => Expert 1 epoch 1 avg_loss=1.3505 avg_acc=0.5930
+2025-12-04 13:01:14,595 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep51.pt
+2025-12-04 13:02:22,253 [INFO] => Expert 1 epoch 1 avg_loss=1.3468 avg_acc=0.5935
+2025-12-04 13:02:24,661 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep52.pt
+2025-12-04 13:03:31,623 [INFO] => Expert 1 epoch 1 avg_loss=1.3426 avg_acc=0.5974
+2025-12-04 13:03:34,178 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep53.pt
+2025-12-04 13:04:41,562 [INFO] => Expert 1 epoch 1 avg_loss=1.3391 avg_acc=0.5963
+2025-12-04 13:04:44,056 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep54.pt
+2025-12-04 13:05:52,254 [INFO] => Expert 1 epoch 1 avg_loss=1.3350 avg_acc=0.5997
+2025-12-04 13:05:54,595 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep55.pt
+2025-12-04 13:07:02,925 [INFO] => Expert 1 epoch 1 avg_loss=1.3315 avg_acc=0.5981
+2025-12-04 13:07:05,661 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep56.pt
+2025-12-04 13:08:13,188 [INFO] => Expert 1 epoch 1 avg_loss=1.3281 avg_acc=0.6013
+2025-12-04 13:08:15,688 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep57.pt
+2025-12-04 13:09:22,561 [INFO] => Expert 1 epoch 1 avg_loss=1.3243 avg_acc=0.6023
+2025-12-04 13:09:25,066 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep58.pt
+2025-12-04 13:10:32,544 [INFO] => Expert 1 epoch 1 avg_loss=1.3206 avg_acc=0.6046
+2025-12-04 13:10:34,990 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep59.pt
+2025-12-04 13:11:41,918 [INFO] => Expert 1 epoch 1 avg_loss=1.3174 avg_acc=0.6059
+2025-12-04 13:11:44,493 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_1_best_ep60.pt
+2025-12-04 13:11:44,493 [INFO] => expert_1 best_epoch=60 best_loss=1.3174
+2025-12-04 13:11:45,496 [INFO] => loaded best checkpoint for expert_1: checkpoints_v12\demo_v12_expert_1_best_ep60.pt (missing=0 unexpected=0)
+2025-12-04 13:12:53,109 [INFO] => Expert 2 epoch 1 avg_loss=2.3619 avg_acc=0.3594
+2025-12-04 13:12:55,011 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep1.pt
+2025-12-04 13:14:02,256 [INFO] => Expert 2 epoch 1 avg_loss=2.1259 avg_acc=0.3795
+2025-12-04 13:14:04,430 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep2.pt
+2025-12-04 13:15:12,086 [INFO] => Expert 2 epoch 1 avg_loss=1.9978 avg_acc=0.3904
+2025-12-04 13:15:14,686 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep3.pt
+2025-12-04 13:16:22,365 [INFO] => Expert 2 epoch 1 avg_loss=1.9056 avg_acc=0.4004
+2025-12-04 13:16:24,455 [INFO] => checkpoint saved: checkpoints_v12\demo_v12_expert_2_best_ep4.pt
+2025-12-04 13:16:39,646 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 13:16:43,991 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (updated 313 params)
+2025-12-04 13:16:45,313 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (updated 0 params)
+2025-12-04 13:16:46,632 [INFO] => loaded best checkpoint for expert_1: checkpoints_v12\demo_v12_expert_1_best_ep60.pt (updated 0 params)
+2025-12-04 13:16:47,901 [INFO] => loaded best checkpoint for expert_2: checkpoints_v12\demo_v12_expert_2_best_ep4.pt (updated 0 params)
+2025-12-04 13:17:35,953 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 13:17:40,106 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (updated 313 params)
+2025-12-04 13:17:41,432 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (updated 0 params)
+2025-12-04 13:18:48,406 [INFO] => Expert 0 epoch 1 avg_loss=1.9473 avg_acc=0.4289
+2025-12-04 13:18:48,482 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep1.pt
+2025-12-04 13:19:55,108 [INFO] => Expert 0 epoch 1 avg_loss=1.5470 avg_acc=0.5141
+2025-12-04 13:19:55,129 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep2.pt
+2025-12-04 13:21:03,333 [INFO] => Expert 0 epoch 1 avg_loss=1.3546 avg_acc=0.5746
+2025-12-04 13:21:03,363 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep3.pt
+2025-12-04 13:22:11,605 [INFO] => Expert 0 epoch 1 avg_loss=1.2073 avg_acc=0.6077
+2025-12-04 13:22:11,633 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep4.pt
+2025-12-04 13:23:18,796 [INFO] => Expert 0 epoch 1 avg_loss=1.0746 avg_acc=0.6527
+2025-12-04 13:23:18,816 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep5.pt
+2025-12-04 13:24:25,608 [INFO] => Expert 0 epoch 1 avg_loss=0.9609 avg_acc=0.6906
+2025-12-04 13:24:25,639 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep6.pt
+2025-12-04 13:25:31,950 [INFO] => Expert 0 epoch 1 avg_loss=0.8434 avg_acc=0.7323
+2025-12-04 13:25:31,970 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep7.pt
+2025-12-04 13:26:38,266 [INFO] => Expert 0 epoch 1 avg_loss=0.7308 avg_acc=0.7767
+2025-12-04 13:26:38,305 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep8.pt
+2025-12-04 13:27:44,626 [INFO] => Expert 0 epoch 1 avg_loss=0.6212 avg_acc=0.8184
+2025-12-04 13:27:44,647 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep9.pt
+2025-12-04 13:28:51,117 [INFO] => Expert 0 epoch 1 avg_loss=0.5250 avg_acc=0.8587
+2025-12-04 13:28:51,146 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep10.pt
+2025-12-04 13:29:57,527 [INFO] => Expert 0 epoch 1 avg_loss=0.4364 avg_acc=0.8923
+2025-12-04 13:29:57,550 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep11.pt
+2025-12-04 13:31:05,289 [INFO] => Expert 0 epoch 1 avg_loss=0.3537 avg_acc=0.9194
+2025-12-04 13:31:05,309 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep12.pt
+2025-12-04 13:32:11,816 [INFO] => Expert 0 epoch 1 avg_loss=0.2868 avg_acc=0.9396
+2025-12-04 13:32:11,844 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep13.pt
+2025-12-04 13:33:19,275 [INFO] => Expert 0 epoch 1 avg_loss=0.2272 avg_acc=0.9554
+2025-12-04 13:33:19,305 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep14.pt
+2025-12-04 13:34:26,396 [INFO] => Expert 0 epoch 1 avg_loss=0.1813 avg_acc=0.9696
+2025-12-04 13:34:26,422 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep15.pt
+2025-12-04 13:35:33,896 [INFO] => Expert 0 epoch 1 avg_loss=0.1464 avg_acc=0.9759
+2025-12-04 13:35:33,920 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep16.pt
+2025-12-04 13:36:41,073 [INFO] => Expert 0 epoch 1 avg_loss=0.1215 avg_acc=0.9782
+2025-12-04 13:36:41,094 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep17.pt
+2025-12-04 13:37:48,356 [INFO] => Expert 0 epoch 1 avg_loss=0.1036 avg_acc=0.9795
+2025-12-04 13:37:48,386 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep18.pt
+2025-12-04 13:38:54,769 [INFO] => Expert 0 epoch 1 avg_loss=0.0871 avg_acc=0.9828
+2025-12-04 13:38:54,789 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep19.pt
+2025-12-04 13:40:01,487 [INFO] => Expert 0 epoch 1 avg_loss=0.0803 avg_acc=0.9837
+2025-12-04 13:40:01,515 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep20.pt
+2025-12-04 13:41:08,204 [INFO] => Expert 0 epoch 1 avg_loss=0.0678 avg_acc=0.9866
+2025-12-04 13:41:08,236 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep21.pt
+2025-12-04 13:42:15,778 [INFO] => Expert 0 epoch 1 avg_loss=0.0686 avg_acc=0.9845
+2025-12-04 13:43:23,061 [INFO] => Expert 0 epoch 1 avg_loss=0.0562 avg_acc=0.9888
+2025-12-04 13:43:23,084 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep23.pt
+2025-12-04 13:44:30,260 [INFO] => Expert 0 epoch 1 avg_loss=0.0515 avg_acc=0.9883
+2025-12-04 13:44:30,282 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep24.pt
+2025-12-04 13:45:37,745 [INFO] => Expert 0 epoch 1 avg_loss=0.0479 avg_acc=0.9898
+2025-12-04 13:45:37,769 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep25.pt
+2025-12-04 13:46:45,546 [INFO] => Expert 0 epoch 1 avg_loss=0.0463 avg_acc=0.9885
+2025-12-04 13:46:45,569 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep26.pt
+2025-12-04 13:47:53,131 [INFO] => Expert 0 epoch 1 avg_loss=0.0423 avg_acc=0.9910
+2025-12-04 13:47:53,153 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep27.pt
+2025-12-04 13:49:00,453 [INFO] => Expert 0 epoch 1 avg_loss=0.0418 avg_acc=0.9907
+2025-12-04 13:49:00,475 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep28.pt
+2025-12-04 13:50:07,425 [INFO] => Expert 0 epoch 1 avg_loss=0.0371 avg_acc=0.9916
+2025-12-04 13:50:07,448 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep29.pt
+2025-12-04 13:51:13,883 [INFO] => Expert 0 epoch 1 avg_loss=0.0397 avg_acc=0.9913
+2025-12-04 13:52:20,957 [INFO] => Expert 0 epoch 1 avg_loss=0.0343 avg_acc=0.9926
+2025-12-04 13:52:20,978 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep31.pt
+2025-12-04 13:53:27,393 [INFO] => Expert 0 epoch 1 avg_loss=0.0336 avg_acc=0.9930
+2025-12-04 13:53:27,414 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep32.pt
+2025-12-04 13:54:34,994 [INFO] => Expert 0 epoch 1 avg_loss=0.0361 avg_acc=0.9915
+2025-12-04 13:55:42,025 [INFO] => Expert 0 epoch 1 avg_loss=0.0314 avg_acc=0.9934
+2025-12-04 13:55:42,055 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep34.pt
+2025-12-04 13:56:48,917 [INFO] => Expert 0 epoch 1 avg_loss=0.0313 avg_acc=0.9932
+2025-12-04 13:56:48,937 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep35.pt
+2025-12-04 13:57:55,095 [INFO] => Expert 0 epoch 1 avg_loss=0.0342 avg_acc=0.9922
+2025-12-04 13:59:03,345 [INFO] => Expert 0 epoch 1 avg_loss=0.0278 avg_acc=0.9944
+2025-12-04 13:59:03,375 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep37.pt
+2025-12-04 14:00:10,485 [INFO] => Expert 0 epoch 1 avg_loss=0.0254 avg_acc=0.9941
+2025-12-04 14:00:10,516 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep38.pt
+2025-12-04 14:01:17,671 [INFO] => Expert 0 epoch 1 avg_loss=0.0306 avg_acc=0.9930
+2025-12-04 14:02:24,577 [INFO] => Expert 0 epoch 1 avg_loss=0.0224 avg_acc=0.9952
+2025-12-04 14:02:24,597 [INFO] => checkpoint saved (stage_group=expert_0): checkpoints_v12\demo_v12_expert_0_best_ep40.pt
+2025-12-04 14:03:31,914 [INFO] => Expert 0 epoch 1 avg_loss=0.0228 avg_acc=0.9954
+2025-12-04 14:04:38,982 [INFO] => Expert 0 epoch 1 avg_loss=0.0251 avg_acc=0.9955
+2025-12-04 14:05:47,380 [INFO] => Expert 0 epoch 1 avg_loss=0.0263 avg_acc=0.9941
+2025-12-04 14:05:47,381 [INFO] => Early stopping expert_0 at epoch 43 (patience=3)
+2025-12-04 14:05:47,381 [INFO] => expert_0 best_epoch=40 best_loss=0.0224
+2025-12-04 14:05:48,393 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep60.pt (updated 0 params)
+2025-12-04 14:05:49,905 [INFO] => loaded best checkpoint for expert_1: checkpoints_v12\demo_v12_expert_1_best_ep60.pt (updated 0 params)
+2025-12-04 14:06:57,301 [INFO] => Expert 1 epoch 1 avg_loss=2.0332 avg_acc=0.3905
+2025-12-04 14:06:57,364 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep1.pt
+2025-12-04 14:08:03,515 [INFO] => Expert 1 epoch 1 avg_loss=1.5742 avg_acc=0.4898
+2025-12-04 14:08:03,536 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep2.pt
+2025-12-04 14:09:09,450 [INFO] => Expert 1 epoch 1 avg_loss=1.3872 avg_acc=0.5522
+2025-12-04 14:09:09,473 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep3.pt
+2025-12-04 14:10:15,030 [INFO] => Expert 1 epoch 1 avg_loss=1.2244 avg_acc=0.6069
+2025-12-04 14:10:15,051 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep4.pt
+2025-12-04 14:11:20,787 [INFO] => Expert 1 epoch 1 avg_loss=1.0780 avg_acc=0.6545
+2025-12-04 14:11:20,808 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep5.pt
+2025-12-04 14:12:26,728 [INFO] => Expert 1 epoch 1 avg_loss=0.9330 avg_acc=0.7062
+2025-12-04 14:12:26,759 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep6.pt
+2025-12-04 14:13:34,200 [INFO] => Expert 1 epoch 1 avg_loss=0.7935 avg_acc=0.7587
+2025-12-04 14:13:34,222 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep7.pt
+2025-12-04 14:14:41,379 [INFO] => Expert 1 epoch 1 avg_loss=0.6638 avg_acc=0.8116
+2025-12-04 14:14:41,405 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep8.pt
+2025-12-04 14:15:49,654 [INFO] => Expert 1 epoch 1 avg_loss=0.5438 avg_acc=0.8534
+2025-12-04 14:15:49,673 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep9.pt
+2025-12-04 14:16:56,457 [INFO] => Expert 1 epoch 1 avg_loss=0.4329 avg_acc=0.8981
+2025-12-04 14:16:56,479 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep10.pt
+2025-12-04 14:18:03,771 [INFO] => Expert 1 epoch 1 avg_loss=0.3394 avg_acc=0.9289
+2025-12-04 14:18:03,792 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep11.pt
+2025-12-04 14:19:10,684 [INFO] => Expert 1 epoch 1 avg_loss=0.2555 avg_acc=0.9540
+2025-12-04 14:19:10,710 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep12.pt
+2025-12-04 14:20:17,750 [INFO] => Expert 1 epoch 1 avg_loss=0.1956 avg_acc=0.9667
+2025-12-04 14:20:17,775 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep13.pt
+2025-12-04 14:21:24,223 [INFO] => Expert 1 epoch 1 avg_loss=0.1467 avg_acc=0.9780
+2025-12-04 14:21:24,248 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep14.pt
+2025-12-04 14:22:31,316 [INFO] => Expert 1 epoch 1 avg_loss=0.1126 avg_acc=0.9827
+2025-12-04 14:22:31,337 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep15.pt
+2025-12-04 14:23:38,354 [INFO] => Expert 1 epoch 1 avg_loss=0.0931 avg_acc=0.9846
+2025-12-04 14:23:38,376 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep16.pt
+2025-12-04 14:24:45,657 [INFO] => Expert 1 epoch 1 avg_loss=0.0783 avg_acc=0.9864
+2025-12-04 14:24:45,680 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep17.pt
+2025-12-04 14:25:53,113 [INFO] => Expert 1 epoch 1 avg_loss=0.0648 avg_acc=0.9888
+2025-12-04 14:25:53,147 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep18.pt
+2025-12-04 14:26:59,686 [INFO] => Expert 1 epoch 1 avg_loss=0.0552 avg_acc=0.9905
+2025-12-04 14:26:59,708 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep19.pt
+2025-12-04 14:28:05,794 [INFO] => Expert 1 epoch 1 avg_loss=0.0490 avg_acc=0.9910
+2025-12-04 14:28:05,815 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep20.pt
+2025-12-04 14:29:12,276 [INFO] => Expert 1 epoch 1 avg_loss=0.0441 avg_acc=0.9915
+2025-12-04 14:29:12,306 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep21.pt
+2025-12-04 14:30:20,118 [INFO] => Expert 1 epoch 1 avg_loss=0.0414 avg_acc=0.9918
+2025-12-04 14:30:20,144 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep22.pt
+2025-12-04 14:31:26,665 [INFO] => Expert 1 epoch 1 avg_loss=0.0347 avg_acc=0.9931
+2025-12-04 14:31:26,683 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep23.pt
+2025-12-04 14:32:32,987 [INFO] => Expert 1 epoch 1 avg_loss=0.0338 avg_acc=0.9941
+2025-12-04 14:32:33,016 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep24.pt
+2025-12-04 14:33:40,100 [INFO] => Expert 1 epoch 1 avg_loss=0.0334 avg_acc=0.9942
+2025-12-04 14:33:40,130 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep25.pt
+2025-12-04 14:34:47,407 [INFO] => Expert 1 epoch 1 avg_loss=0.0280 avg_acc=0.9950
+2025-12-04 14:34:47,432 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep26.pt
+2025-12-04 14:35:54,308 [INFO] => Expert 1 epoch 1 avg_loss=0.0302 avg_acc=0.9952
+2025-12-04 14:37:01,344 [INFO] => Expert 1 epoch 1 avg_loss=0.0249 avg_acc=0.9953
+2025-12-04 14:37:01,364 [INFO] => checkpoint saved (stage_group=expert_1): checkpoints_v12\demo_v12_expert_1_best_ep28.pt
+2025-12-04 14:38:08,414 [INFO] => Expert 1 epoch 1 avg_loss=0.0311 avg_acc=0.9941
+2025-12-04 14:39:15,453 [INFO] => Expert 1 epoch 1 avg_loss=0.0260 avg_acc=0.9948
+2025-12-04 14:40:21,236 [INFO] => Expert 1 epoch 1 avg_loss=0.0260 avg_acc=0.9944
+2025-12-04 14:40:21,236 [INFO] => Early stopping expert_1 at epoch 31 (patience=3)
+2025-12-04 14:40:21,236 [INFO] => expert_1 best_epoch=28 best_loss=0.0249
+2025-12-04 14:40:22,000 [INFO] => loaded best checkpoint for expert_1: checkpoints_v12\demo_v12_expert_1_best_ep60.pt (updated 0 params)
+2025-12-04 14:40:23,268 [INFO] => loaded best checkpoint for expert_2: checkpoints_v12\demo_v12_expert_2_best_ep4.pt (updated 0 params)
+2025-12-04 14:41:28,938 [INFO] => Expert 2 epoch 1 avg_loss=1.9419 avg_acc=0.4102
+2025-12-04 14:41:28,995 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep1.pt
+2025-12-04 14:42:36,061 [INFO] => Expert 2 epoch 1 avg_loss=1.4729 avg_acc=0.5235
+2025-12-04 14:42:36,088 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep2.pt
+2025-12-04 14:43:43,080 [INFO] => Expert 2 epoch 1 avg_loss=1.2955 avg_acc=0.5859
+2025-12-04 14:43:43,109 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep3.pt
+2025-12-04 14:44:50,520 [INFO] => Expert 2 epoch 1 avg_loss=1.1410 avg_acc=0.6302
+2025-12-04 14:44:50,777 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep4.pt
+2025-12-04 14:45:58,492 [INFO] => Expert 2 epoch 1 avg_loss=0.9914 avg_acc=0.6830
+2025-12-04 14:45:58,518 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep5.pt
+2025-12-04 14:47:05,169 [INFO] => Expert 2 epoch 1 avg_loss=0.8549 avg_acc=0.7333
+2025-12-04 14:47:05,194 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep6.pt
+2025-12-04 14:48:12,438 [INFO] => Expert 2 epoch 1 avg_loss=0.7207 avg_acc=0.7822
+2025-12-04 14:48:12,463 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep7.pt
+2025-12-04 14:49:20,066 [INFO] => Expert 2 epoch 1 avg_loss=0.5965 avg_acc=0.8291
+2025-12-04 14:49:20,094 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep8.pt
+2025-12-04 14:50:27,138 [INFO] => Expert 2 epoch 1 avg_loss=0.4787 avg_acc=0.8750
+2025-12-04 14:50:27,164 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep9.pt
+2025-12-04 14:51:34,878 [INFO] => Expert 2 epoch 1 avg_loss=0.3724 avg_acc=0.9171
+2025-12-04 14:51:34,901 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep10.pt
+2025-12-04 14:52:40,781 [INFO] => Expert 2 epoch 1 avg_loss=0.2822 avg_acc=0.9458
+2025-12-04 14:52:40,802 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep11.pt
+2025-12-04 14:53:46,112 [INFO] => Expert 2 epoch 1 avg_loss=0.2115 avg_acc=0.9646
+2025-12-04 14:53:46,132 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep12.pt
+2025-12-04 14:54:51,731 [INFO] => Expert 2 epoch 1 avg_loss=0.1542 avg_acc=0.9795
+2025-12-04 14:54:51,751 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep13.pt
+2025-12-04 14:55:57,393 [INFO] => Expert 2 epoch 1 avg_loss=0.1201 avg_acc=0.9824
+2025-12-04 14:55:57,414 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep14.pt
+2025-12-04 14:57:03,024 [INFO] => Expert 2 epoch 1 avg_loss=0.0933 avg_acc=0.9864
+2025-12-04 14:57:03,047 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep15.pt
+2025-12-04 14:58:08,677 [INFO] => Expert 2 epoch 1 avg_loss=0.0725 avg_acc=0.9884
+2025-12-04 14:58:08,698 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep16.pt
+2025-12-04 14:59:14,398 [INFO] => Expert 2 epoch 1 avg_loss=0.0651 avg_acc=0.9887
+2025-12-04 14:59:14,418 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep17.pt
+2025-12-04 15:00:20,134 [INFO] => Expert 2 epoch 1 avg_loss=0.0501 avg_acc=0.9916
+2025-12-04 15:00:20,155 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep18.pt
+2025-12-04 15:01:25,809 [INFO] => Expert 2 epoch 1 avg_loss=0.0491 avg_acc=0.9909
+2025-12-04 15:01:25,829 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep19.pt
+2025-12-04 15:02:31,386 [INFO] => Expert 2 epoch 1 avg_loss=0.0409 avg_acc=0.9920
+2025-12-04 15:02:31,406 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep20.pt
+2025-12-04 15:03:37,268 [INFO] => Expert 2 epoch 1 avg_loss=0.0382 avg_acc=0.9932
+2025-12-04 15:03:37,289 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep21.pt
+2025-12-04 15:04:42,959 [INFO] => Expert 2 epoch 1 avg_loss=0.0355 avg_acc=0.9923
+2025-12-04 15:04:42,980 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep22.pt
+2025-12-04 15:05:48,701 [INFO] => Expert 2 epoch 1 avg_loss=0.0386 avg_acc=0.9921
+2025-12-04 15:06:54,373 [INFO] => Expert 2 epoch 1 avg_loss=0.0284 avg_acc=0.9945
+2025-12-04 15:06:54,393 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep24.pt
+2025-12-04 15:08:00,172 [INFO] => Expert 2 epoch 1 avg_loss=0.0324 avg_acc=0.9933
+2025-12-04 15:09:05,768 [INFO] => Expert 2 epoch 1 avg_loss=0.0312 avg_acc=0.9939
+2025-12-04 15:10:11,372 [INFO] => Expert 2 epoch 1 avg_loss=0.0281 avg_acc=0.9945
+2025-12-04 15:10:11,393 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep27.pt
+2025-12-04 15:11:17,061 [INFO] => Expert 2 epoch 1 avg_loss=0.0282 avg_acc=0.9947
+2025-12-04 15:12:22,908 [INFO] => Expert 2 epoch 1 avg_loss=0.0219 avg_acc=0.9962
+2025-12-04 15:12:22,929 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep29.pt
+2025-12-04 15:13:28,633 [INFO] => Expert 2 epoch 1 avg_loss=0.0237 avg_acc=0.9960
+2025-12-04 15:14:34,227 [INFO] => Expert 2 epoch 1 avg_loss=0.0219 avg_acc=0.9966
+2025-12-04 15:14:34,248 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep31.pt
+2025-12-04 15:15:39,898 [INFO] => Expert 2 epoch 1 avg_loss=0.0218 avg_acc=0.9952
+2025-12-04 15:15:39,917 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep32.pt
+2025-12-04 15:16:45,636 [INFO] => Expert 2 epoch 1 avg_loss=0.0199 avg_acc=0.9953
+2025-12-04 15:16:45,659 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep33.pt
+2025-12-04 15:17:51,337 [INFO] => Expert 2 epoch 1 avg_loss=0.0208 avg_acc=0.9959
+2025-12-04 15:18:56,957 [INFO] => Expert 2 epoch 1 avg_loss=0.0178 avg_acc=0.9958
+2025-12-04 15:18:56,977 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep35.pt
+2025-12-04 15:20:02,616 [INFO] => Expert 2 epoch 1 avg_loss=0.0184 avg_acc=0.9960
+2025-12-04 15:21:08,229 [INFO] => Expert 2 epoch 1 avg_loss=0.0229 avg_acc=0.9954
+2025-12-04 15:22:13,836 [INFO] => Expert 2 epoch 1 avg_loss=0.0170 avg_acc=0.9966
+2025-12-04 15:22:13,857 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep38.pt
+2025-12-04 15:23:19,499 [INFO] => Expert 2 epoch 1 avg_loss=0.0195 avg_acc=0.9948
+2025-12-04 15:24:25,195 [INFO] => Expert 2 epoch 1 avg_loss=0.0165 avg_acc=0.9960
+2025-12-04 15:24:25,215 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep40.pt
+2025-12-04 15:25:30,958 [INFO] => Expert 2 epoch 1 avg_loss=0.0159 avg_acc=0.9966
+2025-12-04 15:25:30,979 [INFO] => checkpoint saved (stage_group=expert_2): checkpoints_v12\demo_v12_expert_2_best_ep41.pt
+2025-12-04 15:26:36,565 [INFO] => Expert 2 epoch 1 avg_loss=0.0209 avg_acc=0.9965
+2025-12-04 15:27:42,195 [INFO] => Expert 2 epoch 1 avg_loss=0.0196 avg_acc=0.9949
+2025-12-04 15:28:47,830 [INFO] => Expert 2 epoch 1 avg_loss=0.0169 avg_acc=0.9955
+2025-12-04 15:28:47,830 [INFO] => Early stopping expert_2 at epoch 44 (patience=3)
+2025-12-04 15:28:47,830 [INFO] => expert_2 best_epoch=41 best_loss=0.0159
+2025-12-04 15:28:47,857 [INFO] => loaded best checkpoint for expert_2: checkpoints_v12\demo_v12_expert_2_best_ep41.pt (updated 4 params)
+2025-12-04 15:29:53,673 [INFO] => Expert 3 epoch 1 avg_loss=1.9047 avg_acc=0.4227
+2025-12-04 15:29:53,694 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep1.pt
+2025-12-04 15:30:59,324 [INFO] => Expert 3 epoch 1 avg_loss=1.4634 avg_acc=0.5259
+2025-12-04 15:30:59,345 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep2.pt
+2025-12-04 15:32:05,134 [INFO] => Expert 3 epoch 1 avg_loss=1.2954 avg_acc=0.5763
+2025-12-04 15:32:05,155 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep3.pt
+2025-12-04 15:33:10,982 [INFO] => Expert 3 epoch 1 avg_loss=1.1566 avg_acc=0.6209
+2025-12-04 15:33:11,003 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep4.pt
+2025-12-04 15:34:16,757 [INFO] => Expert 3 epoch 1 avg_loss=1.0203 avg_acc=0.6623
+2025-12-04 15:34:16,778 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep5.pt
+2025-12-04 15:35:22,363 [INFO] => Expert 3 epoch 1 avg_loss=0.8935 avg_acc=0.7135
+2025-12-04 15:35:22,383 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep6.pt
+2025-12-04 15:36:29,080 [INFO] => Expert 3 epoch 1 avg_loss=0.7650 avg_acc=0.7639
+2025-12-04 15:36:29,114 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep7.pt
+2025-12-04 15:37:35,248 [INFO] => Expert 3 epoch 1 avg_loss=0.6478 avg_acc=0.8058
+2025-12-04 15:37:35,269 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep8.pt
+2025-12-04 15:38:40,737 [INFO] => Expert 3 epoch 1 avg_loss=0.5344 avg_acc=0.8521
+2025-12-04 15:38:40,757 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep9.pt
+2025-12-04 15:39:46,428 [INFO] => Expert 3 epoch 1 avg_loss=0.4282 avg_acc=0.8936
+2025-12-04 15:39:46,448 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep10.pt
+2025-12-04 15:40:52,047 [INFO] => Expert 3 epoch 1 avg_loss=0.3386 avg_acc=0.9257
+2025-12-04 15:40:52,068 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep11.pt
+2025-12-04 15:41:57,733 [INFO] => Expert 3 epoch 1 avg_loss=0.2580 avg_acc=0.9529
+2025-12-04 15:41:57,753 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep12.pt
+2025-12-04 15:43:03,389 [INFO] => Expert 3 epoch 1 avg_loss=0.1977 avg_acc=0.9660
+2025-12-04 15:43:03,410 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep13.pt
+2025-12-04 15:44:09,134 [INFO] => Expert 3 epoch 1 avg_loss=0.1491 avg_acc=0.9771
+2025-12-04 15:44:09,153 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep14.pt
+2025-12-04 15:45:14,745 [INFO] => Expert 3 epoch 1 avg_loss=0.1155 avg_acc=0.9820
+2025-12-04 15:45:14,766 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep15.pt
+2025-12-04 15:46:20,381 [INFO] => Expert 3 epoch 1 avg_loss=0.0919 avg_acc=0.9857
+2025-12-04 15:46:20,399 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep16.pt
+2025-12-04 15:47:26,054 [INFO] => Expert 3 epoch 1 avg_loss=0.0757 avg_acc=0.9865
+2025-12-04 15:47:26,076 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep17.pt
+2025-12-04 15:48:31,771 [INFO] => Expert 3 epoch 1 avg_loss=0.0642 avg_acc=0.9895
+2025-12-04 15:48:31,791 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep18.pt
+2025-12-04 15:49:37,453 [INFO] => Expert 3 epoch 1 avg_loss=0.0561 avg_acc=0.9896
+2025-12-04 15:49:37,474 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep19.pt
+2025-12-04 15:50:43,007 [INFO] => Expert 3 epoch 1 avg_loss=0.0534 avg_acc=0.9904
+2025-12-04 15:50:43,027 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep20.pt
+2025-12-04 15:51:48,672 [INFO] => Expert 3 epoch 1 avg_loss=0.0456 avg_acc=0.9913
+2025-12-04 15:51:48,698 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep21.pt
+2025-12-04 15:52:54,347 [INFO] => Expert 3 epoch 1 avg_loss=0.0401 avg_acc=0.9927
+2025-12-04 15:52:54,368 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep22.pt
+2025-12-04 15:54:00,008 [INFO] => Expert 3 epoch 1 avg_loss=0.0397 avg_acc=0.9918
+2025-12-04 15:54:00,029 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep23.pt
+2025-12-04 15:55:05,622 [INFO] => Expert 3 epoch 1 avg_loss=0.0326 avg_acc=0.9938
+2025-12-04 15:55:05,641 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep24.pt
+2025-12-04 15:56:11,237 [INFO] => Expert 3 epoch 1 avg_loss=0.0272 avg_acc=0.9944
+2025-12-04 15:56:11,262 [INFO] => checkpoint saved (stage_group=expert_3): checkpoints_v12\demo_v12_expert_3_best_ep25.pt
+2025-12-04 15:57:16,908 [INFO] => Expert 3 epoch 1 avg_loss=0.0303 avg_acc=0.9940
+2025-12-04 15:58:22,463 [INFO] => Expert 3 epoch 1 avg_loss=0.0300 avg_acc=0.9935
+2025-12-04 15:59:28,048 [INFO] => Expert 3 epoch 1 avg_loss=0.0283 avg_acc=0.9941
+2025-12-04 15:59:28,048 [INFO] => Early stopping expert_3 at epoch 28 (patience=3)
+2025-12-04 15:59:28,048 [INFO] => expert_3 best_epoch=25 best_loss=0.0272
+2025-12-04 15:59:28,074 [INFO] => loaded best checkpoint for expert_3: checkpoints_v12\demo_v12_expert_3_best_ep25.pt (updated 4 params)
+2025-12-04 16:00:33,694 [INFO] => Expert 4 epoch 1 avg_loss=2.1294 avg_acc=0.3606
+2025-12-04 16:00:33,713 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep1.pt
+2025-12-04 16:01:39,448 [INFO] => Expert 4 epoch 1 avg_loss=1.7190 avg_acc=0.4322
+2025-12-04 16:01:39,468 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep2.pt
+2025-12-04 16:02:45,009 [INFO] => Expert 4 epoch 1 avg_loss=1.5621 avg_acc=0.4714
+2025-12-04 16:02:45,033 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep3.pt
+2025-12-04 16:03:50,633 [INFO] => Expert 4 epoch 1 avg_loss=1.4285 avg_acc=0.5149
+2025-12-04 16:03:50,654 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep4.pt
+2025-12-04 16:04:56,261 [INFO] => Expert 4 epoch 1 avg_loss=1.3053 avg_acc=0.5573
+2025-12-04 16:04:56,283 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep5.pt
+2025-12-04 16:06:02,068 [INFO] => Expert 4 epoch 1 avg_loss=1.1972 avg_acc=0.5988
+2025-12-04 16:06:02,088 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep6.pt
+2025-12-04 16:07:07,777 [INFO] => Expert 4 epoch 1 avg_loss=1.0870 avg_acc=0.6416
+2025-12-04 16:07:07,797 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep7.pt
+2025-12-04 16:08:13,410 [INFO] => Expert 4 epoch 1 avg_loss=0.9717 avg_acc=0.6849
+2025-12-04 16:08:13,429 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep8.pt
+2025-12-04 16:09:19,019 [INFO] => Expert 4 epoch 1 avg_loss=0.8628 avg_acc=0.7312
+2025-12-04 16:09:19,040 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep9.pt
+2025-12-04 16:10:24,762 [INFO] => Expert 4 epoch 1 avg_loss=0.7565 avg_acc=0.7720
+2025-12-04 16:10:24,782 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep10.pt
+2025-12-04 16:11:30,400 [INFO] => Expert 4 epoch 1 avg_loss=0.6575 avg_acc=0.8141
+2025-12-04 16:11:30,423 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep11.pt
+2025-12-04 16:12:36,052 [INFO] => Expert 4 epoch 1 avg_loss=0.5655 avg_acc=0.8471
+2025-12-04 16:12:36,079 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep12.pt
+2025-12-04 16:13:41,890 [INFO] => Expert 4 epoch 1 avg_loss=0.4761 avg_acc=0.8800
+2025-12-04 16:13:41,911 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep13.pt
+2025-12-04 16:14:50,415 [INFO] => Expert 4 epoch 1 avg_loss=0.3935 avg_acc=0.9076
+2025-12-04 16:14:50,434 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep14.pt
+2025-12-04 16:15:58,990 [INFO] => Expert 4 epoch 1 avg_loss=0.3278 avg_acc=0.9315
+2025-12-04 16:15:59,015 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep15.pt
+2025-12-04 16:17:04,883 [INFO] => Expert 4 epoch 1 avg_loss=0.2724 avg_acc=0.9455
+2025-12-04 16:17:04,902 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep16.pt
+2025-12-04 16:18:10,601 [INFO] => Expert 4 epoch 1 avg_loss=0.2236 avg_acc=0.9602
+2025-12-04 16:18:10,629 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep17.pt
+2025-12-04 16:19:16,345 [INFO] => Expert 4 epoch 1 avg_loss=0.1858 avg_acc=0.9655
+2025-12-04 16:19:16,365 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep18.pt
+2025-12-04 16:20:21,917 [INFO] => Expert 4 epoch 1 avg_loss=0.1576 avg_acc=0.9706
+2025-12-04 16:20:21,938 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep19.pt
+2025-12-04 16:21:27,534 [INFO] => Expert 4 epoch 1 avg_loss=0.1361 avg_acc=0.9730
+2025-12-04 16:21:27,555 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep20.pt
+2025-12-04 16:22:33,142 [INFO] => Expert 4 epoch 1 avg_loss=0.1144 avg_acc=0.9780
+2025-12-04 16:22:33,169 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep21.pt
+2025-12-04 16:23:38,839 [INFO] => Expert 4 epoch 1 avg_loss=0.1028 avg_acc=0.9791
+2025-12-04 16:23:38,859 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep22.pt
+2025-12-04 16:24:44,601 [INFO] => Expert 4 epoch 1 avg_loss=0.0888 avg_acc=0.9825
+2025-12-04 16:24:44,623 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep23.pt
+2025-12-04 16:25:50,281 [INFO] => Expert 4 epoch 1 avg_loss=0.0870 avg_acc=0.9812
+2025-12-04 16:25:50,302 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep24.pt
+2025-12-04 16:26:55,878 [INFO] => Expert 4 epoch 1 avg_loss=0.0780 avg_acc=0.9834
+2025-12-04 16:26:55,904 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep25.pt
+2025-12-04 16:28:01,525 [INFO] => Expert 4 epoch 1 avg_loss=0.0671 avg_acc=0.9848
+2025-12-04 16:28:01,545 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep26.pt
+2025-12-04 16:29:07,189 [INFO] => Expert 4 epoch 1 avg_loss=0.0634 avg_acc=0.9848
+2025-12-04 16:29:07,216 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep27.pt
+2025-12-04 16:30:12,888 [INFO] => Expert 4 epoch 1 avg_loss=0.0575 avg_acc=0.9875
+2025-12-04 16:30:12,912 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep28.pt
+2025-12-04 17:16:40,534 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 17:16:47,778 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (updated 313 params)
+2025-12-04 17:16:47,908 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep40.pt (updated 4 params)
+2025-12-04 17:16:47,973 [INFO] => loaded best checkpoint for expert_1: checkpoints_v12\demo_v12_expert_1_best_ep28.pt (updated 4 params)
+2025-12-04 17:16:48,033 [INFO] => loaded best checkpoint for expert_2: checkpoints_v12\demo_v12_expert_2_best_ep41.pt (updated 4 params)
+2025-12-04 17:16:48,096 [INFO] => loaded best checkpoint for expert_3: checkpoints_v12\demo_v12_expert_3_best_ep25.pt (updated 4 params)
+2025-12-04 17:16:48,159 [INFO] => loaded best checkpoint for expert_4: checkpoints_v12\demo_v12_expert_4_best_ep28.pt (updated 4 params)
+2025-12-04 17:19:54,816 [INFO] => Expert 4 epoch 1 avg_loss=0.0540 avg_acc=0.9877
+2025-12-04 17:19:54,848 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep1.pt
+2025-12-04 17:23:31,692 [INFO] => Expert 4 epoch 1 avg_loss=0.0539 avg_acc=0.9880
+2025-12-04 17:23:31,726 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep2.pt
+2025-12-04 17:27:18,341 [INFO] => Expert 4 epoch 1 avg_loss=0.0468 avg_acc=0.9901
+2025-12-04 17:27:18,370 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep3.pt
+2025-12-04 17:31:02,947 [INFO] => Expert 4 epoch 1 avg_loss=0.0447 avg_acc=0.9895
+2025-12-04 17:31:02,977 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep4.pt
+2025-12-04 17:34:46,277 [INFO] => Expert 4 epoch 1 avg_loss=0.0458 avg_acc=0.9893
+2025-12-04 17:38:28,624 [INFO] => Expert 4 epoch 1 avg_loss=0.0441 avg_acc=0.9899
+2025-12-04 17:38:28,653 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep6.pt
+2025-12-04 17:42:04,244 [INFO] => Expert 4 epoch 1 avg_loss=0.0460 avg_acc=0.9883
+2025-12-04 17:45:35,825 [INFO] => Expert 4 epoch 1 avg_loss=0.0407 avg_acc=0.9909
+2025-12-04 17:45:35,854 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep8.pt
+2025-12-04 17:49:11,945 [INFO] => Expert 4 epoch 1 avg_loss=0.0358 avg_acc=0.9921
+2025-12-04 17:49:11,975 [INFO] => checkpoint saved (stage_group=expert_4): checkpoints_v12\demo_v12_expert_4_best_ep9.pt
+2025-12-04 17:53:04,817 [INFO] => Expert 4 epoch 1 avg_loss=0.0361 avg_acc=0.9917
+2025-12-04 17:56:36,007 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-04 17:56:36,090 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 17:56:42,755 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (updated 313 params)
+2025-12-04 17:56:42,875 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep40.pt (updated 4 params)
+2025-12-04 17:56:42,923 [INFO] => loaded best checkpoint for expert_1: checkpoints_v12\demo_v12_expert_1_best_ep28.pt (updated 4 params)
+2025-12-04 17:56:42,973 [INFO] => loaded best checkpoint for expert_2: checkpoints_v12\demo_v12_expert_2_best_ep41.pt (updated 4 params)
+2025-12-04 17:56:43,020 [INFO] => loaded best checkpoint for expert_3: checkpoints_v12\demo_v12_expert_3_best_ep25.pt (updated 4 params)
+2025-12-04 17:56:43,091 [INFO] => loaded best checkpoint for expert_4: checkpoints_v12\demo_v12_expert_4_best_ep9.pt (updated 4 params)
+2025-12-04 18:01:39,329 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-04 18:01:39,383 [INFO] => loaded cached samples from checkpoints_v12\demo_v12_samples_mixed.json (n=80000)
+2025-12-04 18:01:45,733 [INFO] => loaded best checkpoint for base: checkpoints_v12\demo_v12_base_best_ep10.pt (updated 313 params)
+2025-12-04 18:01:45,872 [INFO] => loaded best checkpoint for expert_0: checkpoints_v12\demo_v12_expert_0_best_ep40.pt (updated 4 params)
+2025-12-04 18:01:45,922 [INFO] => loaded best checkpoint for expert_1: checkpoints_v12\demo_v12_expert_1_best_ep28.pt (updated 4 params)
+2025-12-04 18:01:45,970 [INFO] => loaded best checkpoint for expert_2: checkpoints_v12\demo_v12_expert_2_best_ep41.pt (updated 4 params)
+2025-12-04 18:01:46,017 [INFO] => loaded best checkpoint for expert_3: checkpoints_v12\demo_v12_expert_3_best_ep25.pt (updated 4 params)
+2025-12-04 18:01:46,063 [INFO] => loaded best checkpoint for expert_4: checkpoints_v12\demo_v12_expert_4_best_ep9.pt (updated 4 params)

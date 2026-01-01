@@ -1,0 +1,774 @@
+2025-12-02 11:07:28,522 [INFO] => Base epoch 1 avg_loss=4.5154 avg_acc=0.0270
+2025-12-02 11:07:32,023 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep1.pt
+2025-12-02 11:07:55,778 [INFO] => Base epoch 1 avg_loss=3.7993 avg_acc=0.0597
+2025-12-02 11:07:59,987 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep2.pt
+2025-12-02 11:08:23,744 [INFO] => Base epoch 1 avg_loss=3.2926 avg_acc=0.1017
+2025-12-02 11:08:27,943 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep3.pt
+2025-12-02 11:08:51,706 [INFO] => Base epoch 1 avg_loss=3.0112 avg_acc=0.1341
+2025-12-02 11:08:55,927 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep4.pt
+2025-12-02 11:09:19,733 [INFO] => Base epoch 1 avg_loss=2.7090 avg_acc=0.1992
+2025-12-02 11:09:23,959 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep5.pt
+2025-12-02 11:09:47,724 [INFO] => Base epoch 1 avg_loss=2.3809 avg_acc=0.2781
+2025-12-02 11:09:51,948 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep6.pt
+2025-12-02 11:10:15,748 [INFO] => Base epoch 1 avg_loss=2.0310 avg_acc=0.3659
+2025-12-02 11:10:19,999 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep7.pt
+2025-12-02 11:10:43,783 [INFO] => Base epoch 1 avg_loss=1.7853 avg_acc=0.4395
+2025-12-02 11:10:48,052 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep8.pt
+2025-12-02 11:11:11,822 [INFO] => Base epoch 1 avg_loss=1.5579 avg_acc=0.5078
+2025-12-02 11:11:16,073 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep9.pt
+2025-12-02 11:11:39,912 [INFO] => Base epoch 1 avg_loss=1.4151 avg_acc=0.5581
+2025-12-02 11:11:44,144 [INFO] => checkpoint saved: checkpoints/demo_v11_base_best_ep10.pt
+2025-12-02 11:11:45,766 [INFO] => loaded best checkpoint for base: checkpoints/demo_v11_base_best_ep10.pt
+2025-12-02 11:16:26,650 [INFO] [Eval] Base-only All acc=0.5460
+2025-12-02 11:16:26,653 [INFO] === Per-range evaluation: Base-only (mode=base) ===
+2025-12-02 11:17:22,575 [INFO] Range 2-20: acc=0.8994 (n=16000)
+2025-12-02 11:18:18,426 [INFO] Range 21-40: acc=0.4480 (n=16000)
+2025-12-02 11:19:14,271 [INFO] Range 41-60: acc=0.3131 (n=16000)
+2025-12-02 11:20:10,129 [INFO] Range 61-80: acc=0.3975 (n=16000)
+2025-12-02 11:21:06,000 [INFO] Range 81-100: acc=0.6719 (n=16000)
+2025-12-02 11:21:53,027 [INFO] => Expert 0 epoch 1 avg_loss=0.4300 avg_acc=0.9650
+2025-12-02 11:21:56,522 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep1.pt
+2025-12-02 11:22:43,547 [INFO] => Expert 0 epoch 1 avg_loss=0.3176 avg_acc=0.9885
+2025-12-02 11:22:47,606 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep2.pt
+2025-12-02 11:23:34,557 [INFO] => Expert 0 epoch 1 avg_loss=0.2488 avg_acc=0.9960
+2025-12-02 11:23:38,622 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep3.pt
+2025-12-02 11:24:25,503 [INFO] => Expert 0 epoch 1 avg_loss=0.1990 avg_acc=0.9997
+2025-12-02 11:24:29,568 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep4.pt
+2025-12-02 11:25:16,228 [INFO] => Expert 0 epoch 1 avg_loss=0.1609 avg_acc=1.0000
+2025-12-02 11:25:20,267 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep5.pt
+2025-12-02 11:26:07,283 [INFO] => Expert 0 epoch 1 avg_loss=0.1308 avg_acc=1.0000
+2025-12-02 11:26:11,327 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep6.pt
+2025-12-02 11:26:58,183 [INFO] => Expert 0 epoch 1 avg_loss=0.1074 avg_acc=1.0000
+2025-12-02 11:27:02,207 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep7.pt
+2025-12-02 11:27:49,103 [INFO] => Expert 0 epoch 1 avg_loss=0.0882 avg_acc=1.0000
+2025-12-02 11:27:53,175 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep8.pt
+2025-12-02 11:28:40,222 [INFO] => Expert 0 epoch 1 avg_loss=0.0726 avg_acc=1.0000
+2025-12-02 11:28:44,301 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep9.pt
+2025-12-02 11:29:31,281 [INFO] => Expert 0 epoch 1 avg_loss=0.0598 avg_acc=1.0000
+2025-12-02 11:29:35,366 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep10.pt
+2025-12-02 11:30:22,468 [INFO] => Expert 0 epoch 1 avg_loss=0.0493 avg_acc=1.0000
+2025-12-02 11:30:26,556 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep11.pt
+2025-12-02 11:31:13,534 [INFO] => Expert 0 epoch 1 avg_loss=0.0409 avg_acc=1.0000
+2025-12-02 11:31:17,583 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep12.pt
+2025-12-02 11:32:04,617 [INFO] => Expert 0 epoch 1 avg_loss=0.0339 avg_acc=1.0000
+2025-12-02 11:32:08,701 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep13.pt
+2025-12-02 11:32:55,562 [INFO] => Expert 0 epoch 1 avg_loss=0.0281 avg_acc=1.0000
+2025-12-02 11:32:59,594 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep14.pt
+2025-12-02 11:33:46,327 [INFO] => Expert 0 epoch 1 avg_loss=0.0232 avg_acc=1.0000
+2025-12-02 11:33:50,377 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep15.pt
+2025-12-02 11:34:37,212 [INFO] => Expert 0 epoch 1 avg_loss=0.0192 avg_acc=1.0000
+2025-12-02 11:34:41,304 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep16.pt
+2025-12-02 11:35:27,918 [INFO] => Expert 0 epoch 1 avg_loss=0.0159 avg_acc=1.0000
+2025-12-02 11:35:32,019 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep17.pt
+2025-12-02 11:36:18,730 [INFO] => Expert 0 epoch 1 avg_loss=0.0132 avg_acc=1.0000
+2025-12-02 11:36:22,915 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep18.pt
+2025-12-02 11:37:09,513 [INFO] => Expert 0 epoch 1 avg_loss=0.0109 avg_acc=1.0000
+2025-12-02 11:37:13,608 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep19.pt
+2025-12-02 11:38:00,623 [INFO] => Expert 0 epoch 1 avg_loss=0.0091 avg_acc=1.0000
+2025-12-02 11:38:04,733 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep20.pt
+2025-12-02 11:38:51,671 [INFO] => Expert 0 epoch 1 avg_loss=0.0075 avg_acc=1.0000
+2025-12-02 11:38:55,771 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep21.pt
+2025-12-02 11:39:42,593 [INFO] => Expert 0 epoch 1 avg_loss=0.0063 avg_acc=1.0000
+2025-12-02 11:39:46,703 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep22.pt
+2025-12-02 11:40:33,038 [INFO] => Expert 0 epoch 1 avg_loss=0.0052 avg_acc=1.0000
+2025-12-02 11:40:37,087 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep23.pt
+2025-12-02 11:41:23,528 [INFO] => Expert 0 epoch 1 avg_loss=0.0043 avg_acc=1.0000
+2025-12-02 11:41:27,573 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep24.pt
+2025-12-02 11:42:14,168 [INFO] => Expert 0 epoch 1 avg_loss=0.0036 avg_acc=1.0000
+2025-12-02 11:42:18,250 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep25.pt
+2025-12-02 11:43:04,964 [INFO] => Expert 0 epoch 1 avg_loss=0.0030 avg_acc=1.0000
+2025-12-02 11:43:09,033 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep26.pt
+2025-12-02 11:43:55,928 [INFO] => Expert 0 epoch 1 avg_loss=0.0025 avg_acc=1.0000
+2025-12-02 11:43:59,999 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep27.pt
+2025-12-02 11:44:46,786 [INFO] => Expert 0 epoch 1 avg_loss=0.0021 avg_acc=1.0000
+2025-12-02 11:44:50,858 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep28.pt
+2025-12-02 11:45:37,779 [INFO] => Expert 0 epoch 1 avg_loss=0.0017 avg_acc=1.0000
+2025-12-02 11:45:41,836 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep29.pt
+2025-12-02 11:46:28,779 [INFO] => Expert 0 epoch 1 avg_loss=0.0014 avg_acc=1.0000
+2025-12-02 11:46:32,856 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep30.pt
+2025-12-02 11:47:19,808 [INFO] => Expert 0 epoch 1 avg_loss=0.0012 avg_acc=1.0000
+2025-12-02 11:47:23,914 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep31.pt
+2025-12-02 11:48:10,822 [INFO] => Expert 0 epoch 1 avg_loss=0.0010 avg_acc=1.0000
+2025-12-02 11:48:14,897 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep32.pt
+2025-12-02 11:49:01,779 [INFO] => Expert 0 epoch 1 avg_loss=0.0008 avg_acc=1.0000
+2025-12-02 11:49:05,840 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep33.pt
+2025-12-02 11:49:52,738 [INFO] => Expert 0 epoch 1 avg_loss=0.0007 avg_acc=1.0000
+2025-12-02 11:49:56,804 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep34.pt
+2025-12-02 11:50:43,912 [INFO] => Expert 0 epoch 1 avg_loss=0.0006 avg_acc=1.0000
+2025-12-02 11:50:48,013 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep35.pt
+2025-12-02 11:51:35,137 [INFO] => Expert 0 epoch 1 avg_loss=0.0005 avg_acc=1.0000
+2025-12-02 11:51:39,235 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep36.pt
+2025-12-02 11:52:26,301 [INFO] => Expert 0 epoch 1 avg_loss=0.0004 avg_acc=1.0000
+2025-12-02 11:52:30,371 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep37.pt
+2025-12-02 11:53:17,418 [INFO] => Expert 0 epoch 1 avg_loss=0.0003 avg_acc=1.0000
+2025-12-02 11:53:21,510 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep38.pt
+2025-12-02 11:54:08,420 [INFO] => Expert 0 epoch 1 avg_loss=0.0003 avg_acc=1.0000
+2025-12-02 11:54:12,502 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep39.pt
+2025-12-02 11:54:59,437 [INFO] => Expert 0 epoch 1 avg_loss=0.0002 avg_acc=1.0000
+2025-12-02 11:55:03,551 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep40.pt
+2025-12-02 11:55:50,385 [INFO] => Expert 0 epoch 1 avg_loss=0.0002 avg_acc=1.0000
+2025-12-02 11:55:54,493 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep41.pt
+2025-12-02 11:56:41,402 [INFO] => Expert 0 epoch 1 avg_loss=0.0002 avg_acc=1.0000
+2025-12-02 11:56:45,540 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep42.pt
+2025-12-02 11:57:32,742 [INFO] => Expert 0 epoch 1 avg_loss=0.0001 avg_acc=1.0000
+2025-12-02 11:57:36,871 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep43.pt
+2025-12-02 11:58:23,869 [INFO] => Expert 0 epoch 1 avg_loss=0.0001 avg_acc=1.0000
+2025-12-02 11:58:27,932 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep44.pt
+2025-12-02 11:59:14,718 [INFO] => Expert 0 epoch 1 avg_loss=0.0001 avg_acc=1.0000
+2025-12-02 11:59:18,838 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep45.pt
+2025-12-02 12:00:05,620 [INFO] => Expert 0 epoch 1 avg_loss=0.0001 avg_acc=1.0000
+2025-12-02 12:00:09,822 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep46.pt
+2025-12-02 12:00:56,896 [INFO] => Expert 0 epoch 1 avg_loss=0.0001 avg_acc=1.0000
+2025-12-02 12:01:00,987 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep47.pt
+2025-12-02 12:01:47,843 [INFO] => Expert 0 epoch 1 avg_loss=0.0001 avg_acc=1.0000
+2025-12-02 12:01:51,956 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep48.pt
+2025-12-02 12:02:38,833 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:02:42,980 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep49.pt
+2025-12-02 12:03:29,744 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:03:33,849 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep50.pt
+2025-12-02 12:04:20,822 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:04:24,928 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep51.pt
+2025-12-02 12:05:11,919 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:05:16,037 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep52.pt
+2025-12-02 12:06:03,051 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:06:07,162 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep53.pt
+2025-12-02 12:06:53,970 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:06:58,053 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep54.pt
+2025-12-02 12:07:45,040 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:07:49,124 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep55.pt
+2025-12-02 12:08:35,841 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:08:39,880 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep56.pt
+2025-12-02 12:09:26,995 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:09:31,086 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep57.pt
+2025-12-02 12:10:17,645 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:10:21,690 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep58.pt
+2025-12-02 12:11:08,591 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:11:12,631 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep59.pt
+2025-12-02 12:11:59,488 [INFO] => Expert 0 epoch 1 avg_loss=0.0000 avg_acc=1.0000
+2025-12-02 12:12:03,577 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_0_best_ep60.pt
+2025-12-02 12:12:04,825 [INFO] => loaded best checkpoint for expert_0: checkpoints/demo_v11_expert_0_best_ep60.pt
+2025-12-02 12:12:51,945 [INFO] => Expert 1 epoch 1 avg_loss=1.4505 avg_acc=0.5248
+2025-12-02 12:12:55,399 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep1.pt
+2025-12-02 12:13:42,638 [INFO] => Expert 1 epoch 1 avg_loss=1.2812 avg_acc=0.5825
+2025-12-02 12:13:46,655 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep2.pt
+2025-12-02 12:14:33,842 [INFO] => Expert 1 epoch 1 avg_loss=1.1926 avg_acc=0.6212
+2025-12-02 12:14:37,926 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep3.pt
+2025-12-02 12:15:25,228 [INFO] => Expert 1 epoch 1 avg_loss=1.1261 avg_acc=0.6523
+2025-12-02 12:15:29,257 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep4.pt
+2025-12-02 12:16:16,606 [INFO] => Expert 1 epoch 1 avg_loss=1.0711 avg_acc=0.6850
+2025-12-02 12:16:20,741 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep5.pt
+2025-12-02 12:17:08,083 [INFO] => Expert 1 epoch 1 avg_loss=1.0253 avg_acc=0.6973
+2025-12-02 12:17:12,173 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep6.pt
+2025-12-02 12:17:59,558 [INFO] => Expert 1 epoch 1 avg_loss=0.9845 avg_acc=0.7250
+2025-12-02 12:18:03,606 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep7.pt
+2025-12-02 12:18:51,036 [INFO] => Expert 1 epoch 1 avg_loss=0.9470 avg_acc=0.7466
+2025-12-02 12:18:55,078 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep8.pt
+2025-12-02 12:19:42,171 [INFO] => Expert 1 epoch 1 avg_loss=0.9149 avg_acc=0.7652
+2025-12-02 12:19:46,264 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep9.pt
+2025-12-02 12:20:33,639 [INFO] => Expert 1 epoch 1 avg_loss=0.8855 avg_acc=0.7774
+2025-12-02 12:20:37,700 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep10.pt
+2025-12-02 12:21:25,043 [INFO] => Expert 1 epoch 1 avg_loss=0.8571 avg_acc=0.7927
+2025-12-02 12:21:29,106 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep11.pt
+2025-12-02 12:22:16,489 [INFO] => Expert 1 epoch 1 avg_loss=0.8335 avg_acc=0.8074
+2025-12-02 12:22:20,554 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep12.pt
+2025-12-02 12:23:07,918 [INFO] => Expert 1 epoch 1 avg_loss=0.8090 avg_acc=0.8183
+2025-12-02 12:23:11,989 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep13.pt
+2025-12-02 12:23:59,336 [INFO] => Expert 1 epoch 1 avg_loss=0.7874 avg_acc=0.8324
+2025-12-02 12:24:03,402 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep14.pt
+2025-12-02 12:24:50,685 [INFO] => Expert 1 epoch 1 avg_loss=0.7667 avg_acc=0.8367
+2025-12-02 12:24:54,744 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep15.pt
+2025-12-02 12:25:42,057 [INFO] => Expert 1 epoch 1 avg_loss=0.7482 avg_acc=0.8454
+2025-12-02 12:25:46,119 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep16.pt
+2025-12-02 12:26:33,082 [INFO] => Expert 1 epoch 1 avg_loss=0.7290 avg_acc=0.8493
+2025-12-02 12:26:37,117 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep17.pt
+2025-12-02 12:27:24,457 [INFO] => Expert 1 epoch 1 avg_loss=0.7110 avg_acc=0.8622
+2025-12-02 12:27:28,489 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep18.pt
+2025-12-02 12:28:15,607 [INFO] => Expert 1 epoch 1 avg_loss=0.6940 avg_acc=0.8637
+2025-12-02 12:28:19,650 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep19.pt
+2025-12-02 12:29:06,848 [INFO] => Expert 1 epoch 1 avg_loss=0.6781 avg_acc=0.8711
+2025-12-02 12:29:10,881 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep20.pt
+2025-12-02 12:29:58,106 [INFO] => Expert 1 epoch 1 avg_loss=0.6620 avg_acc=0.8777
+2025-12-02 12:30:02,149 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep21.pt
+2025-12-02 12:30:49,342 [INFO] => Expert 1 epoch 1 avg_loss=0.6475 avg_acc=0.8842
+2025-12-02 12:30:53,375 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep22.pt
+2025-12-02 12:31:40,630 [INFO] => Expert 1 epoch 1 avg_loss=0.6346 avg_acc=0.8873
+2025-12-02 12:31:44,715 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep23.pt
+2025-12-02 12:32:32,091 [INFO] => Expert 1 epoch 1 avg_loss=0.6199 avg_acc=0.8931
+2025-12-02 12:32:36,178 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep24.pt
+2025-12-02 12:33:23,492 [INFO] => Expert 1 epoch 1 avg_loss=0.6066 avg_acc=0.8987
+2025-12-02 12:33:27,598 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep25.pt
+2025-12-02 12:34:15,070 [INFO] => Expert 1 epoch 1 avg_loss=0.5943 avg_acc=0.9038
+2025-12-02 12:34:19,233 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep26.pt
+2025-12-02 12:35:06,688 [INFO] => Expert 1 epoch 1 avg_loss=0.5821 avg_acc=0.9095
+2025-12-02 12:35:10,800 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep27.pt
+2025-12-02 12:35:58,187 [INFO] => Expert 1 epoch 1 avg_loss=0.5699 avg_acc=0.9140
+2025-12-02 12:36:02,315 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep28.pt
+2025-12-02 12:36:49,742 [INFO] => Expert 1 epoch 1 avg_loss=0.5585 avg_acc=0.9175
+2025-12-02 12:36:53,834 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep29.pt
+2025-12-02 12:37:41,176 [INFO] => Expert 1 epoch 1 avg_loss=0.5477 avg_acc=0.9184
+2025-12-02 12:37:45,266 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep30.pt
+2025-12-02 12:38:32,576 [INFO] => Expert 1 epoch 1 avg_loss=0.5365 avg_acc=0.9227
+2025-12-02 12:38:36,667 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep31.pt
+2025-12-02 12:39:24,011 [INFO] => Expert 1 epoch 1 avg_loss=0.5265 avg_acc=0.9268
+2025-12-02 12:39:28,122 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep32.pt
+2025-12-02 12:40:15,524 [INFO] => Expert 1 epoch 1 avg_loss=0.5162 avg_acc=0.9309
+2025-12-02 12:40:19,646 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep33.pt
+2025-12-02 12:41:07,024 [INFO] => Expert 1 epoch 1 avg_loss=0.5061 avg_acc=0.9358
+2025-12-02 12:41:11,131 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep34.pt
+2025-12-02 12:41:58,473 [INFO] => Expert 1 epoch 1 avg_loss=0.4974 avg_acc=0.9373
+2025-12-02 12:42:02,553 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep35.pt
+2025-12-02 12:42:49,923 [INFO] => Expert 1 epoch 1 avg_loss=0.4875 avg_acc=0.9355
+2025-12-02 12:42:54,021 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep36.pt
+2025-12-02 12:43:41,582 [INFO] => Expert 1 epoch 1 avg_loss=0.4788 avg_acc=0.9405
+2025-12-02 12:43:45,657 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep37.pt
+2025-12-02 12:44:33,043 [INFO] => Expert 1 epoch 1 avg_loss=0.4693 avg_acc=0.9459
+2025-12-02 12:44:37,126 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep38.pt
+2025-12-02 12:45:24,534 [INFO] => Expert 1 epoch 1 avg_loss=0.4610 avg_acc=0.9469
+2025-12-02 12:45:28,606 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep39.pt
+2025-12-02 12:46:15,937 [INFO] => Expert 1 epoch 1 avg_loss=0.4527 avg_acc=0.9488
+2025-12-02 12:46:20,018 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep40.pt
+2025-12-02 12:47:07,472 [INFO] => Expert 1 epoch 1 avg_loss=0.4447 avg_acc=0.9513
+2025-12-02 12:47:11,546 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep41.pt
+2025-12-02 12:47:58,903 [INFO] => Expert 1 epoch 1 avg_loss=0.4363 avg_acc=0.9535
+2025-12-02 12:48:02,970 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep42.pt
+2025-12-02 12:48:49,610 [INFO] => Expert 1 epoch 1 avg_loss=0.4282 avg_acc=0.9552
+2025-12-02 12:48:53,682 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep43.pt
+2025-12-02 12:49:38,569 [INFO] => Expert 1 epoch 1 avg_loss=0.4208 avg_acc=0.9583
+2025-12-02 12:49:42,653 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep44.pt
+2025-12-02 12:50:27,594 [INFO] => Expert 1 epoch 1 avg_loss=0.4134 avg_acc=0.9622
+2025-12-02 12:50:31,665 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep45.pt
+2025-12-02 12:51:16,680 [INFO] => Expert 1 epoch 1 avg_loss=0.4061 avg_acc=0.9615
+2025-12-02 12:51:20,759 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep46.pt
+2025-12-02 12:52:05,903 [INFO] => Expert 1 epoch 1 avg_loss=0.3991 avg_acc=0.9634
+2025-12-02 12:52:09,975 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep47.pt
+2025-12-02 12:52:54,913 [INFO] => Expert 1 epoch 1 avg_loss=0.3926 avg_acc=0.9659
+2025-12-02 12:52:58,979 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep48.pt
+2025-12-02 12:53:44,198 [INFO] => Expert 1 epoch 1 avg_loss=0.3856 avg_acc=0.9656
+2025-12-02 12:53:48,285 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep49.pt
+2025-12-02 12:54:35,812 [INFO] => Expert 1 epoch 1 avg_loss=0.3789 avg_acc=0.9678
+2025-12-02 12:54:39,947 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep50.pt
+2025-12-02 12:55:27,443 [INFO] => Expert 1 epoch 1 avg_loss=0.3725 avg_acc=0.9701
+2025-12-02 12:55:31,572 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep51.pt
+2025-12-02 12:56:19,059 [INFO] => Expert 1 epoch 1 avg_loss=0.3667 avg_acc=0.9716
+2025-12-02 12:56:23,189 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep52.pt
+2025-12-02 12:57:10,672 [INFO] => Expert 1 epoch 1 avg_loss=0.3605 avg_acc=0.9746
+2025-12-02 12:57:14,794 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep53.pt
+2025-12-02 12:58:02,265 [INFO] => Expert 1 epoch 1 avg_loss=0.3538 avg_acc=0.9759
+2025-12-02 12:58:06,356 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep54.pt
+2025-12-02 12:58:53,743 [INFO] => Expert 1 epoch 1 avg_loss=0.3481 avg_acc=0.9776
+2025-12-02 12:58:57,853 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep55.pt
+2025-12-02 12:59:45,254 [INFO] => Expert 1 epoch 1 avg_loss=0.3425 avg_acc=0.9786
+2025-12-02 12:59:49,373 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep56.pt
+2025-12-02 13:00:36,808 [INFO] => Expert 1 epoch 1 avg_loss=0.3363 avg_acc=0.9798
+2025-12-02 13:00:40,947 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep57.pt
+2025-12-02 13:01:28,475 [INFO] => Expert 1 epoch 1 avg_loss=0.3318 avg_acc=0.9808
+2025-12-02 13:01:32,639 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep58.pt
+2025-12-02 13:02:20,027 [INFO] => Expert 1 epoch 1 avg_loss=0.3261 avg_acc=0.9816
+2025-12-02 13:02:24,153 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep59.pt
+2025-12-02 13:03:11,637 [INFO] => Expert 1 epoch 1 avg_loss=0.3207 avg_acc=0.9839
+2025-12-02 13:03:15,768 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_1_best_ep60.pt
+2025-12-02 13:03:17,033 [INFO] => loaded best checkpoint for expert_1: checkpoints/demo_v11_expert_1_best_ep60.pt
+2025-12-02 13:04:28,953 [INFO] => Expert 2 epoch 1 avg_loss=1.6647 avg_acc=0.4470
+2025-12-02 13:04:32,435 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep1.pt
+2025-12-02 13:05:21,580 [INFO] => Expert 2 epoch 1 avg_loss=1.4566 avg_acc=0.5204
+2025-12-02 13:05:25,614 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep2.pt
+2025-12-02 13:06:13,026 [INFO] => Expert 2 epoch 1 avg_loss=1.3596 avg_acc=0.5572
+2025-12-02 13:06:17,071 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep3.pt
+2025-12-02 13:07:04,471 [INFO] => Expert 2 epoch 1 avg_loss=1.2903 avg_acc=0.5884
+2025-12-02 13:07:08,515 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep4.pt
+2025-12-02 13:08:20,184 [INFO] => Expert 2 epoch 1 avg_loss=1.2333 avg_acc=0.6143
+2025-12-02 13:08:24,236 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep5.pt
+2025-12-02 13:09:33,798 [INFO] => Expert 2 epoch 1 avg_loss=1.1860 avg_acc=0.6410
+2025-12-02 13:09:37,846 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep6.pt
+2025-12-02 13:10:25,371 [INFO] => Expert 2 epoch 1 avg_loss=1.1464 avg_acc=0.6558
+2025-12-02 13:10:29,427 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep7.pt
+2025-12-02 13:11:16,956 [INFO] => Expert 2 epoch 1 avg_loss=1.1106 avg_acc=0.6829
+2025-12-02 13:11:21,013 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep8.pt
+2025-12-02 13:12:28,962 [INFO] => Expert 2 epoch 1 avg_loss=1.0784 avg_acc=0.6876
+2025-12-02 13:12:33,016 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep9.pt
+2025-12-02 13:13:39,617 [INFO] => Expert 2 epoch 1 avg_loss=1.0492 avg_acc=0.7043
+2025-12-02 13:13:44,143 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep10.pt
+2025-12-02 13:15:24,177 [INFO] => Expert 2 epoch 1 avg_loss=1.0229 avg_acc=0.7155
+2025-12-02 13:15:28,390 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep11.pt
+2025-12-02 13:16:30,673 [INFO] => Expert 2 epoch 1 avg_loss=0.9994 avg_acc=0.7247
+2025-12-02 13:16:34,856 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep12.pt
+2025-12-02 13:17:38,505 [INFO] => Expert 2 epoch 1 avg_loss=0.9777 avg_acc=0.7385
+2025-12-02 13:17:42,627 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep13.pt
+2025-12-02 13:19:21,091 [INFO] => Expert 2 epoch 1 avg_loss=0.9568 avg_acc=0.7458
+2025-12-02 13:19:25,290 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep14.pt
+2025-12-02 13:20:33,519 [INFO] => Expert 2 epoch 1 avg_loss=0.9367 avg_acc=0.7535
+2025-12-02 13:20:37,621 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep15.pt
+2025-12-02 13:21:48,651 [INFO] => Expert 2 epoch 1 avg_loss=0.9190 avg_acc=0.7639
+2025-12-02 13:21:52,776 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep16.pt
+2025-12-02 13:23:30,946 [INFO] => Expert 2 epoch 1 avg_loss=0.9022 avg_acc=0.7701
+2025-12-02 13:23:35,092 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep17.pt
+2025-12-02 13:24:45,973 [INFO] => Expert 2 epoch 1 avg_loss=0.8848 avg_acc=0.7802
+2025-12-02 13:24:50,096 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep18.pt
+2025-12-02 13:26:29,177 [INFO] => Expert 2 epoch 1 avg_loss=0.8697 avg_acc=0.7822
+2025-12-02 13:26:33,378 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep19.pt
+2025-12-02 13:27:21,832 [INFO] => Expert 2 epoch 1 avg_loss=0.8544 avg_acc=0.7952
+2025-12-02 13:27:25,957 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep20.pt
+2025-12-02 13:28:14,267 [INFO] => Expert 2 epoch 1 avg_loss=0.8401 avg_acc=0.7987
+2025-12-02 13:28:18,391 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep21.pt
+2025-12-02 13:29:29,749 [INFO] => Expert 2 epoch 1 avg_loss=0.8267 avg_acc=0.8019
+2025-12-02 13:29:33,889 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep22.pt
+2025-12-02 13:30:44,048 [INFO] => Expert 2 epoch 1 avg_loss=0.8140 avg_acc=0.8107
+2025-12-02 13:30:48,232 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep23.pt
+2025-12-02 13:32:27,517 [INFO] => Expert 2 epoch 1 avg_loss=0.8010 avg_acc=0.8142
+2025-12-02 13:32:32,107 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep24.pt
+2025-12-02 13:33:41,353 [INFO] => Expert 2 epoch 1 avg_loss=0.7891 avg_acc=0.8191
+2025-12-02 13:33:45,557 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep25.pt
+2025-12-02 13:35:24,848 [INFO] => Expert 2 epoch 1 avg_loss=0.7774 avg_acc=0.8234
+2025-12-02 13:35:28,984 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep26.pt
+2025-12-02 13:36:38,673 [INFO] => Expert 2 epoch 1 avg_loss=0.7657 avg_acc=0.8278
+2025-12-02 13:36:42,782 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep27.pt
+2025-12-02 13:38:21,413 [INFO] => Expert 2 epoch 1 avg_loss=0.7550 avg_acc=0.8342
+2025-12-02 13:38:25,511 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep28.pt
+2025-12-02 13:39:35,431 [INFO] => Expert 2 epoch 1 avg_loss=0.7456 avg_acc=0.8388
+2025-12-02 13:39:39,537 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep29.pt
+2025-12-02 13:41:18,811 [INFO] => Expert 2 epoch 1 avg_loss=0.7344 avg_acc=0.8398
+2025-12-02 13:41:22,957 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep30.pt
+2025-12-02 13:42:32,796 [INFO] => Expert 2 epoch 1 avg_loss=0.7245 avg_acc=0.8462
+2025-12-02 13:42:36,919 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep31.pt
+2025-12-02 13:43:47,938 [INFO] => Expert 2 epoch 1 avg_loss=0.7154 avg_acc=0.8515
+2025-12-02 13:43:52,136 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep32.pt
+2025-12-02 13:45:24,416 [INFO] => Expert 2 epoch 1 avg_loss=0.7053 avg_acc=0.8537
+2025-12-02 13:45:28,680 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep33.pt
+2025-12-02 13:46:31,314 [INFO] => Expert 2 epoch 1 avg_loss=0.6968 avg_acc=0.8554
+2025-12-02 13:46:35,514 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep34.pt
+2025-12-02 13:47:40,645 [INFO] => Expert 2 epoch 1 avg_loss=0.6873 avg_acc=0.8588
+2025-12-02 13:47:44,859 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep35.pt
+2025-12-02 13:49:22,845 [INFO] => Expert 2 epoch 1 avg_loss=0.6794 avg_acc=0.8610
+2025-12-02 13:49:27,021 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep36.pt
+2025-12-02 13:50:36,122 [INFO] => Expert 2 epoch 1 avg_loss=0.6714 avg_acc=0.8655
+2025-12-02 13:50:40,218 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep37.pt
+2025-12-02 13:52:20,344 [INFO] => Expert 2 epoch 1 avg_loss=0.6626 avg_acc=0.8714
+2025-12-02 13:52:24,515 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep38.pt
+2025-12-02 13:53:33,035 [INFO] => Expert 2 epoch 1 avg_loss=0.6547 avg_acc=0.8743
+2025-12-02 13:53:37,241 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep39.pt
+2025-12-02 13:54:46,790 [INFO] => Expert 2 epoch 1 avg_loss=0.6470 avg_acc=0.8755
+2025-12-02 13:54:50,963 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep40.pt
+2025-12-02 13:56:18,445 [INFO] => Expert 2 epoch 1 avg_loss=0.6397 avg_acc=0.8764
+2025-12-02 13:56:22,733 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep41.pt
+2025-12-02 13:57:07,409 [INFO] => Expert 2 epoch 1 avg_loss=0.6329 avg_acc=0.8807
+2025-12-02 13:57:11,718 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep42.pt
+2025-12-02 13:57:56,427 [INFO] => Expert 2 epoch 1 avg_loss=0.6248 avg_acc=0.8869
+2025-12-02 13:58:00,780 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep43.pt
+2025-12-02 13:58:45,363 [INFO] => Expert 2 epoch 1 avg_loss=0.6183 avg_acc=0.8868
+2025-12-02 13:58:49,771 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep44.pt
+2025-12-02 13:59:34,301 [INFO] => Expert 2 epoch 1 avg_loss=0.6108 avg_acc=0.8860
+2025-12-02 13:59:38,576 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep45.pt
+2025-12-02 14:00:23,095 [INFO] => Expert 2 epoch 1 avg_loss=0.6044 avg_acc=0.8946
+2025-12-02 14:00:27,236 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep46.pt
+2025-12-02 14:01:11,762 [INFO] => Expert 2 epoch 1 avg_loss=0.5976 avg_acc=0.8936
+2025-12-02 14:01:15,960 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep47.pt
+2025-12-02 14:02:00,339 [INFO] => Expert 2 epoch 1 avg_loss=0.5912 avg_acc=0.8962
+2025-12-02 14:02:04,535 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep48.pt
+2025-12-02 14:02:49,193 [INFO] => Expert 2 epoch 1 avg_loss=0.5846 avg_acc=0.8958
+2025-12-02 14:02:53,432 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep49.pt
+2025-12-02 14:03:38,065 [INFO] => Expert 2 epoch 1 avg_loss=0.5789 avg_acc=0.9006
+2025-12-02 14:03:42,326 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep50.pt
+2025-12-02 14:04:26,922 [INFO] => Expert 2 epoch 1 avg_loss=0.5726 avg_acc=0.9031
+2025-12-02 14:04:31,099 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep51.pt
+2025-12-02 14:05:37,026 [INFO] => Expert 2 epoch 1 avg_loss=0.5660 avg_acc=0.9070
+2025-12-02 14:05:41,211 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep52.pt
+2025-12-02 14:07:21,513 [INFO] => Expert 2 epoch 1 avg_loss=0.5604 avg_acc=0.9086
+2025-12-02 14:07:25,692 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep53.pt
+2025-12-02 14:08:34,074 [INFO] => Expert 2 epoch 1 avg_loss=0.5547 avg_acc=0.9102
+2025-12-02 14:08:38,328 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep54.pt
+2025-12-02 14:10:18,457 [INFO] => Expert 2 epoch 1 avg_loss=0.5484 avg_acc=0.9118
+2025-12-02 14:10:22,677 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep55.pt
+2025-12-02 14:11:31,046 [INFO] => Expert 2 epoch 1 avg_loss=0.5439 avg_acc=0.9109
+2025-12-02 14:11:35,167 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep56.pt
+2025-12-02 14:12:27,609 [INFO] => Expert 2 epoch 1 avg_loss=0.5381 avg_acc=0.9167
+2025-12-02 14:12:31,730 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep57.pt
+2025-12-02 14:13:16,280 [INFO] => Expert 2 epoch 1 avg_loss=0.5326 avg_acc=0.9153
+2025-12-02 14:13:20,400 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep58.pt
+2025-12-02 14:14:04,807 [INFO] => Expert 2 epoch 1 avg_loss=0.5275 avg_acc=0.9172
+2025-12-02 14:14:08,928 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep59.pt
+2025-12-02 14:14:53,294 [INFO] => Expert 2 epoch 1 avg_loss=0.5223 avg_acc=0.9201
+2025-12-02 14:14:57,424 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_2_best_ep60.pt
+2025-12-02 14:14:58,549 [INFO] => loaded best checkpoint for expert_2: checkpoints/demo_v11_expert_2_best_ep60.pt
+2025-12-02 14:15:43,153 [INFO] => Expert 3 epoch 1 avg_loss=1.3247 avg_acc=0.5452
+2025-12-02 14:15:46,647 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep1.pt
+2025-12-02 14:16:31,518 [INFO] => Expert 3 epoch 1 avg_loss=1.1631 avg_acc=0.6092
+2025-12-02 14:16:35,626 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep2.pt
+2025-12-02 14:17:20,469 [INFO] => Expert 3 epoch 1 avg_loss=1.0806 avg_acc=0.6476
+2025-12-02 14:17:24,626 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep3.pt
+2025-12-02 14:18:09,212 [INFO] => Expert 3 epoch 1 avg_loss=1.0167 avg_acc=0.6841
+2025-12-02 14:18:13,344 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep4.pt
+2025-12-02 14:18:58,039 [INFO] => Expert 3 epoch 1 avg_loss=0.9678 avg_acc=0.7032
+2025-12-02 14:19:02,094 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep5.pt
+2025-12-02 14:19:47,018 [INFO] => Expert 3 epoch 1 avg_loss=0.9258 avg_acc=0.7238
+2025-12-02 14:19:51,078 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep6.pt
+2025-12-02 14:20:35,963 [INFO] => Expert 3 epoch 1 avg_loss=0.8903 avg_acc=0.7387
+2025-12-02 14:20:39,984 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep7.pt
+2025-12-02 14:21:24,622 [INFO] => Expert 3 epoch 1 avg_loss=0.8597 avg_acc=0.7549
+2025-12-02 14:21:28,693 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep8.pt
+2025-12-02 14:22:13,461 [INFO] => Expert 3 epoch 1 avg_loss=0.8317 avg_acc=0.7631
+2025-12-02 14:22:17,584 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep9.pt
+2025-12-02 14:23:02,325 [INFO] => Expert 3 epoch 1 avg_loss=0.8076 avg_acc=0.7833
+2025-12-02 14:23:06,473 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep10.pt
+2025-12-02 14:23:52,317 [INFO] => Expert 3 epoch 1 avg_loss=0.7850 avg_acc=0.7908
+2025-12-02 14:23:56,773 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep11.pt
+2025-12-02 14:24:41,389 [INFO] => Expert 3 epoch 1 avg_loss=0.7640 avg_acc=0.7994
+2025-12-02 14:24:45,569 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep12.pt
+2025-12-02 14:25:30,117 [INFO] => Expert 3 epoch 1 avg_loss=0.7449 avg_acc=0.8068
+2025-12-02 14:25:34,305 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep13.pt
+2025-12-02 14:26:19,189 [INFO] => Expert 3 epoch 1 avg_loss=0.7267 avg_acc=0.8180
+2025-12-02 14:26:23,291 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep14.pt
+2025-12-02 14:27:08,033 [INFO] => Expert 3 epoch 1 avg_loss=0.7099 avg_acc=0.8264
+2025-12-02 14:27:12,141 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep15.pt
+2025-12-02 14:27:56,910 [INFO] => Expert 3 epoch 1 avg_loss=0.6943 avg_acc=0.8329
+2025-12-02 14:28:01,027 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep16.pt
+2025-12-02 14:28:45,692 [INFO] => Expert 3 epoch 1 avg_loss=0.6794 avg_acc=0.8440
+2025-12-02 14:28:49,949 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep17.pt
+2025-12-02 14:29:34,604 [INFO] => Expert 3 epoch 1 avg_loss=0.6655 avg_acc=0.8526
+2025-12-02 14:29:38,808 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep18.pt
+2025-12-02 14:30:23,599 [INFO] => Expert 3 epoch 1 avg_loss=0.6517 avg_acc=0.8538
+2025-12-02 14:30:27,827 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep19.pt
+2025-12-02 14:31:12,330 [INFO] => Expert 3 epoch 1 avg_loss=0.6388 avg_acc=0.8642
+2025-12-02 14:31:16,498 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep20.pt
+2025-12-02 14:32:01,059 [INFO] => Expert 3 epoch 1 avg_loss=0.6270 avg_acc=0.8647
+2025-12-02 14:32:05,226 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep21.pt
+2025-12-02 14:32:40,343 [INFO] => Expert 3 epoch 1 avg_loss=0.6152 avg_acc=0.8766
+2025-12-02 14:32:44,512 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep22.pt
+2025-12-02 14:33:19,408 [INFO] => Expert 3 epoch 1 avg_loss=0.6041 avg_acc=0.8759
+2025-12-02 14:33:23,581 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep23.pt
+2025-12-02 14:33:58,411 [INFO] => Expert 3 epoch 1 avg_loss=0.5930 avg_acc=0.8826
+2025-12-02 14:34:02,572 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep24.pt
+2025-12-02 14:34:37,172 [INFO] => Expert 3 epoch 1 avg_loss=0.5829 avg_acc=0.8897
+2025-12-02 14:34:41,330 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep25.pt
+2025-12-02 14:35:17,984 [INFO] => Expert 3 epoch 1 avg_loss=0.5731 avg_acc=0.8939
+2025-12-02 14:35:22,142 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep26.pt
+2025-12-02 14:36:06,496 [INFO] => Expert 3 epoch 1 avg_loss=0.5638 avg_acc=0.8951
+2025-12-02 14:36:10,665 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep27.pt
+2025-12-02 14:36:47,730 [INFO] => Expert 3 epoch 1 avg_loss=0.5549 avg_acc=0.9005
+2025-12-02 14:36:51,883 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep28.pt
+2025-12-02 14:37:32,465 [INFO] => Expert 3 epoch 1 avg_loss=0.5452 avg_acc=0.9005
+2025-12-02 14:37:36,755 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep29.pt
+2025-12-02 14:38:19,635 [INFO] => Expert 3 epoch 1 avg_loss=0.5362 avg_acc=0.9134
+2025-12-02 14:38:23,882 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep30.pt
+2025-12-02 14:39:05,185 [INFO] => Expert 3 epoch 1 avg_loss=0.5279 avg_acc=0.9088
+2025-12-02 14:39:09,361 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep31.pt
+2025-12-02 14:39:53,902 [INFO] => Expert 3 epoch 1 avg_loss=0.5199 avg_acc=0.9138
+2025-12-02 14:39:58,113 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep32.pt
+2025-12-02 14:40:42,821 [INFO] => Expert 3 epoch 1 avg_loss=0.5118 avg_acc=0.9174
+2025-12-02 14:40:47,062 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep33.pt
+2025-12-02 14:41:31,596 [INFO] => Expert 3 epoch 1 avg_loss=0.5045 avg_acc=0.9203
+2025-12-02 14:41:35,765 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep34.pt
+2025-12-02 14:42:20,027 [INFO] => Expert 3 epoch 1 avg_loss=0.4969 avg_acc=0.9178
+2025-12-02 14:42:24,218 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep35.pt
+2025-12-02 14:43:09,105 [INFO] => Expert 3 epoch 1 avg_loss=0.4893 avg_acc=0.9243
+2025-12-02 14:43:13,261 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep36.pt
+2025-12-02 14:43:57,626 [INFO] => Expert 3 epoch 1 avg_loss=0.4827 avg_acc=0.9239
+2025-12-02 14:44:01,823 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep37.pt
+2025-12-02 14:44:46,169 [INFO] => Expert 3 epoch 1 avg_loss=0.4753 avg_acc=0.9295
+2025-12-02 14:44:50,348 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep38.pt
+2025-12-02 14:45:35,223 [INFO] => Expert 3 epoch 1 avg_loss=0.4690 avg_acc=0.9285
+2025-12-02 14:45:39,387 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep39.pt
+2025-12-02 14:46:24,017 [INFO] => Expert 3 epoch 1 avg_loss=0.4624 avg_acc=0.9298
+2025-12-02 14:46:28,193 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep40.pt
+2025-12-02 14:47:12,710 [INFO] => Expert 3 epoch 1 avg_loss=0.4556 avg_acc=0.9336
+2025-12-02 14:47:16,951 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep41.pt
+2025-12-02 14:48:01,310 [INFO] => Expert 3 epoch 1 avg_loss=0.4496 avg_acc=0.9352
+2025-12-02 14:48:05,442 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep42.pt
+2025-12-02 14:48:49,784 [INFO] => Expert 3 epoch 1 avg_loss=0.4438 avg_acc=0.9337
+2025-12-02 14:48:53,932 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep43.pt
+2025-12-02 14:49:38,221 [INFO] => Expert 3 epoch 1 avg_loss=0.4376 avg_acc=0.9370
+2025-12-02 14:49:42,432 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep44.pt
+2025-12-02 14:50:26,749 [INFO] => Expert 3 epoch 1 avg_loss=0.4315 avg_acc=0.9353
+2025-12-02 14:50:31,024 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep45.pt
+2025-12-02 14:51:15,394 [INFO] => Expert 3 epoch 1 avg_loss=0.4260 avg_acc=0.9376
+2025-12-02 14:51:19,673 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep46.pt
+2025-12-02 14:52:04,009 [INFO] => Expert 3 epoch 1 avg_loss=0.4201 avg_acc=0.9388
+2025-12-02 14:52:08,143 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep47.pt
+2025-12-02 14:52:52,555 [INFO] => Expert 3 epoch 1 avg_loss=0.4153 avg_acc=0.9432
+2025-12-02 14:52:56,658 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep48.pt
+2025-12-02 14:53:41,200 [INFO] => Expert 3 epoch 1 avg_loss=0.4105 avg_acc=0.9398
+2025-12-02 14:53:45,304 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep49.pt
+2025-12-02 14:54:29,718 [INFO] => Expert 3 epoch 1 avg_loss=0.4041 avg_acc=0.9452
+2025-12-02 14:54:33,838 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep50.pt
+2025-12-02 14:55:18,060 [INFO] => Expert 3 epoch 1 avg_loss=0.3998 avg_acc=0.9411
+2025-12-02 14:55:22,289 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep51.pt
+2025-12-02 14:56:06,764 [INFO] => Expert 3 epoch 1 avg_loss=0.3940 avg_acc=0.9459
+2025-12-02 14:56:10,867 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep52.pt
+2025-12-02 14:56:55,221 [INFO] => Expert 3 epoch 1 avg_loss=0.3894 avg_acc=0.9489
+2025-12-02 14:56:59,372 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep53.pt
+2025-12-02 14:57:43,656 [INFO] => Expert 3 epoch 1 avg_loss=0.3840 avg_acc=0.9476
+2025-12-02 14:57:47,791 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep54.pt
+2025-12-02 14:58:32,295 [INFO] => Expert 3 epoch 1 avg_loss=0.3798 avg_acc=0.9491
+2025-12-02 14:58:36,445 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep55.pt
+2025-12-02 14:59:20,825 [INFO] => Expert 3 epoch 1 avg_loss=0.3747 avg_acc=0.9496
+2025-12-02 14:59:24,976 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep56.pt
+2025-12-02 15:00:09,384 [INFO] => Expert 3 epoch 1 avg_loss=0.3704 avg_acc=0.9509
+2025-12-02 15:00:13,525 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep57.pt
+2025-12-02 15:00:57,870 [INFO] => Expert 3 epoch 1 avg_loss=0.3660 avg_acc=0.9519
+2025-12-02 15:01:02,015 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep58.pt
+2025-12-02 15:01:46,328 [INFO] => Expert 3 epoch 1 avg_loss=0.3617 avg_acc=0.9523
+2025-12-02 15:01:50,475 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep59.pt
+2025-12-02 15:02:34,909 [INFO] => Expert 3 epoch 1 avg_loss=0.3570 avg_acc=0.9530
+2025-12-02 15:02:39,095 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_3_best_ep60.pt
+2025-12-02 15:02:40,257 [INFO] => loaded best checkpoint for expert_3: checkpoints/demo_v11_expert_3_best_ep60.pt
+2025-12-02 15:03:24,509 [INFO] => Expert 4 epoch 1 avg_loss=0.8078 avg_acc=0.8207
+2025-12-02 15:03:28,151 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep1.pt
+2025-12-02 15:04:12,629 [INFO] => Expert 4 epoch 1 avg_loss=0.6794 avg_acc=0.8666
+2025-12-02 15:04:16,848 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep2.pt
+2025-12-02 15:05:01,348 [INFO] => Expert 4 epoch 1 avg_loss=0.5988 avg_acc=0.9007
+2025-12-02 15:05:05,568 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep3.pt
+2025-12-02 15:05:49,572 [INFO] => Expert 4 epoch 1 avg_loss=0.5377 avg_acc=0.9232
+2025-12-02 15:05:53,613 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep4.pt
+2025-12-02 15:06:37,950 [INFO] => Expert 4 epoch 1 avg_loss=0.4874 avg_acc=0.9409
+2025-12-02 15:06:41,991 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep5.pt
+2025-12-02 15:07:26,003 [INFO] => Expert 4 epoch 1 avg_loss=0.4464 avg_acc=0.9479
+2025-12-02 15:07:30,039 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep6.pt
+2025-12-02 15:08:14,149 [INFO] => Expert 4 epoch 1 avg_loss=0.4108 avg_acc=0.9611
+2025-12-02 15:08:18,256 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep7.pt
+2025-12-02 15:09:02,356 [INFO] => Expert 4 epoch 1 avg_loss=0.3795 avg_acc=0.9672
+2025-12-02 15:09:06,444 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep8.pt
+2025-12-02 15:09:50,854 [INFO] => Expert 4 epoch 1 avg_loss=0.3518 avg_acc=0.9741
+2025-12-02 15:09:54,942 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep9.pt
+2025-12-02 15:10:39,253 [INFO] => Expert 4 epoch 1 avg_loss=0.3274 avg_acc=0.9775
+2025-12-02 15:10:43,335 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep10.pt
+2025-12-02 15:11:27,423 [INFO] => Expert 4 epoch 1 avg_loss=0.3051 avg_acc=0.9798
+2025-12-02 15:11:31,516 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep11.pt
+2025-12-02 15:12:16,044 [INFO] => Expert 4 epoch 1 avg_loss=0.2862 avg_acc=0.9830
+2025-12-02 15:12:20,115 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep12.pt
+2025-12-02 15:13:04,356 [INFO] => Expert 4 epoch 1 avg_loss=0.2675 avg_acc=0.9841
+2025-12-02 15:13:08,445 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep13.pt
+2025-12-02 15:13:52,775 [INFO] => Expert 4 epoch 1 avg_loss=0.2513 avg_acc=0.9863
+2025-12-02 15:13:56,836 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep14.pt
+2025-12-02 15:14:41,185 [INFO] => Expert 4 epoch 1 avg_loss=0.2365 avg_acc=0.9903
+2025-12-02 15:14:45,287 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep15.pt
+2025-12-02 15:15:29,470 [INFO] => Expert 4 epoch 1 avg_loss=0.2226 avg_acc=0.9892
+2025-12-02 15:15:33,636 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep16.pt
+2025-12-02 15:16:18,037 [INFO] => Expert 4 epoch 1 avg_loss=0.2103 avg_acc=0.9926
+2025-12-02 15:16:22,109 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep17.pt
+2025-12-02 15:17:06,602 [INFO] => Expert 4 epoch 1 avg_loss=0.1993 avg_acc=0.9930
+2025-12-02 15:17:10,665 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep18.pt
+2025-12-02 15:17:55,027 [INFO] => Expert 4 epoch 1 avg_loss=0.1882 avg_acc=0.9956
+2025-12-02 15:17:59,073 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep19.pt
+2025-12-02 15:18:43,517 [INFO] => Expert 4 epoch 1 avg_loss=0.1788 avg_acc=0.9949
+2025-12-02 15:18:47,592 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep20.pt
+2025-12-02 15:19:31,810 [INFO] => Expert 4 epoch 1 avg_loss=0.1694 avg_acc=0.9966
+2025-12-02 15:19:35,884 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep21.pt
+2025-12-02 15:20:20,490 [INFO] => Expert 4 epoch 1 avg_loss=0.1609 avg_acc=0.9978
+2025-12-02 15:20:24,544 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep22.pt
+2025-12-02 15:21:09,046 [INFO] => Expert 4 epoch 1 avg_loss=0.1531 avg_acc=0.9989
+2025-12-02 15:21:13,121 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep23.pt
+2025-12-02 15:21:57,538 [INFO] => Expert 4 epoch 1 avg_loss=0.1457 avg_acc=0.9988
+2025-12-02 15:22:01,590 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep24.pt
+2025-12-02 15:22:45,969 [INFO] => Expert 4 epoch 1 avg_loss=0.1385 avg_acc=0.9998
+2025-12-02 15:22:50,023 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep25.pt
+2025-12-02 15:23:34,310 [INFO] => Expert 4 epoch 1 avg_loss=0.1319 avg_acc=0.9998
+2025-12-02 15:23:38,354 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep26.pt
+2025-12-02 15:24:22,378 [INFO] => Expert 4 epoch 1 avg_loss=0.1261 avg_acc=0.9998
+2025-12-02 15:24:26,430 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep27.pt
+2025-12-02 15:25:10,488 [INFO] => Expert 4 epoch 1 avg_loss=0.1202 avg_acc=0.9999
+2025-12-02 15:25:14,584 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep28.pt
+2025-12-02 15:25:58,761 [INFO] => Expert 4 epoch 1 avg_loss=0.1147 avg_acc=0.9996
+2025-12-02 15:26:02,857 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep29.pt
+2025-12-02 15:26:46,982 [INFO] => Expert 4 epoch 1 avg_loss=0.1096 avg_acc=1.0000
+2025-12-02 15:26:51,070 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep30.pt
+2025-12-02 15:27:35,401 [INFO] => Expert 4 epoch 1 avg_loss=0.1046 avg_acc=1.0000
+2025-12-02 15:27:39,503 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep31.pt
+2025-12-02 15:28:23,843 [INFO] => Expert 4 epoch 1 avg_loss=0.1001 avg_acc=1.0000
+2025-12-02 15:28:27,975 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep32.pt
+2025-12-02 15:29:12,141 [INFO] => Expert 4 epoch 1 avg_loss=0.0959 avg_acc=0.9998
+2025-12-02 15:29:16,262 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep33.pt
+2025-12-02 15:30:00,615 [INFO] => Expert 4 epoch 1 avg_loss=0.0915 avg_acc=1.0000
+2025-12-02 15:30:04,681 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep34.pt
+2025-12-02 15:30:48,964 [INFO] => Expert 4 epoch 1 avg_loss=0.0878 avg_acc=1.0000
+2025-12-02 15:30:53,045 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep35.pt
+2025-12-02 15:31:37,455 [INFO] => Expert 4 epoch 1 avg_loss=0.0840 avg_acc=1.0000
+2025-12-02 15:31:41,553 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep36.pt
+2025-12-02 15:32:25,923 [INFO] => Expert 4 epoch 1 avg_loss=0.0805 avg_acc=1.0000
+2025-12-02 15:32:30,123 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep37.pt
+2025-12-02 15:33:14,891 [INFO] => Expert 4 epoch 1 avg_loss=0.0770 avg_acc=1.0000
+2025-12-02 15:33:19,115 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep38.pt
+2025-12-02 15:34:03,410 [INFO] => Expert 4 epoch 1 avg_loss=0.0738 avg_acc=1.0000
+2025-12-02 15:34:07,648 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep39.pt
+2025-12-02 15:34:51,950 [INFO] => Expert 4 epoch 1 avg_loss=0.0705 avg_acc=1.0000
+2025-12-02 15:34:56,047 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep40.pt
+2025-12-02 15:35:40,383 [INFO] => Expert 4 epoch 1 avg_loss=0.0678 avg_acc=1.0000
+2025-12-02 15:35:44,429 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep41.pt
+2025-12-02 15:36:28,422 [INFO] => Expert 4 epoch 1 avg_loss=0.0650 avg_acc=1.0000
+2025-12-02 15:36:32,467 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep42.pt
+2025-12-02 15:37:16,563 [INFO] => Expert 4 epoch 1 avg_loss=0.0624 avg_acc=1.0000
+2025-12-02 15:37:20,660 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep43.pt
+2025-12-02 15:38:05,157 [INFO] => Expert 4 epoch 1 avg_loss=0.0598 avg_acc=1.0000
+2025-12-02 15:38:09,210 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep44.pt
+2025-12-02 15:38:53,645 [INFO] => Expert 4 epoch 1 avg_loss=0.0576 avg_acc=1.0000
+2025-12-02 15:38:57,756 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep45.pt
+2025-12-02 15:39:42,015 [INFO] => Expert 4 epoch 1 avg_loss=0.0556 avg_acc=1.0000
+2025-12-02 15:39:46,111 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep46.pt
+2025-12-02 15:40:30,613 [INFO] => Expert 4 epoch 1 avg_loss=0.0530 avg_acc=1.0000
+2025-12-02 15:40:34,714 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep47.pt
+2025-12-02 15:41:18,983 [INFO] => Expert 4 epoch 1 avg_loss=0.0510 avg_acc=1.0000
+2025-12-02 15:41:23,102 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep48.pt
+2025-12-02 15:42:05,917 [INFO] => Expert 4 epoch 1 avg_loss=0.0487 avg_acc=1.0000
+2025-12-02 15:42:10,023 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep49.pt
+2025-12-02 15:42:54,282 [INFO] => Expert 4 epoch 1 avg_loss=0.0470 avg_acc=1.0000
+2025-12-02 15:42:58,378 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep50.pt
+2025-12-02 15:43:42,814 [INFO] => Expert 4 epoch 1 avg_loss=0.0452 avg_acc=1.0000
+2025-12-02 15:43:46,919 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep51.pt
+2025-12-02 15:44:31,320 [INFO] => Expert 4 epoch 1 avg_loss=0.0435 avg_acc=1.0000
+2025-12-02 15:44:35,412 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep52.pt
+2025-12-02 15:45:19,749 [INFO] => Expert 4 epoch 1 avg_loss=0.0416 avg_acc=1.0000
+2025-12-02 15:45:23,836 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep53.pt
+2025-12-02 15:46:08,277 [INFO] => Expert 4 epoch 1 avg_loss=0.0403 avg_acc=1.0000
+2025-12-02 15:46:12,342 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep54.pt
+2025-12-02 15:46:56,713 [INFO] => Expert 4 epoch 1 avg_loss=0.0386 avg_acc=1.0000
+2025-12-02 15:47:00,804 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep55.pt
+2025-12-02 15:47:45,055 [INFO] => Expert 4 epoch 1 avg_loss=0.0371 avg_acc=1.0000
+2025-12-02 15:47:49,110 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep56.pt
+2025-12-02 15:48:33,190 [INFO] => Expert 4 epoch 1 avg_loss=0.0358 avg_acc=1.0000
+2025-12-02 15:48:37,246 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep57.pt
+2025-12-02 15:49:21,329 [INFO] => Expert 4 epoch 1 avg_loss=0.0343 avg_acc=1.0000
+2025-12-02 15:49:25,374 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep58.pt
+2025-12-02 15:50:09,641 [INFO] => Expert 4 epoch 1 avg_loss=0.0330 avg_acc=1.0000
+2025-12-02 15:50:13,684 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep59.pt
+2025-12-02 15:50:57,968 [INFO] => Expert 4 epoch 1 avg_loss=0.0316 avg_acc=1.0000
+2025-12-02 15:51:02,014 [INFO] => checkpoint saved: checkpoints/demo_v11_expert_4_best_ep60.pt
+2025-12-02 15:51:03,074 [INFO] => loaded best checkpoint for expert_4: checkpoints/demo_v11_expert_4_best_ep60.pt
+2025-12-02 15:54:33,533 [INFO] [Eval] AllExperts Train acc=0.2623
+2025-12-02 15:54:59,795 [INFO] [Eval] AllExperts Val acc=0.2647
+2025-12-02 15:55:26,010 [INFO] [Eval] AllExperts Test acc=0.2640
+2025-12-02 15:55:26,014 [INFO] === Per-range evaluation: AllExperts-fixed (mode=all_fixed) ===
+2025-12-02 15:55:31,365 [INFO] Range 2-20: acc=0.8888 (n=1618)
+2025-12-02 15:55:36,666 [INFO] Range 21-40: acc=0.0075 (n=1609)
+2025-12-02 15:55:41,920 [INFO] Range 41-60: acc=0.0000 (n=1578)
+2025-12-02 15:55:47,190 [INFO] Range 61-80: acc=0.0000 (n=1588)
+2025-12-02 15:55:52,496 [INFO] Range 81-100: acc=0.4119 (n=1607)
+2025-12-02 16:00:29,559 [INFO] => Router epoch 1 avg_loss=0.0754 avg_acc=0.9765
+2025-12-02 16:00:33,155 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep1.pt
+2025-12-02 16:05:57,144 [INFO] => Router epoch 1 avg_loss=0.0235 avg_acc=0.9936
+2025-12-02 16:06:01,316 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep2.pt
+2025-12-02 16:09:51,084 [INFO] => Router epoch 1 avg_loss=0.0136 avg_acc=0.9964
+2025-12-02 16:09:55,769 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep3.pt
+2025-12-02 16:13:52,009 [INFO] => Router epoch 1 avg_loss=0.0088 avg_acc=0.9982
+2025-12-02 16:13:56,255 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep4.pt
+2025-12-02 16:17:52,458 [INFO] => Router epoch 1 avg_loss=0.0060 avg_acc=0.9991
+2025-12-02 16:17:56,774 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep5.pt
+2025-12-02 16:21:52,939 [INFO] => Router epoch 1 avg_loss=0.0041 avg_acc=0.9996
+2025-12-02 16:21:57,142 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep6.pt
+2025-12-02 16:25:52,881 [INFO] => Router epoch 1 avg_loss=0.0030 avg_acc=0.9998
+2025-12-02 16:25:57,138 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep7.pt
+2025-12-02 16:29:53,170 [INFO] => Router epoch 1 avg_loss=0.0021 avg_acc=1.0000
+2025-12-02 16:29:57,329 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep8.pt
+2025-12-02 18:22:01,001 [INFO] => loaded best checkpoint for base: checkpoints/demo_v11_base_best_ep10.pt
+2025-12-02 18:22:03,733 [INFO] => loaded best checkpoint for expert_0: checkpoints/demo_v11_expert_0_best_ep60.pt
+2025-12-02 18:22:05,627 [INFO] => loaded best checkpoint for expert_1: checkpoints/demo_v11_expert_1_best_ep60.pt
+2025-12-02 18:22:08,743 [INFO] => loaded best checkpoint for expert_2: checkpoints/demo_v11_expert_2_best_ep60.pt
+2025-12-02 18:22:12,280 [INFO] => loaded best checkpoint for expert_3: checkpoints/demo_v11_expert_3_best_ep60.pt
+2025-12-02 18:22:15,852 [INFO] => loaded best checkpoint for expert_4: checkpoints/demo_v11_expert_4_best_ep60.pt
+2025-12-02 18:23:05,041 [INFO] => loaded best checkpoint for base: checkpoints/demo_v11_base_best_ep10.pt
+2025-12-02 18:23:07,367 [INFO] => loaded best checkpoint for expert_0: checkpoints/demo_v11_expert_0_best_ep60.pt
+2025-12-02 18:23:08,159 [INFO] => loaded best checkpoint for expert_1: checkpoints/demo_v11_expert_1_best_ep60.pt
+2025-12-02 18:23:08,936 [INFO] => loaded best checkpoint for expert_2: checkpoints/demo_v11_expert_2_best_ep60.pt
+2025-12-02 18:23:09,710 [INFO] => loaded best checkpoint for expert_3: checkpoints/demo_v11_expert_3_best_ep60.pt
+2025-12-02 18:23:10,483 [INFO] => loaded best checkpoint for expert_4: checkpoints/demo_v11_expert_4_best_ep60.pt
+2025-12-02 18:25:58,199 [INFO] [Eval] AllExperts Train acc=0.2623
+2025-12-02 18:26:19,328 [INFO] [Eval] AllExperts Val acc=0.2647
+2025-12-02 18:26:40,456 [INFO] [Eval] AllExperts Test acc=0.2640
+2025-12-02 18:26:40,457 [INFO] === Per-range evaluation: AllExperts-fixed (mode=all_fixed) ===
+2025-12-02 18:26:44,764 [INFO] Range 2-20: acc=0.8888 (n=1618)
+2025-12-02 18:26:49,053 [INFO] Range 21-40: acc=0.0075 (n=1609)
+2025-12-02 18:26:53,226 [INFO] Range 41-60: acc=0.0000 (n=1578)
+2025-12-02 18:26:57,480 [INFO] Range 61-80: acc=0.0000 (n=1588)
+2025-12-02 18:27:01,747 [INFO] Range 81-100: acc=0.4119 (n=1607)
+2025-12-02 18:27:05,331 [INFO] => loaded best checkpoint for router: checkpoints/demo_v11_router_best_ep8.pt
+2025-12-02 18:27:05,331 [INFO] => resumed router from checkpoints/demo_v11_router_best_ep8.pt
+2025-12-02 18:29:55,798 [INFO] => Router epoch 1 avg_loss=0.0016 avg_acc=1.0000
+2025-12-02 18:29:58,173 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep1.pt
+2025-12-02 18:32:49,142 [INFO] => Router epoch 1 avg_loss=0.0013 avg_acc=1.0000
+2025-12-02 18:32:51,884 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep2.pt
+2025-12-02 18:37:04,236 [INFO] => loaded best checkpoint for base: checkpoints/demo_v11_base_best_ep10.pt
+2025-12-02 18:37:06,302 [INFO] => loaded best checkpoint for expert_0: checkpoints/demo_v11_expert_0_best_ep60.pt
+2025-12-02 18:37:07,528 [INFO] => loaded best checkpoint for expert_1: checkpoints/demo_v11_expert_1_best_ep60.pt
+2025-12-02 18:37:08,988 [INFO] => loaded best checkpoint for expert_2: checkpoints/demo_v11_expert_2_best_ep60.pt
+2025-12-02 18:37:10,278 [INFO] => loaded best checkpoint for expert_3: checkpoints/demo_v11_expert_3_best_ep60.pt
+2025-12-02 18:37:11,099 [INFO] => loaded best checkpoint for expert_4: checkpoints/demo_v11_expert_4_best_ep60.pt
+2025-12-02 18:42:08,105 [INFO] => loaded best checkpoint for base: checkpoints/demo_v11_base_best_ep10.pt
+2025-12-02 18:42:09,941 [INFO] => loaded best checkpoint for expert_0: checkpoints/demo_v11_expert_0_best_ep60.pt
+2025-12-02 18:42:11,356 [INFO] => loaded best checkpoint for expert_1: checkpoints/demo_v11_expert_1_best_ep60.pt
+2025-12-02 18:42:12,810 [INFO] => loaded best checkpoint for expert_2: checkpoints/demo_v11_expert_2_best_ep60.pt
+2025-12-02 18:42:14,226 [INFO] => loaded best checkpoint for expert_3: checkpoints/demo_v11_expert_3_best_ep60.pt
+2025-12-02 18:42:15,211 [INFO] => loaded best checkpoint for expert_4: checkpoints/demo_v11_expert_4_best_ep60.pt
+2025-12-02 18:48:08,868 [INFO] [Eval] AllExperts Train acc=0.2623
+2025-12-02 18:48:53,086 [INFO] [Eval] AllExperts Val acc=0.2647
+2025-12-02 18:49:37,360 [INFO] [Eval] AllExperts Test acc=0.2640
+2025-12-02 18:49:37,361 [INFO] === Per-range evaluation: AllExperts-fixed (mode=all_fixed) ===
+2025-12-02 18:49:46,348 [INFO] Range 2-20: acc=0.8888 (n=1618)
+2025-12-02 18:49:55,281 [INFO] Range 21-40: acc=0.0075 (n=1609)
+2025-12-02 18:50:04,054 [INFO] Range 41-60: acc=0.0000 (n=1578)
+2025-12-02 18:50:12,859 [INFO] Range 61-80: acc=0.0000 (n=1588)
+2025-12-02 18:50:21,770 [INFO] Range 81-100: acc=0.4119 (n=1607)
+2025-12-02 18:50:23,454 [INFO] => loaded best checkpoint for router: checkpoints/demo_v11_router_best_ep8.pt
+2025-12-02 18:50:23,455 [INFO] => resumed router from checkpoints/demo_v11_router_best_ep8.pt
+2025-12-02 18:56:17,264 [INFO] => Router epoch 1 avg_loss=0.0016 avg_acc=1.0000
+2025-12-02 18:56:19,705 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep1.pt
+2025-12-02 19:02:14,102 [INFO] => Router epoch 1 avg_loss=0.0012 avg_acc=1.0000
+2025-12-02 19:02:17,827 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep2.pt
+2025-12-02 19:06:26,603 [INFO] => loaded best checkpoint for base: checkpoints/demo_v11_base_best_ep10.pt
+2025-12-02 19:06:28,911 [INFO] => loaded best checkpoint for expert_0: checkpoints/demo_v11_expert_0_best_ep60.pt
+2025-12-02 19:06:30,696 [INFO] => loaded best checkpoint for expert_1: checkpoints/demo_v11_expert_1_best_ep60.pt
+2025-12-02 19:06:32,168 [INFO] => loaded best checkpoint for expert_2: checkpoints/demo_v11_expert_2_best_ep60.pt
+2025-12-02 19:06:33,728 [INFO] => loaded best checkpoint for expert_3: checkpoints/demo_v11_expert_3_best_ep60.pt
+2025-12-02 19:06:34,848 [INFO] => loaded best checkpoint for expert_4: checkpoints/demo_v11_expert_4_best_ep60.pt
+2025-12-02 19:12:29,912 [INFO] [Eval] AllExperts Train acc=0.2623
+2025-12-02 19:13:14,341 [INFO] [Eval] AllExperts Val acc=0.2647
+2025-12-02 19:13:58,753 [INFO] [Eval] AllExperts Test acc=0.2640
+2025-12-02 19:13:58,755 [INFO] === Per-range evaluation: AllExperts-fixed (mode=all_fixed) ===
+2025-12-02 19:14:07,749 [INFO] Range 2-20: acc=0.8888 (n=1618)
+2025-12-02 19:14:16,736 [INFO] Range 21-40: acc=0.0075 (n=1609)
+2025-12-02 19:14:25,517 [INFO] Range 41-60: acc=0.0000 (n=1578)
+2025-12-02 19:14:34,349 [INFO] Range 61-80: acc=0.0000 (n=1588)
+2025-12-02 19:14:43,279 [INFO] Range 81-100: acc=0.4119 (n=1607)
+2025-12-02 19:14:45,123 [INFO] => loaded best checkpoint for router: checkpoints/demo_v11_router_best_ep8.pt
+2025-12-02 19:14:45,124 [INFO] => resumed router from checkpoints/demo_v11_router_best_ep8.pt
+2025-12-02 19:20:40,067 [INFO] => Router epoch 1 avg_loss=0.0017 avg_acc=1.0000
+2025-12-02 19:20:42,607 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep1.pt
+2025-12-02 19:20:42,607 [INFO] => router epoch 1: new best (loss=0.0017, acc=1.0000), patience_loss=0, patience_acc=0
+2025-12-02 19:26:37,632 [INFO] => Router epoch 1 avg_loss=0.0012 avg_acc=1.0000
+2025-12-02 19:26:41,327 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep2.pt
+2025-12-02 19:26:41,327 [INFO] => router epoch 2: new best (loss=0.0012, acc=1.0000), patience_loss=0, patience_acc=0
+2025-12-02 19:32:36,078 [INFO] => Router epoch 1 avg_loss=0.0010 avg_acc=1.0000
+2025-12-02 19:32:38,810 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep3.pt
+2025-12-02 19:32:38,810 [INFO] => router epoch 3: new best (loss=0.0010, acc=1.0000), patience_loss=0, patience_acc=1
+2025-12-02 19:38:33,879 [INFO] => Router epoch 1 avg_loss=0.0007 avg_acc=1.0000
+2025-12-02 19:38:36,634 [INFO] => checkpoint saved: checkpoints/demo_v11_router_best_ep4.pt
+2025-12-02 19:38:36,634 [INFO] => router epoch 4: new best (loss=0.0007, acc=1.0000), patience_loss=0, patience_acc=0
+2025-12-02 19:55:11,716 [INFO] => loaded best checkpoint for base: checkpoints/demo_v11_base_best_ep10.pt
+2025-12-02 19:55:14,589 [INFO] => loaded best checkpoint for expert_0: checkpoints/demo_v11_expert_0_best_ep60.pt
+2025-12-02 19:55:16,475 [INFO] => loaded best checkpoint for expert_1: checkpoints/demo_v11_expert_1_best_ep60.pt
+2025-12-02 19:55:19,419 [INFO] => loaded best checkpoint for expert_2: checkpoints/demo_v11_expert_2_best_ep60.pt
+2025-12-02 19:55:23,168 [INFO] => loaded best checkpoint for expert_3: checkpoints/demo_v11_expert_3_best_ep60.pt
+2025-12-02 19:55:26,979 [INFO] => loaded best checkpoint for expert_4: checkpoints/demo_v11_expert_4_best_ep60.pt
+2025-12-02 20:01:42,327 [INFO] [Eval] AllExperts Train acc=0.2623
+2025-12-02 20:02:29,231 [INFO] [Eval] AllExperts Val acc=0.2647
+2025-12-02 20:03:16,139 [INFO] [Eval] AllExperts Test acc=0.2640
+2025-12-02 20:03:16,144 [INFO] === Per-range evaluation: AllExperts-fixed (mode=all_fixed) ===
+2025-12-02 20:03:25,634 [INFO] Range 2-20: acc=0.8888 (n=1618)
+2025-12-02 20:03:35,095 [INFO] Range 21-40: acc=0.0075 (n=1609)
+2025-12-02 20:03:44,343 [INFO] Range 41-60: acc=0.0000 (n=1578)
+2025-12-02 20:03:53,714 [INFO] Range 61-80: acc=0.0000 (n=1588)
+2025-12-02 20:04:03,142 [INFO] Range 81-100: acc=0.4119 (n=1607)
+2025-12-02 20:04:06,971 [INFO] => loaded best checkpoint for router: checkpoints/demo_v11_router_best_ep8.pt
+2025-12-02 20:10:21,992 [INFO] [Eval] Router Train acc=0.9728
+2025-12-02 20:11:08,796 [INFO] [Eval] Router Val acc=0.9670
+2025-12-02 20:11:55,807 [INFO] [Eval] Router Test acc=0.9656
+2025-12-02 20:11:55,812 [INFO] === Per-range evaluation: Router (mode=router) ===
+2025-12-02 20:12:05,277 [INFO] Range 2-20: acc=1.0000 (n=1618)
+2025-12-02 20:12:14,708 [INFO] Range 21-40: acc=0.9720 (n=1609)
+2025-12-02 20:12:23,970 [INFO] Range 41-60: acc=0.9068 (n=1578)
+2025-12-02 20:12:33,378 [INFO] Range 61-80: acc=0.9477 (n=1588)
+2025-12-02 20:12:42,819 [INFO] Range 81-100: acc=1.0000 (n=1607)
+2025-12-07 19:36:06,525 [INFO] => loaded cached samples from checkpoints\demo_v11_samples.json (n=40000)
+2025-12-07 19:36:42,450 [INFO] => loaded cached samples from checkpoints\demo_v11_samples.json (n=40000)
+2025-12-07 19:36:49,071 [INFO] => loaded best checkpoint for base: checkpoints\demo_v11_base_best_ep20.pt (missing=0 unexpected=0)
+2025-12-07 19:36:51,146 [INFO] => loaded best checkpoint for expert_0: checkpoints\demo_v11_expert_0_best_ep60.pt (missing=0 unexpected=0)
+2025-12-07 19:36:53,155 [INFO] => loaded best checkpoint for expert_1: checkpoints\demo_v11_expert_1_best_ep60.pt (missing=0 unexpected=0)
+2025-12-07 19:36:55,075 [INFO] => loaded best checkpoint for expert_2: checkpoints\demo_v11_expert_2_best_ep60.pt (missing=0 unexpected=0)
+2025-12-07 19:36:56,955 [INFO] => loaded best checkpoint for expert_3: checkpoints\demo_v11_expert_3_best_ep60.pt (missing=0 unexpected=0)
+2025-12-07 19:36:58,804 [INFO] => loaded best checkpoint for expert_4: checkpoints\demo_v11_expert_4_best_ep60.pt (missing=0 unexpected=0)

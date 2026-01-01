@@ -1,0 +1,425 @@
+2025-12-05 13:25:44,620 [INFO] => SDPA Flash-Attention enabled (torch 2.6.0+cu118)
+2025-12-05 13:25:44,678 [INFO] => loaded cached samples from checkpoints_v13\demo_v13_samples_mixed.json (n=80000)
+2025-12-05 13:25:44,757 [INFO] => loaded balanced train/val/test splits from cache
+2025-12-05 13:25:44,757 [INFO] => using cached balanced splits for train/val/test
+2025-12-05 13:25:44,758 [INFO] => train_size=64002 val_size=7999 test_size=7999
+2025-12-05 13:25:45,096 [INFO] => [base subset (labels 2-99)] label-balanced subset size=6400 (target per-label≈65)
+2025-12-05 13:25:45,163 [INFO] => [expert_train[0]-range_2_20] label balanced to 11951 samples (per-label=629)
+2025-12-05 13:25:45,167 [INFO] => [expert_val[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 13:25:45,171 [INFO] => [expert_test[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 13:25:45,206 [INFO] => [expert_train[1]-range_21_40] label balanced to 12560 samples (per-label=628)
+2025-12-05 13:25:45,212 [INFO] => [expert_val[1]-range_21_40] label balanced to 1260 samples (per-label=63)
+2025-12-05 13:25:45,217 [INFO] => [expert_test[1]-range_21_40] label balanced to 1360 samples (per-label=68)
+2025-12-05 13:25:45,250 [INFO] => [expert_train[2]-range_41_60] label balanced to 12500 samples (per-label=625)
+2025-12-05 13:25:45,255 [INFO] => [expert_val[2]-range_41_60] label balanced to 1420 samples (per-label=71)
+2025-12-05 13:25:45,259 [INFO] => [expert_test[2]-range_41_60] label balanced to 1240 samples (per-label=62)
+2025-12-05 13:25:45,294 [INFO] => [expert_train[3]-range_61_80] label balanced to 12480 samples (per-label=624)
+2025-12-05 13:25:45,297 [INFO] => [expert_val[3]-range_61_80] label balanced to 1220 samples (per-label=61)
+2025-12-05 13:25:45,301 [INFO] => [expert_test[3]-range_61_80] label balanced to 1300 samples (per-label=65)
+2025-12-05 13:25:45,334 [INFO] => [expert_train[4]-range_81_100] label balanced to 11590 samples (per-label=610)
+2025-12-05 13:25:45,339 [INFO] => [expert_val[4]-range_81_100] label balanced to 1254 samples (per-label=66)
+2025-12-05 13:25:45,343 [INFO] => [expert_test[4]-range_81_100] label balanced to 1197 samples (per-label=63)
+2025-12-05 13:27:07,080 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=4.3732 acc=0.0218 macro_f1=0.0032 n=7999
+2025-12-05 13:27:07,081 [INFO] => Base epoch 1 train_loss=4.6645 train_acc=0.0150 val_loss=4.3732 val_acc=0.0218 val_f1=0.0032
+2025-12-05 13:27:07,299 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep1.pt
+2025-12-05 13:28:27,764 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.9427 acc=0.0456 macro_f1=0.0192 n=7999
+2025-12-05 13:28:27,764 [INFO] => Base epoch 1 train_loss=4.0936 train_acc=0.0378 val_loss=3.9427 val_acc=0.0456 val_f1=0.0192
+2025-12-05 13:28:27,924 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep2.pt
+2025-12-05 13:29:48,733 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.8533 acc=0.0561 macro_f1=0.0260 n=7999
+2025-12-05 13:29:48,735 [INFO] => Base epoch 1 train_loss=3.7260 train_acc=0.0630 val_loss=3.8533 val_acc=0.0561 val_f1=0.0260
+2025-12-05 13:29:48,899 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep3.pt
+2025-12-05 13:31:09,879 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.5598 acc=0.0798 macro_f1=0.0506 n=7999
+2025-12-05 13:31:09,879 [INFO] => Base epoch 1 train_loss=3.5786 train_acc=0.0797 val_loss=3.5598 val_acc=0.0798 val_f1=0.0506
+2025-12-05 13:31:10,046 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep4.pt
+2025-12-05 13:32:30,794 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.4261 acc=0.0978 macro_f1=0.0700 n=7999
+2025-12-05 13:32:30,794 [INFO] => Base epoch 1 train_loss=3.2728 train_acc=0.1186 val_loss=3.4261 val_acc=0.0978 val_f1=0.0700
+2025-12-05 13:32:30,956 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep5.pt
+2025-12-05 13:33:51,701 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.4296 acc=0.0970 macro_f1=0.0659 n=7999
+2025-12-05 13:33:51,702 [INFO] => Base epoch 1 train_loss=3.1539 train_acc=0.1400 val_loss=3.4296 val_acc=0.0970 val_f1=0.0659
+2025-12-05 13:35:12,590 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.3866 acc=0.1144 macro_f1=0.0864 n=7999
+2025-12-05 13:35:12,591 [INFO] => Base epoch 1 train_loss=2.9353 train_acc=0.1728 val_loss=3.3866 val_acc=0.1144 val_f1=0.0864
+2025-12-05 13:35:12,754 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep7.pt
+2025-12-05 13:36:33,493 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.1919 acc=0.1428 macro_f1=0.1226 n=7999
+2025-12-05 13:36:33,493 [INFO] => Base epoch 1 train_loss=2.8640 train_acc=0.1963 val_loss=3.1919 val_acc=0.1428 val_f1=0.1226
+2025-12-05 13:36:33,654 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep8.pt
+2025-12-05 13:37:54,547 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.2353 acc=0.1576 macro_f1=0.1449 n=7999
+2025-12-05 13:37:54,548 [INFO] => Base epoch 1 train_loss=2.6025 train_acc=0.2541 val_loss=3.2353 val_acc=0.1576 val_f1=0.1449
+2025-12-05 13:39:15,354 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.2749 acc=0.1804 macro_f1=0.1659 n=7999
+2025-12-05 13:39:15,354 [INFO] => Base epoch 1 train_loss=2.4006 train_acc=0.3084 val_loss=3.2749 val_acc=0.1804 val_f1=0.1659
+2025-12-05 13:40:36,158 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=3.1548 acc=0.2132 macro_f1=0.2072 n=7999
+2025-12-05 13:40:36,159 [INFO] => Base epoch 1 train_loss=2.1928 train_acc=0.3683 val_loss=3.1548 val_acc=0.2132 val_f1=0.2072
+2025-12-05 13:40:36,318 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep11.pt
+2025-12-05 13:41:57,115 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=2.9260 acc=0.2555 macro_f1=0.2490 n=7999
+2025-12-05 13:41:57,115 [INFO] => Base epoch 1 train_loss=1.9358 train_acc=0.4373 val_loss=2.9260 val_acc=0.2555 val_f1=0.2490
+2025-12-05 13:41:57,276 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep12.pt
+2025-12-05 13:43:18,094 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=2.8768 acc=0.2985 macro_f1=0.2927 n=7999
+2025-12-05 13:43:18,094 [INFO] => Base epoch 1 train_loss=1.7516 train_acc=0.4902 val_loss=2.8768 val_acc=0.2985 val_f1=0.2927
+2025-12-05 13:43:18,252 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep13.pt
+2025-12-05 13:44:39,047 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=2.8625 acc=0.3259 macro_f1=0.3231 n=7999
+2025-12-05 13:44:39,048 [INFO] => Base epoch 1 train_loss=1.5408 train_acc=0.5498 val_loss=2.8625 val_acc=0.3259 val_f1=0.3231
+2025-12-05 13:44:39,208 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_base_best_ep14.pt
+2025-12-05 13:45:59,949 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=2.9131 acc=0.3352 macro_f1=0.3312 n=7999
+2025-12-05 13:45:59,949 [INFO] => Base epoch 1 train_loss=1.3617 train_acc=0.5989 val_loss=2.9131 val_acc=0.3352 val_f1=0.3312
+2025-12-05 13:47:20,806 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=2.9490 acc=0.3452 macro_f1=0.3381 n=7999
+2025-12-05 13:47:20,807 [INFO] => Base epoch 1 train_loss=1.1974 train_acc=0.6430 val_loss=2.9490 val_acc=0.3452 val_f1=0.3381
+2025-12-05 13:48:41,560 [INFO] [EvalLoss] [Base-VAL] epoch 1/1 mode=base loss=2.9083 acc=0.3740 macro_f1=0.3692 n=7999
+2025-12-05 13:48:41,560 [INFO] => Base epoch 1 train_loss=1.0643 train_acc=0.6822 val_loss=2.9083 val_acc=0.3740 val_f1=0.3692
+2025-12-05 13:48:41,560 [INFO] => Early stopping base at epoch 17 by val_loss (patience=3)
+2025-12-05 13:48:41,638 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=0)
+2025-12-05 13:48:41,638 [INFO] Starting evaluation (mode=base)
+2025-12-05 13:55:19,947 [INFO] [Eval] Base All mode=base acc=0.3542 macro_f1=0.3536 n=80000
+2025-12-05 13:55:19,954 [INFO] === Per-range evaluation: Base All per-range (mode=base) ===
+2025-12-05 13:56:36,522 [INFO] Range 2-20: acc=0.5639 macro_f1=0.1131 (n=15354)
+2025-12-05 13:57:57,033 [INFO] Range 21-40: acc=0.3628 macro_f1=0.0806 (n=16162)
+2025-12-05 13:59:17,343 [INFO] Range 41-60: acc=0.3389 macro_f1=0.0756 (n=16160)
+2025-12-05 14:00:37,726 [INFO] Range 61-80: acc=0.2618 macro_f1=0.0592 (n=16162)
+2025-12-05 14:01:58,353 [INFO] Range 81-100: acc=0.2539 macro_f1=0.0507 (n=16162)
+2025-12-05 14:03:06,150 [INFO] [Expert 0 Eval] [Expert 0 VAL] epoch 1/1 loss=0.8943 acc=0.7918 n=1273
+2025-12-05 14:03:06,150 [INFO] => Expert 0 epoch 1 train_loss=1.0803 train_acc=0.7138 val_loss=0.8943 val_acc=0.7918
+2025-12-05 14:03:06,170 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_0_best_ep1.pt
+2025-12-05 14:04:14,037 [INFO] [Expert 0 Eval] [Expert 0 VAL] epoch 1/1 loss=0.7506 acc=0.8107 n=1273
+2025-12-05 14:04:14,038 [INFO] => Expert 0 epoch 1 train_loss=0.6699 train_acc=0.8265 val_loss=0.7506 val_acc=0.8107
+2025-12-05 14:04:14,061 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_0_best_ep2.pt
+2025-12-05 14:05:21,853 [INFO] [Expert 0 Eval] [Expert 0 VAL] epoch 1/1 loss=0.7125 acc=0.8138 n=1273
+2025-12-05 14:05:21,854 [INFO] => Expert 0 epoch 1 train_loss=0.4892 train_acc=0.8570 val_loss=0.7125 val_acc=0.8138
+2025-12-05 14:05:21,876 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_0_best_ep3.pt
+2025-12-05 14:06:29,723 [INFO] [Expert 0 Eval] [Expert 0 VAL] epoch 1/1 loss=0.7190 acc=0.8130 n=1273
+2025-12-05 14:06:29,723 [INFO] => Expert 0 epoch 1 train_loss=0.3678 train_acc=0.8911 val_loss=0.7190 val_acc=0.8130
+2025-12-05 14:07:37,596 [INFO] [Expert 0 Eval] [Expert 0 VAL] epoch 1/1 loss=0.7232 acc=0.8193 n=1273
+2025-12-05 14:07:37,597 [INFO] => Expert 0 epoch 1 train_loss=0.2637 train_acc=0.9218 val_loss=0.7232 val_acc=0.8193
+2025-12-05 14:08:45,340 [INFO] [Expert 0 Eval] [Expert 0 VAL] epoch 1/1 loss=0.7803 acc=0.8162 n=1273
+2025-12-05 14:08:45,340 [INFO] => Expert 0 epoch 1 train_loss=0.1802 train_acc=0.9479 val_loss=0.7803 val_acc=0.8162
+2025-12-05 14:08:45,340 [INFO] => Early stopping expert_0 at epoch 6 by val_loss (patience=3)
+2025-12-05 14:08:45,353 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=0)
+2025-12-05 14:09:56,222 [INFO] [Expert 1 Eval] [Expert 1 VAL] epoch 1/1 loss=1.0958 acc=0.7008 n=1260
+2025-12-05 14:09:56,222 [INFO] => Expert 1 epoch 1 train_loss=1.4218 train_acc=0.5937 val_loss=1.0958 val_acc=0.7008
+2025-12-05 14:09:56,241 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_1_best_ep1.pt
+2025-12-05 14:11:06,859 [INFO] [Expert 1 Eval] [Expert 1 VAL] epoch 1/1 loss=0.7939 acc=0.7984 n=1260
+2025-12-05 14:11:06,860 [INFO] => Expert 1 epoch 1 train_loss=0.8333 train_acc=0.7803 val_loss=0.7939 val_acc=0.7984
+2025-12-05 14:11:06,881 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_1_best_ep2.pt
+2025-12-05 14:12:16,196 [INFO] [Expert 1 Eval] [Expert 1 VAL] epoch 1/1 loss=0.7259 acc=0.8071 n=1260
+2025-12-05 14:12:16,196 [INFO] => Expert 1 epoch 1 train_loss=0.5683 train_acc=0.8435 val_loss=0.7259 val_acc=0.8071
+2025-12-05 14:12:16,216 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_1_best_ep3.pt
+2025-12-05 14:13:27,086 [INFO] [Expert 1 Eval] [Expert 1 VAL] epoch 1/1 loss=0.7048 acc=0.8167 n=1260
+2025-12-05 14:13:27,087 [INFO] => Expert 1 epoch 1 train_loss=0.4021 train_acc=0.8841 val_loss=0.7048 val_acc=0.8167
+2025-12-05 14:13:27,107 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_1_best_ep4.pt
+2025-12-05 14:14:37,839 [INFO] [Expert 1 Eval] [Expert 1 VAL] epoch 1/1 loss=0.7189 acc=0.8167 n=1260
+2025-12-05 14:14:37,839 [INFO] => Expert 1 epoch 1 train_loss=0.2844 train_acc=0.9165 val_loss=0.7189 val_acc=0.8167
+2025-12-05 14:15:48,704 [INFO] [Expert 1 Eval] [Expert 1 VAL] epoch 1/1 loss=0.7866 acc=0.8183 n=1260
+2025-12-05 14:15:48,704 [INFO] => Expert 1 epoch 1 train_loss=0.1882 train_acc=0.9494 val_loss=0.7866 val_acc=0.8183
+2025-12-05 14:16:59,524 [INFO] [Expert 1 Eval] [Expert 1 VAL] epoch 1/1 loss=0.8517 acc=0.8151 n=1260
+2025-12-05 14:16:59,525 [INFO] => Expert 1 epoch 1 train_loss=0.1170 train_acc=0.9717 val_loss=0.8517 val_acc=0.8151
+2025-12-05 14:16:59,525 [INFO] => Early stopping expert_1 at epoch 7 by val_loss (patience=3)
+2025-12-05 14:16:59,542 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 14:18:11,000 [INFO] [Expert 2 Eval] [Expert 2 VAL] epoch 1/1 loss=1.3220 acc=0.6486 n=1420
+2025-12-05 14:18:11,001 [INFO] => Expert 2 epoch 1 train_loss=1.5691 train_acc=0.5513 val_loss=1.3220 val_acc=0.6486
+2025-12-05 14:18:11,021 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_2_best_ep1.pt
+2025-12-05 14:19:22,498 [INFO] [Expert 2 Eval] [Expert 2 VAL] epoch 1/1 loss=0.9736 acc=0.7577 n=1420
+2025-12-05 14:19:22,498 [INFO] => Expert 2 epoch 1 train_loss=0.9396 train_acc=0.7495 val_loss=0.9736 val_acc=0.7577
+2025-12-05 14:19:22,519 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_2_best_ep2.pt
+2025-12-05 14:20:33,963 [INFO] [Expert 2 Eval] [Expert 2 VAL] epoch 1/1 loss=0.8176 acc=0.7894 n=1420
+2025-12-05 14:20:33,963 [INFO] => Expert 2 epoch 1 train_loss=0.6340 train_acc=0.8266 val_loss=0.8176 val_acc=0.7894
+2025-12-05 14:20:33,985 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_2_best_ep3.pt
+2025-12-05 14:21:45,391 [INFO] [Expert 2 Eval] [Expert 2 VAL] epoch 1/1 loss=0.8084 acc=0.8007 n=1420
+2025-12-05 14:21:45,391 [INFO] => Expert 2 epoch 1 train_loss=0.4486 train_acc=0.8731 val_loss=0.8084 val_acc=0.8007
+2025-12-05 14:21:45,413 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_2_best_ep4.pt
+2025-12-05 14:22:56,804 [INFO] [Expert 2 Eval] [Expert 2 VAL] epoch 1/1 loss=0.8228 acc=0.8049 n=1420
+2025-12-05 14:22:56,804 [INFO] => Expert 2 epoch 1 train_loss=0.3186 train_acc=0.9112 val_loss=0.8228 val_acc=0.8049
+2025-12-05 14:24:08,342 [INFO] [Expert 2 Eval] [Expert 2 VAL] epoch 1/1 loss=0.8580 acc=0.8085 n=1420
+2025-12-05 14:24:08,342 [INFO] => Expert 2 epoch 1 train_loss=0.2076 train_acc=0.9473 val_loss=0.8580 val_acc=0.8085
+2025-12-05 14:25:19,747 [INFO] [Expert 2 Eval] [Expert 2 VAL] epoch 1/1 loss=0.9592 acc=0.8070 n=1420
+2025-12-05 14:25:19,749 [INFO] => Expert 2 epoch 1 train_loss=0.1297 train_acc=0.9727 val_loss=0.9592 val_acc=0.8070
+2025-12-05 14:25:19,749 [INFO] => Early stopping expert_2 at epoch 7 by val_loss (patience=3)
+2025-12-05 14:25:19,761 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 14:26:30,381 [INFO] [Expert 3 Eval] [Expert 3 VAL] epoch 1/1 loss=1.5014 acc=0.5779 n=1220
+2025-12-05 14:26:30,381 [INFO] => Expert 3 epoch 1 train_loss=1.7738 train_acc=0.4841 val_loss=1.5014 val_acc=0.5779
+2025-12-05 14:26:30,400 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_3_best_ep1.pt
+2025-12-05 14:27:40,679 [INFO] [Expert 3 Eval] [Expert 3 VAL] epoch 1/1 loss=1.1150 acc=0.7246 n=1220
+2025-12-05 14:27:40,679 [INFO] => Expert 3 epoch 1 train_loss=1.1106 train_acc=0.6974 val_loss=1.1150 val_acc=0.7246
+2025-12-05 14:27:40,700 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_3_best_ep2.pt
+2025-12-05 14:28:50,720 [INFO] [Expert 3 Eval] [Expert 3 VAL] epoch 1/1 loss=0.9718 acc=0.7607 n=1220
+2025-12-05 14:28:50,720 [INFO] => Expert 3 epoch 1 train_loss=0.7653 train_acc=0.7946 val_loss=0.9718 val_acc=0.7607
+2025-12-05 14:28:50,740 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_3_best_ep3.pt
+2025-12-05 14:30:01,084 [INFO] [Expert 3 Eval] [Expert 3 VAL] epoch 1/1 loss=0.9062 acc=0.7852 n=1220
+2025-12-05 14:30:01,084 [INFO] => Expert 3 epoch 1 train_loss=0.5442 train_acc=0.8501 val_loss=0.9062 val_acc=0.7852
+2025-12-05 14:30:01,105 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_3_best_ep4.pt
+2025-12-05 14:31:11,297 [INFO] [Expert 3 Eval] [Expert 3 VAL] epoch 1/1 loss=0.8978 acc=0.7910 n=1220
+2025-12-05 14:31:11,298 [INFO] => Expert 3 epoch 1 train_loss=0.3874 train_acc=0.8946 val_loss=0.8978 val_acc=0.7910
+2025-12-05 14:31:11,317 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_3_best_ep5.pt
+2025-12-05 14:32:21,487 [INFO] [Expert 3 Eval] [Expert 3 VAL] epoch 1/1 loss=0.9337 acc=0.7902 n=1220
+2025-12-05 14:32:21,487 [INFO] => Expert 3 epoch 1 train_loss=0.2650 train_acc=0.9303 val_loss=0.9337 val_acc=0.7902
+2025-12-05 14:33:31,852 [INFO] [Expert 3 Eval] [Expert 3 VAL] epoch 1/1 loss=1.0109 acc=0.7910 n=1220
+2025-12-05 14:33:31,852 [INFO] => Expert 3 epoch 1 train_loss=0.1763 train_acc=0.9573 val_loss=1.0109 val_acc=0.7910
+2025-12-05 14:34:42,060 [INFO] [Expert 3 Eval] [Expert 3 VAL] epoch 1/1 loss=1.0729 acc=0.8000 n=1220
+2025-12-05 14:34:42,061 [INFO] => Expert 3 epoch 1 train_loss=0.1104 train_acc=0.9752 val_loss=1.0729 val_acc=0.8000
+2025-12-05 14:34:42,061 [INFO] => Early stopping expert_3 at epoch 8 by val_loss (patience=3)
+2025-12-05 14:34:42,075 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 14:35:48,004 [INFO] [Expert 4 Eval] [Expert 4 VAL] epoch 1/1 loss=1.6287 acc=0.5311 n=1254
+2025-12-05 14:35:48,004 [INFO] => Expert 4 epoch 1 train_loss=1.9111 train_acc=0.4330 val_loss=1.6287 val_acc=0.5311
+2025-12-05 14:35:48,026 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_4_best_ep1.pt
+2025-12-05 14:36:53,941 [INFO] [Expert 4 Eval] [Expert 4 VAL] epoch 1/1 loss=1.2209 acc=0.6579 n=1254
+2025-12-05 14:36:53,941 [INFO] => Expert 4 epoch 1 train_loss=1.2679 train_acc=0.6466 val_loss=1.2209 val_acc=0.6579
+2025-12-05 14:36:53,961 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_4_best_ep2.pt
+2025-12-05 14:37:59,945 [INFO] [Expert 4 Eval] [Expert 4 VAL] epoch 1/1 loss=1.0176 acc=0.7528 n=1254
+2025-12-05 14:37:59,945 [INFO] => Expert 4 epoch 1 train_loss=0.8687 train_acc=0.7669 val_loss=1.0176 val_acc=0.7528
+2025-12-05 14:37:59,965 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_4_best_ep3.pt
+2025-12-05 14:39:05,882 [INFO] [Expert 4 Eval] [Expert 4 VAL] epoch 1/1 loss=0.9331 acc=0.7632 n=1254
+2025-12-05 14:39:05,882 [INFO] => Expert 4 epoch 1 train_loss=0.6147 train_acc=0.8371 val_loss=0.9331 val_acc=0.7632
+2025-12-05 14:39:05,906 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_4_best_ep4.pt
+2025-12-05 14:40:11,857 [INFO] [Expert 4 Eval] [Expert 4 VAL] epoch 1/1 loss=0.8907 acc=0.7951 n=1254
+2025-12-05 14:40:11,857 [INFO] => Expert 4 epoch 1 train_loss=0.4338 train_acc=0.8858 val_loss=0.8907 val_acc=0.7951
+2025-12-05 14:40:11,877 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_expert_4_best_ep5.pt
+2025-12-05 14:41:17,819 [INFO] [Expert 4 Eval] [Expert 4 VAL] epoch 1/1 loss=0.9094 acc=0.7943 n=1254
+2025-12-05 14:41:17,819 [INFO] => Expert 4 epoch 1 train_loss=0.3031 train_acc=0.9228 val_loss=0.9094 val_acc=0.7943
+2025-12-05 14:42:23,920 [INFO] [Expert 4 Eval] [Expert 4 VAL] epoch 1/1 loss=0.9247 acc=0.8086 n=1254
+2025-12-05 14:42:23,920 [INFO] => Expert 4 epoch 1 train_loss=0.1995 train_acc=0.9548 val_loss=0.9247 val_acc=0.8086
+2025-12-05 14:43:29,729 [INFO] [Expert 4 Eval] [Expert 4 VAL] epoch 1/1 loss=0.9621 acc=0.8070 n=1254
+2025-12-05 14:43:29,730 [INFO] => Expert 4 epoch 1 train_loss=0.1340 train_acc=0.9715 val_loss=0.9621 val_acc=0.8070
+2025-12-05 14:43:29,730 [INFO] => Early stopping expert_4 at epoch 8 by val_loss (patience=3)
+2025-12-05 14:43:29,743 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 14:43:29,743 [INFO] Starting evaluation (mode=all_fixed)
+2025-12-05 14:48:54,464 [INFO] [Eval] AllExperts Train mode=all_fixed acc=0.0115 macro_f1=0.0026 n=64002
+2025-12-05 14:49:34,470 [INFO] [Eval] AllExperts Val mode=all_fixed acc=0.0096 macro_f1=0.0016 n=7999
+2025-12-05 14:50:14,477 [INFO] [Eval] AllExperts Test mode=all_fixed acc=0.0105 macro_f1=0.0024 n=7999
+2025-12-05 14:57:05,029 [INFO] [Eval] AllExperts All mode=all_fixed acc=0.0112 macro_f1=0.0024 n=80000
+2025-12-05 14:57:05,034 [INFO] === Per-range evaluation: AllExperts All per-range (mode=all_fixed) ===
+2025-12-05 14:57:11,602 [INFO] Range 2-20: acc=0.0016 macro_f1=0.0006 (n=1273)
+2025-12-05 14:57:18,591 [INFO] Range 21-40: acc=0.0000 macro_f1=0.0000 (n=1360)
+2025-12-05 14:57:24,974 [INFO] Range 41-60: acc=0.0000 macro_f1=0.0000 (n=1240)
+2025-12-05 14:57:31,642 [INFO] Range 61-80: acc=0.0023 macro_f1=0.0009 (n=1300)
+2025-12-05 14:57:37,804 [INFO] Range 81-100: acc=0.0025 macro_f1=0.0009 (n=1197)
+2025-12-05 14:57:37,805 [INFO] Starting single expert[0] evaluation (base + expert_0 checkpoints only)
+2025-12-05 14:57:38,995 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=0)
+2025-12-05 14:57:39,012 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=0)
+2025-12-05 14:57:45,786 [INFO] [Expert 0 Eval] Expert0 Val (range_2_20) loss=0.7125 acc=0.8138 n=1273
+2025-12-05 14:57:52,439 [INFO] [Expert 0 Eval] Expert0 Test (range_2_20) loss=0.7524 acc=0.8036 n=1273
+2025-12-05 15:03:17,837 [INFO] => Router epoch 1 avg_loss=0.3946 avg_acc=0.8449
+2025-12-05 15:03:17,884 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_router_best_ep1.pt
+2025-12-05 15:07:18,224 [INFO] => SDPA Flash-Attention enabled (torch 2.6.0+cu118)
+2025-12-05 15:07:18,288 [INFO] => loaded cached samples from checkpoints_v13\demo_v13_samples_mixed.json (n=80000)
+2025-12-05 15:07:18,368 [INFO] => loaded balanced train/val/test splits from cache
+2025-12-05 15:07:18,369 [INFO] => using cached balanced splits for train/val/test
+2025-12-05 15:07:18,369 [INFO] => train_size=64002 val_size=7999 test_size=7999
+2025-12-05 15:07:18,692 [INFO] => [base subset (labels 2-99)] label-balanced subset size=6400 (target per-label≈65)
+2025-12-05 15:07:18,764 [INFO] => [expert_train[0]-range_2_20] label balanced to 11951 samples (per-label=629)
+2025-12-05 15:07:18,768 [INFO] => [expert_val[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 15:07:18,772 [INFO] => [expert_test[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 15:07:18,807 [INFO] => [expert_train[1]-range_21_40] label balanced to 12560 samples (per-label=628)
+2025-12-05 15:07:18,811 [INFO] => [expert_val[1]-range_21_40] label balanced to 1260 samples (per-label=63)
+2025-12-05 15:07:18,815 [INFO] => [expert_test[1]-range_21_40] label balanced to 1360 samples (per-label=68)
+2025-12-05 15:07:18,848 [INFO] => [expert_train[2]-range_41_60] label balanced to 12500 samples (per-label=625)
+2025-12-05 15:07:18,852 [INFO] => [expert_val[2]-range_41_60] label balanced to 1420 samples (per-label=71)
+2025-12-05 15:07:18,856 [INFO] => [expert_test[2]-range_41_60] label balanced to 1240 samples (per-label=62)
+2025-12-05 15:07:18,894 [INFO] => [expert_train[3]-range_61_80] label balanced to 12480 samples (per-label=624)
+2025-12-05 15:07:18,898 [INFO] => [expert_val[3]-range_61_80] label balanced to 1220 samples (per-label=61)
+2025-12-05 15:07:18,903 [INFO] => [expert_test[3]-range_61_80] label balanced to 1300 samples (per-label=65)
+2025-12-05 15:07:18,936 [INFO] => [expert_train[4]-range_81_100] label balanced to 11590 samples (per-label=610)
+2025-12-05 15:07:18,942 [INFO] => [expert_val[4]-range_81_100] label balanced to 1254 samples (per-label=66)
+2025-12-05 15:07:18,945 [INFO] => [expert_test[4]-range_81_100] label balanced to 1197 samples (per-label=63)
+2025-12-05 15:07:20,572 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=0)
+2025-12-05 15:07:20,584 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=0)
+2025-12-05 15:07:20,596 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 15:07:20,607 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 15:07:20,618 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 15:07:20,631 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 15:07:20,631 [INFO] Starting evaluation (mode=all_fixed)
+2025-12-05 15:07:20,635 [INFO] => loaded best checkpoint for router: checkpoints_v13\demo_v13_router_best_ep1.pt (missing=334 unexpected=0)
+2025-12-05 15:12:45,435 [INFO] => Router epoch 1 avg_loss=0.3175 avg_acc=0.8772
+2025-12-05 15:13:26,099 [INFO] [RouterEval] [Router VAL] epoch 1/8 loss=0.2929 acc=0.8920 n=7999
+2025-12-05 15:13:26,107 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_router_best_ep1.pt
+2025-12-05 15:18:51,187 [INFO] => Router epoch 1 avg_loss=0.3084 avg_acc=0.8804
+2025-12-05 15:19:31,829 [INFO] [RouterEval] [Router VAL] epoch 2/8 loss=0.2950 acc=0.8917 n=7999
+2025-12-05 15:24:56,902 [INFO] => Router epoch 1 avg_loss=0.3039 avg_acc=0.8827
+2025-12-05 15:25:37,567 [INFO] [RouterEval] [Router VAL] epoch 3/8 loss=0.2936 acc=0.8886 n=7999
+2025-12-05 15:31:02,730 [INFO] => Router epoch 1 avg_loss=0.3043 avg_acc=0.8814
+2025-12-05 15:31:43,368 [INFO] [RouterEval] [Router VAL] epoch 4/8 loss=0.2797 acc=0.8910 n=7999
+2025-12-05 15:31:43,378 [INFO] => checkpoint saved: checkpoints_v13\demo_v13_router_best_ep4.pt
+2025-12-05 15:37:08,167 [INFO] => Router epoch 1 avg_loss=0.3005 avg_acc=0.8832
+2025-12-05 15:37:48,754 [INFO] [RouterEval] [Router VAL] epoch 5/8 loss=0.3092 acc=0.8854 n=7999
+2025-12-05 15:43:13,793 [INFO] => Router epoch 1 avg_loss=0.3016 avg_acc=0.8827
+2025-12-05 15:43:54,368 [INFO] [RouterEval] [Router VAL] epoch 6/8 loss=0.3092 acc=0.8815 n=7999
+2025-12-05 15:49:19,569 [INFO] => Router epoch 1 avg_loss=0.3018 avg_acc=0.8835
+2025-12-05 15:50:00,207 [INFO] [RouterEval] [Router VAL] epoch 7/8 loss=0.2862 acc=0.8871 n=7999
+2025-12-05 15:50:00,208 [INFO] => Early stopping router at epoch 7 by val_loss (patience=3)
+2025-12-05 15:50:00,213 [INFO] => loaded best checkpoint for router: checkpoints_v13\demo_v13_router_best_ep4.pt (missing=334 unexpected=0)
+2025-12-05 15:50:00,213 [INFO] Starting evaluation (mode=router)
+2025-12-05 15:55:21,065 [INFO] [Eval] Router Train mode=router acc=0.8376 macro_f1=0.8337 n=64002
+2025-12-05 15:56:01,122 [INFO] [Eval] Router Val mode=router acc=0.7598 macro_f1=0.7551 n=7999
+2025-12-05 15:56:41,307 [INFO] [Eval] Router Test mode=router acc=0.7583 macro_f1=0.7537 n=7999
+2025-12-05 16:03:23,391 [INFO] [Eval] Router All mode=router acc=0.8219 macro_f1=0.8180 n=80000
+2025-12-05 16:03:23,397 [INFO] === Per-range evaluation: Router All per-range (mode=router) ===
+2025-12-05 16:03:29,941 [INFO] Range 2-20: acc=0.7879 macro_f1=0.1562 (n=1273)
+2025-12-05 16:03:36,892 [INFO] Range 21-40: acc=0.8110 macro_f1=0.1701 (n=1360)
+2025-12-05 16:03:43,360 [INFO] Range 41-60: acc=0.7347 macro_f1=0.1594 (n=1240)
+2025-12-05 16:03:50,116 [INFO] Range 61-80: acc=0.7269 macro_f1=0.1597 (n=1300)
+2025-12-05 16:03:56,286 [INFO] Range 81-100: acc=0.7536 macro_f1=0.1512 (n=1197)
+2025-12-05 16:03:57,465 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=1)
+2025-12-05 16:03:57,477 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=1)
+2025-12-05 16:03:57,493 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:03:57,506 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:03:57,519 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:03:57,531 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:09:29,310 [INFO] => MoE epoch 1 avg_loss=30.9880 avg_acc=0.5233
+2025-12-05 16:09:31,309 [INFO] => new best MoE checkpoint: checkpoints_v13\demo_v13_moe_best_ep1.pt (loss=30.9880)
+2025-12-05 16:10:42,348 [INFO] => SDPA Flash-Attention enabled (torch 2.6.0+cu118)
+2025-12-05 16:10:42,438 [INFO] => loaded cached samples from checkpoints_v13\demo_v13_samples_mixed.json (n=80000)
+2025-12-05 16:10:42,527 [INFO] => loaded balanced train/val/test splits from cache
+2025-12-05 16:10:42,527 [INFO] => using cached balanced splits for train/val/test
+2025-12-05 16:10:42,528 [INFO] => train_size=64002 val_size=7999 test_size=7999
+2025-12-05 16:10:42,891 [INFO] => [base subset (labels 2-99)] label-balanced subset size=6400 (target per-label≈65)
+2025-12-05 16:10:42,962 [INFO] => [expert_train[0]-range_2_20] label balanced to 11951 samples (per-label=629)
+2025-12-05 16:10:42,965 [INFO] => [expert_val[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 16:10:42,969 [INFO] => [expert_test[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 16:10:43,005 [INFO] => [expert_train[1]-range_21_40] label balanced to 12560 samples (per-label=628)
+2025-12-05 16:10:43,010 [INFO] => [expert_val[1]-range_21_40] label balanced to 1260 samples (per-label=63)
+2025-12-05 16:10:43,014 [INFO] => [expert_test[1]-range_21_40] label balanced to 1360 samples (per-label=68)
+2025-12-05 16:10:43,051 [INFO] => [expert_train[2]-range_41_60] label balanced to 12500 samples (per-label=625)
+2025-12-05 16:10:43,055 [INFO] => [expert_val[2]-range_41_60] label balanced to 1420 samples (per-label=71)
+2025-12-05 16:10:43,060 [INFO] => [expert_test[2]-range_41_60] label balanced to 1240 samples (per-label=62)
+2025-12-05 16:10:43,096 [INFO] => [expert_train[3]-range_61_80] label balanced to 12480 samples (per-label=624)
+2025-12-05 16:10:43,101 [INFO] => [expert_val[3]-range_61_80] label balanced to 1220 samples (per-label=61)
+2025-12-05 16:10:43,105 [INFO] => [expert_test[3]-range_61_80] label balanced to 1300 samples (per-label=65)
+2025-12-05 16:10:43,138 [INFO] => [expert_train[4]-range_81_100] label balanced to 11590 samples (per-label=610)
+2025-12-05 16:10:43,143 [INFO] => [expert_val[4]-range_81_100] label balanced to 1254 samples (per-label=66)
+2025-12-05 16:10:43,148 [INFO] => [expert_test[4]-range_81_100] label balanced to 1197 samples (per-label=63)
+2025-12-05 16:10:45,065 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=0)
+2025-12-05 16:10:45,084 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=0)
+2025-12-05 16:10:45,102 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 16:10:45,119 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 16:10:45,137 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 16:10:45,154 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 16:10:45,155 [INFO] Starting evaluation (mode=all_fixed)
+2025-12-05 16:10:45,161 [INFO] => loaded best checkpoint for router: checkpoints_v13\demo_v13_router_best_ep4.pt (missing=334 unexpected=0)
+2025-12-05 16:10:45,161 [INFO] Starting evaluation (mode=router)
+2025-12-05 16:10:46,040 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=1)
+2025-12-05 16:10:46,052 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=1)
+2025-12-05 16:10:46,063 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:10:46,074 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:10:46,085 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:10:46,096 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:12:22,065 [INFO] => SDPA Flash-Attention enabled (torch 2.6.0+cu118)
+2025-12-05 16:12:22,122 [INFO] => loaded cached samples from checkpoints_v13\demo_v13_samples_mixed.json (n=80000)
+2025-12-05 16:12:22,199 [INFO] => loaded balanced train/val/test splits from cache
+2025-12-05 16:12:22,199 [INFO] => using cached balanced splits for train/val/test
+2025-12-05 16:12:22,199 [INFO] => train_size=64002 val_size=7999 test_size=7999
+2025-12-05 16:12:22,518 [INFO] => [base subset (labels 2-99)] label-balanced subset size=6400 (target per-label≈65)
+2025-12-05 16:12:22,584 [INFO] => [expert_train[0]-range_2_20] label balanced to 11951 samples (per-label=629)
+2025-12-05 16:12:22,588 [INFO] => [expert_val[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 16:12:22,593 [INFO] => [expert_test[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 16:12:22,625 [INFO] => [expert_train[1]-range_21_40] label balanced to 12560 samples (per-label=628)
+2025-12-05 16:12:22,628 [INFO] => [expert_val[1]-range_21_40] label balanced to 1260 samples (per-label=63)
+2025-12-05 16:12:22,632 [INFO] => [expert_test[1]-range_21_40] label balanced to 1360 samples (per-label=68)
+2025-12-05 16:12:22,665 [INFO] => [expert_train[2]-range_41_60] label balanced to 12500 samples (per-label=625)
+2025-12-05 16:12:22,669 [INFO] => [expert_val[2]-range_41_60] label balanced to 1420 samples (per-label=71)
+2025-12-05 16:12:22,674 [INFO] => [expert_test[2]-range_41_60] label balanced to 1240 samples (per-label=62)
+2025-12-05 16:12:22,706 [INFO] => [expert_train[3]-range_61_80] label balanced to 12480 samples (per-label=624)
+2025-12-05 16:12:22,710 [INFO] => [expert_val[3]-range_61_80] label balanced to 1220 samples (per-label=61)
+2025-12-05 16:12:22,714 [INFO] => [expert_test[3]-range_61_80] label balanced to 1300 samples (per-label=65)
+2025-12-05 16:12:22,745 [INFO] => [expert_train[4]-range_81_100] label balanced to 11590 samples (per-label=610)
+2025-12-05 16:12:22,748 [INFO] => [expert_val[4]-range_81_100] label balanced to 1254 samples (per-label=66)
+2025-12-05 16:12:22,753 [INFO] => [expert_test[4]-range_81_100] label balanced to 1197 samples (per-label=63)
+2025-12-05 16:12:24,207 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=0)
+2025-12-05 16:12:24,218 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=0)
+2025-12-05 16:12:24,229 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 16:12:24,240 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 16:12:24,251 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 16:12:24,262 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 16:12:24,262 [INFO] Starting evaluation (mode=all_fixed)
+2025-12-05 16:12:24,268 [INFO] => loaded best checkpoint for router: checkpoints_v13\demo_v13_router_best_ep4.pt (missing=334 unexpected=0)
+2025-12-05 16:12:24,268 [INFO] Starting evaluation (mode=router)
+2025-12-05 16:12:25,177 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=1)
+2025-12-05 16:12:25,188 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=1)
+2025-12-05 16:12:25,200 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:12:25,210 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:12:25,221 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:12:25,233 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:15:33,033 [INFO] => SDPA Flash-Attention enabled (torch 2.6.0+cu118)
+2025-12-05 16:15:33,092 [INFO] => loaded cached samples from checkpoints_v13\demo_v13_samples_mixed.json (n=80000)
+2025-12-05 16:15:33,172 [INFO] => loaded balanced train/val/test splits from cache
+2025-12-05 16:15:33,173 [INFO] => using cached balanced splits for train/val/test
+2025-12-05 16:15:33,173 [INFO] => train_size=64002 val_size=7999 test_size=7999
+2025-12-05 16:15:33,508 [INFO] => [base subset (labels 2-99)] label-balanced subset size=6400 (target per-label≈65)
+2025-12-05 16:15:33,577 [INFO] => [expert_train[0]-range_2_20] label balanced to 11951 samples (per-label=629)
+2025-12-05 16:15:33,582 [INFO] => [expert_val[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 16:15:33,586 [INFO] => [expert_test[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 16:15:33,622 [INFO] => [expert_train[1]-range_21_40] label balanced to 12560 samples (per-label=628)
+2025-12-05 16:15:33,626 [INFO] => [expert_val[1]-range_21_40] label balanced to 1260 samples (per-label=63)
+2025-12-05 16:15:33,630 [INFO] => [expert_test[1]-range_21_40] label balanced to 1360 samples (per-label=68)
+2025-12-05 16:15:33,665 [INFO] => [expert_train[2]-range_41_60] label balanced to 12500 samples (per-label=625)
+2025-12-05 16:15:33,672 [INFO] => [expert_val[2]-range_41_60] label balanced to 1420 samples (per-label=71)
+2025-12-05 16:15:33,675 [INFO] => [expert_test[2]-range_41_60] label balanced to 1240 samples (per-label=62)
+2025-12-05 16:15:33,710 [INFO] => [expert_train[3]-range_61_80] label balanced to 12480 samples (per-label=624)
+2025-12-05 16:15:33,714 [INFO] => [expert_val[3]-range_61_80] label balanced to 1220 samples (per-label=61)
+2025-12-05 16:15:33,718 [INFO] => [expert_test[3]-range_61_80] label balanced to 1300 samples (per-label=65)
+2025-12-05 16:15:33,751 [INFO] => [expert_train[4]-range_81_100] label balanced to 11590 samples (per-label=610)
+2025-12-05 16:15:33,756 [INFO] => [expert_val[4]-range_81_100] label balanced to 1254 samples (per-label=66)
+2025-12-05 16:15:33,761 [INFO] => [expert_test[4]-range_81_100] label balanced to 1197 samples (per-label=63)
+2025-12-05 16:15:35,246 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=0)
+2025-12-05 16:15:35,257 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=0)
+2025-12-05 16:15:35,268 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 16:15:35,280 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 16:15:35,291 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 16:15:35,302 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 16:15:35,302 [INFO] Starting evaluation (mode=all_fixed)
+2025-12-05 16:15:35,307 [INFO] => loaded best checkpoint for router: checkpoints_v13\demo_v13_router_best_ep4.pt (missing=334 unexpected=0)
+2025-12-05 16:15:35,307 [INFO] Starting evaluation (mode=router)
+2025-12-05 16:15:36,178 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=1)
+2025-12-05 16:15:36,190 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=1)
+2025-12-05 16:15:36,204 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:15:36,216 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:15:36,228 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:15:36,240 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:15:37,819 [INFO] => loaded best checkpoint for moe: checkpoints_v13\demo_v13_moe_best_ep1.pt (missing=0 unexpected=0)
+2025-12-05 16:16:03,455 [INFO] => SDPA Flash-Attention enabled (torch 2.6.0+cu118)
+2025-12-05 16:16:03,515 [INFO] => loaded cached samples from checkpoints_v13\demo_v13_samples_mixed.json (n=80000)
+2025-12-05 16:16:03,597 [INFO] => loaded balanced train/val/test splits from cache
+2025-12-05 16:16:03,597 [INFO] => using cached balanced splits for train/val/test
+2025-12-05 16:16:03,599 [INFO] => train_size=64002 val_size=7999 test_size=7999
+2025-12-05 16:16:03,932 [INFO] => [base subset (labels 2-99)] label-balanced subset size=6400 (target per-label≈65)
+2025-12-05 16:16:03,997 [INFO] => [expert_train[0]-range_2_20] label balanced to 11951 samples (per-label=629)
+2025-12-05 16:16:04,002 [INFO] => [expert_val[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 16:16:04,006 [INFO] => [expert_test[0]-range_2_20] label balanced to 1273 samples (per-label=67)
+2025-12-05 16:16:04,039 [INFO] => [expert_train[1]-range_21_40] label balanced to 12560 samples (per-label=628)
+2025-12-05 16:16:04,043 [INFO] => [expert_val[1]-range_21_40] label balanced to 1260 samples (per-label=63)
+2025-12-05 16:16:04,047 [INFO] => [expert_test[1]-range_21_40] label balanced to 1360 samples (per-label=68)
+2025-12-05 16:16:04,079 [INFO] => [expert_train[2]-range_41_60] label balanced to 12500 samples (per-label=625)
+2025-12-05 16:16:04,084 [INFO] => [expert_val[2]-range_41_60] label balanced to 1420 samples (per-label=71)
+2025-12-05 16:16:04,088 [INFO] => [expert_test[2]-range_41_60] label balanced to 1240 samples (per-label=62)
+2025-12-05 16:16:04,121 [INFO] => [expert_train[3]-range_61_80] label balanced to 12480 samples (per-label=624)
+2025-12-05 16:16:04,125 [INFO] => [expert_val[3]-range_61_80] label balanced to 1220 samples (per-label=61)
+2025-12-05 16:16:04,130 [INFO] => [expert_test[3]-range_61_80] label balanced to 1300 samples (per-label=65)
+2025-12-05 16:16:04,164 [INFO] => [expert_train[4]-range_81_100] label balanced to 11590 samples (per-label=610)
+2025-12-05 16:16:04,168 [INFO] => [expert_val[4]-range_81_100] label balanced to 1254 samples (per-label=66)
+2025-12-05 16:16:04,172 [INFO] => [expert_test[4]-range_81_100] label balanced to 1197 samples (per-label=63)
+2025-12-05 16:16:06,167 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=0)
+2025-12-05 16:16:06,187 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=0)
+2025-12-05 16:16:06,204 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 16:16:06,221 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=0)
+2025-12-05 16:16:06,238 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 16:16:06,255 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=0)
+2025-12-05 16:16:06,257 [INFO] Starting evaluation (mode=all_fixed)
+2025-12-05 16:16:06,262 [INFO] => loaded best checkpoint for router: checkpoints_v13\demo_v13_router_best_ep4.pt (missing=334 unexpected=0)
+2025-12-05 16:16:06,262 [INFO] Starting evaluation (mode=router)
+2025-12-05 16:16:07,131 [INFO] => loaded best checkpoint for base: checkpoints_v13\demo_v13_base_best_ep14.pt (missing=299 unexpected=1)
+2025-12-05 16:16:07,142 [INFO] => loaded best checkpoint for expert_0: checkpoints_v13\demo_v13_expert_0_best_ep3.pt (missing=332 unexpected=1)
+2025-12-05 16:16:07,153 [INFO] => loaded best checkpoint for expert_1: checkpoints_v13\demo_v13_expert_1_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:16:07,164 [INFO] => loaded best checkpoint for expert_2: checkpoints_v13\demo_v13_expert_2_best_ep4.pt (missing=332 unexpected=1)
+2025-12-05 16:16:07,175 [INFO] => loaded best checkpoint for expert_3: checkpoints_v13\demo_v13_expert_3_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:16:07,186 [INFO] => loaded best checkpoint for expert_4: checkpoints_v13\demo_v13_expert_4_best_ep5.pt (missing=332 unexpected=1)
+2025-12-05 16:16:08,747 [INFO] => loaded best checkpoint for moe: checkpoints_v13\demo_v13_moe_best_ep1.pt (missing=0 unexpected=0)
+2025-12-05 16:16:49,094 [INFO] [Eval] MoE Test mode=moe acc=0.5338 macro_f1=0.5435 n=7999
+2025-12-05 16:16:49,098 [INFO] === Per-range evaluation: MoE All per-range (mode=moe) ===
+2025-12-05 16:16:55,504 [INFO] Range 2-20: acc=0.3590 macro_f1=0.0767 (n=1273)
+2025-12-05 16:17:02,338 [INFO] Range 21-40: acc=0.5537 macro_f1=0.1211 (n=1360)
+2025-12-05 16:17:08,575 [INFO] Range 41-60: acc=0.5871 macro_f1=0.1283 (n=1240)
+2025-12-05 16:17:15,124 [INFO] Range 61-80: acc=0.5908 macro_f1=0.1308 (n=1300)
+2025-12-05 16:17:21,151 [INFO] Range 81-100: acc=0.6074 macro_f1=0.1280 (n=1197)
+2025-12-07 09:41:37,522 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-07 09:42:35,811 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-07 09:43:33,601 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-07 09:46:45,253 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-07 09:53:32,518 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-07 09:57:20,241 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-07 10:06:25,623 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-07 13:07:24,600 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
+2025-12-07 13:14:07,373 [INFO] => SDPA Flash-Attention enabled (torch 2.7.1+cu118)
