@@ -1,1 +1,371 @@
 2026-01-05 22:32:03,715 [INFO] Args: {'data_dir': './data_mnist', 'save_dir': './ckpt_mnist_v11_label5', 'seed': 42, 'num_domains': 5, 'hidden_dim': 128, 'val_ratio': 0.1, 'base_ratio': 0.1, 'batch_size': 128, 'virtual_batch_size': 128, 'lr_base': 0.001, 'lr_expert': 0.003, 'lr_router': 0.001, 'lr_moe': 0.001, 'weight_decay': 0.0001, 'max_epochs_base': 2, 'max_epochs_expert': 30, 'max_epochs_router': 30, 'max_epochs_moe': 30, 'patience': 3, 'num_workers': 0, 'device': 'cuda', 'run': 'all'}
+2026-01-05 22:44:57,401 [INFO] => built splits and saved to ckpt_mnist_v11_label5\splits.json (train=54002, val=5998, test=10000)
+2026-01-05 22:45:03,331 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_base_best_ep1.pt
+2026-01-05 22:45:03,332 [INFO] => base epoch 1 loss=0.891466 acc=0.737827 best_loss=0.891466 patience=0/3
+2026-01-05 22:45:04,581 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_base_best_ep2.pt
+2026-01-05 22:45:04,581 [INFO] => base epoch 2 loss=0.263938 acc=0.918750 best_loss=0.263938 patience=0/3
+2026-01-05 22:45:04,621 [INFO] => loaded best checkpoint for base: ckpt_mnist_v11_label5\mnist_v11_label5_base_best_ep2.pt (missing=0 unexpected=0)
+2026-01-05 22:45:07,217 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep1.pt
+2026-01-05 22:45:07,217 [INFO] => expert_0 epoch 1 loss=0.011843 acc=0.996354 best_loss=0.011843 patience=0/3
+2026-01-05 22:45:09,807 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep2.pt
+2026-01-05 22:45:09,808 [INFO] => expert_0 epoch 2 loss=0.003460 acc=0.998872 best_loss=0.003460 patience=0/3
+2026-01-05 22:45:12,505 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep3.pt
+2026-01-05 22:45:12,505 [INFO] => expert_0 epoch 3 loss=0.002851 acc=0.998872 best_loss=0.002851 patience=0/3
+2026-01-05 22:45:16,004 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep4.pt
+2026-01-05 22:45:16,005 [INFO] => expert_0 epoch 4 loss=0.002764 acc=0.999045 best_loss=0.002764 patience=0/3
+2026-01-05 22:45:20,150 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep5.pt
+2026-01-05 22:45:20,150 [INFO] => expert_0 epoch 5 loss=0.002609 acc=0.999045 best_loss=0.002609 patience=0/3
+2026-01-05 22:45:23,759 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep6.pt
+2026-01-05 22:45:23,759 [INFO] => expert_0 epoch 6 loss=0.002520 acc=0.999219 best_loss=0.002520 patience=0/3
+2026-01-05 22:45:27,665 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep7.pt
+2026-01-05 22:45:27,665 [INFO] => expert_0 epoch 7 loss=0.002381 acc=0.999219 best_loss=0.002381 patience=0/3
+2026-01-05 22:45:31,203 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep8.pt
+2026-01-05 22:45:31,204 [INFO] => expert_0 epoch 8 loss=0.002293 acc=0.999132 best_loss=0.002293 patience=0/3
+2026-01-05 22:45:34,714 [INFO] => expert_0 epoch 9 loss=0.002295 acc=0.999306 best_loss=0.002293 patience=1/3
+2026-01-05 22:45:38,372 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep10.pt
+2026-01-05 22:45:38,373 [INFO] => expert_0 epoch 10 loss=0.002245 acc=0.999392 best_loss=0.002245 patience=0/3
+2026-01-05 22:45:41,863 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep11.pt
+2026-01-05 22:45:41,863 [INFO] => expert_0 epoch 11 loss=0.002218 acc=0.999306 best_loss=0.002218 patience=0/3
+2026-01-05 22:45:45,661 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep12.pt
+2026-01-05 22:45:45,661 [INFO] => expert_0 epoch 12 loss=0.002192 acc=0.999306 best_loss=0.002192 patience=0/3
+2026-01-05 22:45:49,587 [INFO] => expert_0 epoch 13 loss=0.002218 acc=0.999132 best_loss=0.002192 patience=1/3
+2026-01-05 22:45:53,120 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep14.pt
+2026-01-05 22:45:53,121 [INFO] => expert_0 epoch 14 loss=0.002058 acc=0.999392 best_loss=0.002058 patience=0/3
+2026-01-05 22:45:56,821 [INFO] => expert_0 epoch 15 loss=0.002075 acc=0.999306 best_loss=0.002058 patience=1/3
+2026-01-05 22:46:00,238 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep16.pt
+2026-01-05 22:46:00,239 [INFO] => expert_0 epoch 16 loss=0.002037 acc=0.999219 best_loss=0.002037 patience=0/3
+2026-01-05 22:46:03,956 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep17.pt
+2026-01-05 22:46:03,956 [INFO] => expert_0 epoch 17 loss=0.002032 acc=0.999392 best_loss=0.002032 patience=0/3
+2026-01-05 22:46:07,352 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep18.pt
+2026-01-05 22:46:07,353 [INFO] => expert_0 epoch 18 loss=0.001973 acc=0.999392 best_loss=0.001973 patience=0/3
+2026-01-05 22:46:10,844 [INFO] => expert_0 epoch 19 loss=0.002074 acc=0.999219 best_loss=0.001973 patience=1/3
+2026-01-05 22:46:14,463 [INFO] => expert_0 epoch 20 loss=0.001989 acc=0.999392 best_loss=0.001973 patience=2/3
+2026-01-05 22:46:18,078 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep21.pt
+2026-01-05 22:46:18,078 [INFO] => expert_0 epoch 21 loss=0.001909 acc=0.999392 best_loss=0.001909 patience=0/3
+2026-01-05 22:46:21,642 [INFO] => expert_0 epoch 22 loss=0.001943 acc=0.999392 best_loss=0.001909 patience=1/3
+2026-01-05 22:46:25,442 [INFO] => expert_0 epoch 23 loss=0.001915 acc=0.999392 best_loss=0.001909 patience=2/3
+2026-01-05 22:46:29,000 [INFO] => expert_0 epoch 24 loss=0.001909 acc=0.999392 best_loss=0.001909 patience=3/3
+2026-01-05 22:46:29,000 [INFO] => Early stopping expert_0 at epoch 24 (patience=3)
+2026-01-05 22:46:29,039 [INFO] => loaded best checkpoint for expert_0: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep21.pt (missing=0 unexpected=0)
+2026-01-05 22:46:32,749 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep1.pt
+2026-01-05 22:46:32,749 [INFO] => expert_1 epoch 1 loss=0.083722 acc=0.972656 best_loss=0.083722 patience=0/3
+2026-01-05 22:46:36,306 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep2.pt
+2026-01-05 22:46:36,307 [INFO] => expert_1 epoch 2 loss=0.045944 acc=0.984193 best_loss=0.045944 patience=0/3
+2026-01-05 22:46:39,626 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep3.pt
+2026-01-05 22:46:39,626 [INFO] => expert_1 epoch 3 loss=0.041330 acc=0.985919 best_loss=0.041330 patience=0/3
+2026-01-05 22:46:42,901 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep4.pt
+2026-01-05 22:46:42,901 [INFO] => expert_1 epoch 4 loss=0.039958 acc=0.986737 best_loss=0.039958 patience=0/3
+2026-01-05 22:46:46,348 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep5.pt
+2026-01-05 22:46:46,349 [INFO] => expert_1 epoch 5 loss=0.039184 acc=0.986555 best_loss=0.039184 patience=0/3
+2026-01-05 22:46:49,598 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep6.pt
+2026-01-05 22:46:49,598 [INFO] => expert_1 epoch 6 loss=0.038064 acc=0.987009 best_loss=0.038064 patience=0/3
+2026-01-05 22:46:52,875 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep7.pt
+2026-01-05 22:46:52,875 [INFO] => expert_1 epoch 7 loss=0.037207 acc=0.987555 best_loss=0.037207 patience=0/3
+2026-01-05 22:46:56,364 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep8.pt
+2026-01-05 22:46:56,364 [INFO] => expert_1 epoch 8 loss=0.036972 acc=0.987100 best_loss=0.036972 patience=0/3
+2026-01-05 22:46:59,860 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep9.pt
+2026-01-05 22:46:59,861 [INFO] => expert_1 epoch 9 loss=0.036511 acc=0.987918 best_loss=0.036511 patience=0/3
+2026-01-05 22:47:03,331 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep10.pt
+2026-01-05 22:47:03,331 [INFO] => expert_1 epoch 10 loss=0.036087 acc=0.987736 best_loss=0.036087 patience=0/3
+2026-01-05 22:47:06,754 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep11.pt
+2026-01-05 22:47:06,756 [INFO] => expert_1 epoch 11 loss=0.035609 acc=0.987555 best_loss=0.035609 patience=0/3
+2026-01-05 22:47:10,491 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep12.pt
+2026-01-05 22:47:10,491 [INFO] => expert_1 epoch 12 loss=0.035132 acc=0.987464 best_loss=0.035132 patience=0/3
+2026-01-05 22:47:13,810 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep13.pt
+2026-01-05 22:47:13,810 [INFO] => expert_1 epoch 13 loss=0.034815 acc=0.988100 best_loss=0.034815 patience=0/3
+2026-01-05 22:47:17,174 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep14.pt
+2026-01-05 22:47:17,175 [INFO] => expert_1 epoch 14 loss=0.034568 acc=0.988645 best_loss=0.034568 patience=0/3
+2026-01-05 22:47:21,005 [INFO] => expert_1 epoch 15 loss=0.035099 acc=0.987918 best_loss=0.034568 patience=1/3
+2026-01-05 22:47:24,405 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep16.pt
+2026-01-05 22:47:24,405 [INFO] => expert_1 epoch 16 loss=0.034420 acc=0.988372 best_loss=0.034420 patience=0/3
+2026-01-05 22:47:27,784 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep17.pt
+2026-01-05 22:47:27,785 [INFO] => expert_1 epoch 17 loss=0.033309 acc=0.988554 best_loss=0.033309 patience=0/3
+2026-01-05 22:47:31,383 [INFO] => expert_1 epoch 18 loss=0.033331 acc=0.988009 best_loss=0.033309 patience=1/3
+2026-01-05 22:47:34,832 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep19.pt
+2026-01-05 22:47:34,832 [INFO] => expert_1 epoch 19 loss=0.033229 acc=0.988645 best_loss=0.033229 patience=0/3
+2026-01-05 22:47:38,258 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep20.pt
+2026-01-05 22:47:38,259 [INFO] => expert_1 epoch 20 loss=0.032612 acc=0.988917 best_loss=0.032612 patience=0/3
+2026-01-05 22:47:41,577 [INFO] => expert_1 epoch 21 loss=0.032722 acc=0.988735 best_loss=0.032612 patience=1/3
+2026-01-05 22:47:44,935 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep22.pt
+2026-01-05 22:47:44,935 [INFO] => expert_1 epoch 22 loss=0.032294 acc=0.988917 best_loss=0.032294 patience=0/3
+2026-01-05 22:47:48,231 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep23.pt
+2026-01-05 22:47:48,231 [INFO] => expert_1 epoch 23 loss=0.032006 acc=0.989371 best_loss=0.032006 patience=0/3
+2026-01-05 22:47:51,548 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep24.pt
+2026-01-05 22:47:51,548 [INFO] => expert_1 epoch 24 loss=0.031945 acc=0.988735 best_loss=0.031945 patience=0/3
+2026-01-05 22:47:54,710 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep25.pt
+2026-01-05 22:47:54,710 [INFO] => expert_1 epoch 25 loss=0.031719 acc=0.989008 best_loss=0.031719 patience=0/3
+2026-01-05 22:47:58,147 [INFO] => expert_1 epoch 26 loss=0.031811 acc=0.988917 best_loss=0.031719 patience=1/3
+2026-01-05 22:48:01,459 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep27.pt
+2026-01-05 22:48:01,460 [INFO] => expert_1 epoch 27 loss=0.031374 acc=0.989644 best_loss=0.031374 patience=0/3
+2026-01-05 22:48:04,934 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep28.pt
+2026-01-05 22:48:04,934 [INFO] => expert_1 epoch 28 loss=0.031327 acc=0.989099 best_loss=0.031327 patience=0/3
+2026-01-05 22:48:08,473 [INFO] => expert_1 epoch 29 loss=0.031538 acc=0.989099 best_loss=0.031327 patience=1/3
+2026-01-05 22:48:11,756 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep30.pt
+2026-01-05 22:48:11,756 [INFO] => expert_1 epoch 30 loss=0.030752 acc=0.989644 best_loss=0.030752 patience=0/3
+2026-01-05 22:48:11,818 [INFO] => loaded best checkpoint for expert_1: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep30.pt (missing=0 unexpected=0)
+2026-01-05 22:48:14,891 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep1.pt
+2026-01-05 22:48:14,891 [INFO] => expert_2 epoch 1 loss=0.036090 acc=0.990430 best_loss=0.036090 patience=0/3
+2026-01-05 22:48:17,964 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep2.pt
+2026-01-05 22:48:17,964 [INFO] => expert_2 epoch 2 loss=0.008124 acc=0.997852 best_loss=0.008124 patience=0/3
+2026-01-05 22:48:21,121 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep3.pt
+2026-01-05 22:48:21,121 [INFO] => expert_2 epoch 3 loss=0.006452 acc=0.997949 best_loss=0.006452 patience=0/3
+2026-01-05 22:48:24,268 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep4.pt
+2026-01-05 22:48:24,269 [INFO] => expert_2 epoch 4 loss=0.006175 acc=0.998145 best_loss=0.006175 patience=0/3
+2026-01-05 22:48:27,459 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep5.pt
+2026-01-05 22:48:27,460 [INFO] => expert_2 epoch 5 loss=0.005886 acc=0.998145 best_loss=0.005886 patience=0/3
+2026-01-05 22:48:30,539 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep6.pt
+2026-01-05 22:48:30,540 [INFO] => expert_2 epoch 6 loss=0.005619 acc=0.998242 best_loss=0.005619 patience=0/3
+2026-01-05 22:48:33,809 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep7.pt
+2026-01-05 22:48:33,809 [INFO] => expert_2 epoch 7 loss=0.005572 acc=0.998242 best_loss=0.005572 patience=0/3
+2026-01-05 22:48:37,044 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep8.pt
+2026-01-05 22:48:37,044 [INFO] => expert_2 epoch 8 loss=0.005452 acc=0.998437 best_loss=0.005452 patience=0/3
+2026-01-05 22:48:40,218 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep9.pt
+2026-01-05 22:48:40,219 [INFO] => expert_2 epoch 9 loss=0.005448 acc=0.998340 best_loss=0.005448 patience=0/3
+2026-01-05 22:48:43,299 [INFO] => expert_2 epoch 10 loss=0.005453 acc=0.998340 best_loss=0.005448 patience=1/3
+2026-01-05 22:48:46,348 [INFO] => expert_2 epoch 11 loss=0.005452 acc=0.998437 best_loss=0.005448 patience=2/3
+2026-01-05 22:48:49,592 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep12.pt
+2026-01-05 22:48:49,592 [INFO] => expert_2 epoch 12 loss=0.005413 acc=0.998242 best_loss=0.005413 patience=0/3
+2026-01-05 22:48:52,816 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep13.pt
+2026-01-05 22:48:52,816 [INFO] => expert_2 epoch 13 loss=0.005206 acc=0.998633 best_loss=0.005206 patience=0/3
+2026-01-05 22:48:55,878 [INFO] => expert_2 epoch 14 loss=0.005277 acc=0.998437 best_loss=0.005206 patience=1/3
+2026-01-05 22:48:59,177 [INFO] => expert_2 epoch 15 loss=0.005297 acc=0.998340 best_loss=0.005206 patience=2/3
+2026-01-05 22:49:02,492 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep16.pt
+2026-01-05 22:49:02,492 [INFO] => expert_2 epoch 16 loss=0.005177 acc=0.998730 best_loss=0.005177 patience=0/3
+2026-01-05 22:49:05,570 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep17.pt
+2026-01-05 22:49:05,571 [INFO] => expert_2 epoch 17 loss=0.005036 acc=0.998340 best_loss=0.005036 patience=0/3
+2026-01-05 22:49:08,587 [INFO] => expert_2 epoch 18 loss=0.005045 acc=0.998535 best_loss=0.005036 patience=1/3
+2026-01-05 22:49:11,592 [INFO] => expert_2 epoch 19 loss=0.005051 acc=0.998340 best_loss=0.005036 patience=2/3
+2026-01-05 22:49:14,962 [INFO] => expert_2 epoch 20 loss=0.005041 acc=0.998437 best_loss=0.005036 patience=3/3
+2026-01-05 22:49:14,962 [INFO] => Early stopping expert_2 at epoch 20 (patience=3)
+2026-01-05 22:49:14,996 [INFO] => loaded best checkpoint for expert_2: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep17.pt (missing=0 unexpected=0)
+2026-01-05 22:49:18,462 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep1.pt
+2026-01-05 22:49:18,463 [INFO] => expert_3 epoch 1 loss=0.036033 acc=0.990098 best_loss=0.036033 patience=0/3
+2026-01-05 22:49:21,794 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep2.pt
+2026-01-05 22:49:21,794 [INFO] => expert_3 epoch 2 loss=0.003197 acc=0.998910 best_loss=0.003197 patience=0/3
+2026-01-05 22:49:25,243 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep3.pt
+2026-01-05 22:49:25,243 [INFO] => expert_3 epoch 3 loss=0.001846 acc=0.999273 best_loss=0.001846 patience=0/3
+2026-01-05 22:49:28,679 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep4.pt
+2026-01-05 22:49:28,679 [INFO] => expert_3 epoch 4 loss=0.001547 acc=0.999318 best_loss=0.001547 patience=0/3
+2026-01-05 22:49:32,066 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep5.pt
+2026-01-05 22:49:32,066 [INFO] => expert_3 epoch 5 loss=0.001312 acc=0.999455 best_loss=0.001312 patience=0/3
+2026-01-05 22:49:35,926 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep6.pt
+2026-01-05 22:49:35,926 [INFO] => expert_3 epoch 6 loss=0.001214 acc=0.999364 best_loss=0.001214 patience=0/3
+2026-01-05 22:49:39,267 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep7.pt
+2026-01-05 22:49:39,267 [INFO] => expert_3 epoch 7 loss=0.001199 acc=0.999455 best_loss=0.001199 patience=0/3
+2026-01-05 22:49:42,528 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep8.pt
+2026-01-05 22:49:42,528 [INFO] => expert_3 epoch 8 loss=0.001080 acc=0.999637 best_loss=0.001080 patience=0/3
+2026-01-05 22:49:45,898 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep9.pt
+2026-01-05 22:49:45,899 [INFO] => expert_3 epoch 9 loss=0.001053 acc=0.999637 best_loss=0.001053 patience=0/3
+2026-01-05 22:49:49,224 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep10.pt
+2026-01-05 22:49:49,224 [INFO] => expert_3 epoch 10 loss=0.001017 acc=0.999637 best_loss=0.001017 patience=0/3
+2026-01-05 22:49:52,590 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep11.pt
+2026-01-05 22:49:52,590 [INFO] => expert_3 epoch 11 loss=0.000937 acc=0.999637 best_loss=0.000937 patience=0/3
+2026-01-05 22:49:55,736 [INFO] => expert_3 epoch 12 loss=0.000954 acc=0.999818 best_loss=0.000937 patience=1/3
+2026-01-05 22:49:59,124 [INFO] => expert_3 epoch 13 loss=0.000990 acc=0.999727 best_loss=0.000937 patience=2/3
+2026-01-05 22:50:02,566 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep14.pt
+2026-01-05 22:50:02,567 [INFO] => expert_3 epoch 14 loss=0.000892 acc=0.999818 best_loss=0.000892 patience=0/3
+2026-01-05 22:50:06,176 [INFO] => expert_3 epoch 15 loss=0.001002 acc=0.999637 best_loss=0.000892 patience=1/3
+2026-01-05 22:50:09,422 [INFO] => expert_3 epoch 16 loss=0.000894 acc=0.999818 best_loss=0.000892 patience=2/3
+2026-01-05 22:50:12,732 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep17.pt
+2026-01-05 22:50:12,733 [INFO] => expert_3 epoch 17 loss=0.000833 acc=0.999818 best_loss=0.000833 patience=0/3
+2026-01-05 22:50:16,103 [INFO] => expert_3 epoch 18 loss=0.000858 acc=0.999727 best_loss=0.000833 patience=1/3
+2026-01-05 22:50:19,476 [INFO] => expert_3 epoch 19 loss=0.000851 acc=0.999818 best_loss=0.000833 patience=2/3
+2026-01-05 22:50:22,731 [INFO] => expert_3 epoch 20 loss=0.000871 acc=0.999637 best_loss=0.000833 patience=3/3
+2026-01-05 22:50:22,731 [INFO] => Early stopping expert_3 at epoch 20 (patience=3)
+2026-01-05 22:50:22,768 [INFO] => loaded best checkpoint for expert_3: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep17.pt (missing=0 unexpected=0)
+2026-01-05 22:50:26,024 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep1.pt
+2026-01-05 22:50:26,024 [INFO] => expert_4 epoch 1 loss=0.102214 acc=0.970347 best_loss=0.102214 patience=0/3
+2026-01-05 22:50:29,397 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep2.pt
+2026-01-05 22:50:29,397 [INFO] => expert_4 epoch 2 loss=0.049336 acc=0.984648 best_loss=0.049336 patience=0/3
+2026-01-05 22:50:32,550 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep3.pt
+2026-01-05 22:50:32,551 [INFO] => expert_4 epoch 3 loss=0.044882 acc=0.986051 best_loss=0.044882 patience=0/3
+2026-01-05 22:50:35,790 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep4.pt
+2026-01-05 22:50:35,790 [INFO] => expert_4 epoch 4 loss=0.042685 acc=0.985778 best_loss=0.042685 patience=0/3
+2026-01-05 22:50:38,958 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep5.pt
+2026-01-05 22:50:38,958 [INFO] => expert_4 epoch 5 loss=0.041956 acc=0.985869 best_loss=0.041956 patience=0/3
+2026-01-05 22:50:42,449 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep6.pt
+2026-01-05 22:50:42,449 [INFO] => expert_4 epoch 6 loss=0.040583 acc=0.986258 best_loss=0.040583 patience=0/3
+2026-01-05 22:50:45,695 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep7.pt
+2026-01-05 22:50:45,695 [INFO] => expert_4 epoch 7 loss=0.040383 acc=0.986540 best_loss=0.040383 patience=0/3
+2026-01-05 22:50:48,876 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep8.pt
+2026-01-05 22:50:48,876 [INFO] => expert_4 epoch 8 loss=0.040314 acc=0.986063 best_loss=0.040314 patience=0/3
+2026-01-05 22:50:52,140 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep9.pt
+2026-01-05 22:50:52,140 [INFO] => expert_4 epoch 9 loss=0.039498 acc=0.986057 best_loss=0.039498 patience=0/3
+2026-01-05 22:50:55,297 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep10.pt
+2026-01-05 22:50:55,297 [INFO] => expert_4 epoch 10 loss=0.039410 acc=0.986060 best_loss=0.039410 patience=0/3
+2026-01-05 22:50:58,425 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep11.pt
+2026-01-05 22:50:58,425 [INFO] => expert_4 epoch 11 loss=0.039069 acc=0.986537 best_loss=0.039069 patience=0/3
+2026-01-05 22:51:01,945 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep12.pt
+2026-01-05 22:51:01,945 [INFO] => expert_4 epoch 12 loss=0.039052 acc=0.986722 best_loss=0.039052 patience=0/3
+2026-01-05 22:51:05,127 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep13.pt
+2026-01-05 22:51:05,127 [INFO] => expert_4 epoch 13 loss=0.038859 acc=0.985975 best_loss=0.038859 patience=0/3
+2026-01-05 22:51:08,292 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep14.pt
+2026-01-05 22:51:08,292 [INFO] => expert_4 epoch 14 loss=0.038472 acc=0.986819 best_loss=0.038472 patience=0/3
+2026-01-05 22:51:11,692 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep15.pt
+2026-01-05 22:51:11,692 [INFO] => expert_4 epoch 15 loss=0.038089 acc=0.986631 best_loss=0.038089 patience=0/3
+2026-01-05 22:51:14,880 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep16.pt
+2026-01-05 22:51:14,880 [INFO] => expert_4 epoch 16 loss=0.037989 acc=0.986437 best_loss=0.037989 patience=0/3
+2026-01-05 22:51:18,306 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep17.pt
+2026-01-05 22:51:18,306 [INFO] => expert_4 epoch 17 loss=0.037782 acc=0.987384 best_loss=0.037782 patience=0/3
+2026-01-05 22:51:21,510 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep18.pt
+2026-01-05 22:51:21,510 [INFO] => expert_4 epoch 18 loss=0.037530 acc=0.986625 best_loss=0.037530 patience=0/3
+2026-01-05 22:51:24,618 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep19.pt
+2026-01-05 22:51:24,618 [INFO] => expert_4 epoch 19 loss=0.037394 acc=0.986725 best_loss=0.037394 patience=0/3
+2026-01-05 22:51:27,792 [INFO] => expert_4 epoch 20 loss=0.037628 acc=0.986725 best_loss=0.037394 patience=1/3
+2026-01-05 22:51:31,007 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep21.pt
+2026-01-05 22:51:31,007 [INFO] => expert_4 epoch 21 loss=0.037090 acc=0.986631 best_loss=0.037090 patience=0/3
+2026-01-05 22:51:34,525 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep22.pt
+2026-01-05 22:51:34,527 [INFO] => expert_4 epoch 22 loss=0.036943 acc=0.987187 best_loss=0.036943 patience=0/3
+2026-01-05 22:51:37,768 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep23.pt
+2026-01-05 22:51:37,768 [INFO] => expert_4 epoch 23 loss=0.036898 acc=0.986719 best_loss=0.036898 patience=0/3
+2026-01-05 22:51:40,908 [INFO] => expert_4 epoch 24 loss=0.036925 acc=0.987105 best_loss=0.036898 patience=1/3
+2026-01-05 22:51:44,033 [INFO] => expert_4 epoch 25 loss=0.036986 acc=0.986160 best_loss=0.036898 patience=2/3
+2026-01-05 22:51:47,315 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep26.pt
+2026-01-05 22:51:47,315 [INFO] => expert_4 epoch 26 loss=0.036450 acc=0.986822 best_loss=0.036450 patience=0/3
+2026-01-05 22:51:50,546 [INFO] => expert_4 epoch 27 loss=0.036554 acc=0.986343 best_loss=0.036450 patience=1/3
+2026-01-05 22:51:53,891 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep28.pt
+2026-01-05 22:51:53,893 [INFO] => expert_4 epoch 28 loss=0.036097 acc=0.987387 best_loss=0.036097 patience=0/3
+2026-01-05 22:51:57,079 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep29.pt
+2026-01-05 22:51:57,079 [INFO] => expert_4 epoch 29 loss=0.035917 acc=0.987287 best_loss=0.035917 patience=0/3
+2026-01-05 22:52:00,387 [INFO] => expert_4 epoch 30 loss=0.036494 acc=0.987478 best_loss=0.035917 patience=1/3
+2026-01-05 22:52:00,420 [INFO] => loaded best checkpoint for expert_4: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep29.pt (missing=0 unexpected=0)
+2026-01-05 22:52:15,764 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep1.pt
+2026-01-05 22:52:15,764 [INFO] => router epoch 1 loss=0.448820 acc=0.864452 best_loss=0.448820 patience=0/3
+2026-01-05 22:52:31,034 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep2.pt
+2026-01-05 22:52:31,034 [INFO] => router epoch 2 loss=0.196191 acc=0.938616 best_loss=0.196191 patience=0/3
+2026-01-05 22:52:46,150 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep3.pt
+2026-01-05 22:52:46,151 [INFO] => router epoch 3 loss=0.174907 acc=0.943542 best_loss=0.174907 patience=0/3
+2026-01-05 22:53:01,616 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep4.pt
+2026-01-05 22:53:01,617 [INFO] => router epoch 4 loss=0.165731 acc=0.946514 best_loss=0.165731 patience=0/3
+2026-01-05 22:53:16,884 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep5.pt
+2026-01-05 22:53:16,884 [INFO] => router epoch 5 loss=0.159275 acc=0.947999 best_loss=0.159275 patience=0/3
+2026-01-05 22:53:31,795 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep6.pt
+2026-01-05 22:53:31,795 [INFO] => router epoch 6 loss=0.154836 acc=0.949943 best_loss=0.154836 patience=0/3
+2026-01-05 22:53:46,791 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep7.pt
+2026-01-05 22:53:46,791 [INFO] => router epoch 7 loss=0.151667 acc=0.950388 best_loss=0.151667 patience=0/3
+2026-01-05 22:54:01,872 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep8.pt
+2026-01-05 22:54:01,872 [INFO] => router epoch 8 loss=0.148737 acc=0.951556 best_loss=0.148737 patience=0/3
+2026-01-05 22:54:16,934 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep9.pt
+2026-01-05 22:54:16,934 [INFO] => router epoch 9 loss=0.147194 acc=0.952637 best_loss=0.147194 patience=0/3
+2026-01-05 22:54:32,214 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep10.pt
+2026-01-05 22:54:32,214 [INFO] => router epoch 10 loss=0.144677 acc=0.952949 best_loss=0.144677 patience=0/3
+2026-01-05 22:54:47,392 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep11.pt
+2026-01-05 22:54:47,393 [INFO] => router epoch 11 loss=0.142888 acc=0.953854 best_loss=0.142888 patience=0/3
+2026-01-05 22:55:02,486 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep12.pt
+2026-01-05 22:55:02,486 [INFO] => router epoch 12 loss=0.141548 acc=0.953877 best_loss=0.141548 patience=0/3
+2026-01-05 22:55:17,287 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep13.pt
+2026-01-05 22:55:17,287 [INFO] => router epoch 13 loss=0.140093 acc=0.954296 best_loss=0.140093 patience=0/3
+2026-01-05 22:55:33,010 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep14.pt
+2026-01-05 22:55:33,011 [INFO] => router epoch 14 loss=0.138952 acc=0.954410 best_loss=0.138952 patience=0/3
+2026-01-05 22:55:48,006 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep15.pt
+2026-01-05 22:55:48,006 [INFO] => router epoch 15 loss=0.137769 acc=0.955185 best_loss=0.137769 patience=0/3
+2026-01-05 22:56:03,125 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep16.pt
+2026-01-05 22:56:03,125 [INFO] => router epoch 16 loss=0.136970 acc=0.955844 best_loss=0.136970 patience=0/3
+2026-01-05 22:56:18,272 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep17.pt
+2026-01-05 22:56:18,272 [INFO] => router epoch 17 loss=0.136049 acc=0.956261 best_loss=0.136049 patience=0/3
+2026-01-05 22:56:33,227 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep18.pt
+2026-01-05 22:56:33,227 [INFO] => router epoch 18 loss=0.135686 acc=0.955511 best_loss=0.135686 patience=0/3
+2026-01-05 22:56:48,654 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep19.pt
+2026-01-05 22:56:48,654 [INFO] => router epoch 19 loss=0.134749 acc=0.955962 best_loss=0.134749 patience=0/3
+2026-01-05 22:57:03,562 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep20.pt
+2026-01-05 22:57:03,562 [INFO] => router epoch 20 loss=0.134160 acc=0.956464 best_loss=0.134160 patience=0/3
+2026-01-05 22:57:18,569 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep21.pt
+2026-01-05 22:57:18,569 [INFO] => router epoch 21 loss=0.133196 acc=0.956784 best_loss=0.133196 patience=0/3
+2026-01-05 22:57:34,013 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep22.pt
+2026-01-05 22:57:34,014 [INFO] => router epoch 22 loss=0.132241 acc=0.956944 best_loss=0.132241 patience=0/3
+2026-01-05 22:57:49,052 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep23.pt
+2026-01-05 22:57:49,052 [INFO] => router epoch 23 loss=0.132009 acc=0.956256 best_loss=0.132009 patience=0/3
+2026-01-05 22:58:04,402 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep24.pt
+2026-01-05 22:58:04,402 [INFO] => router epoch 24 loss=0.131788 acc=0.957374 best_loss=0.131788 patience=0/3
+2026-01-05 22:58:19,379 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep25.pt
+2026-01-05 22:58:19,379 [INFO] => router epoch 25 loss=0.131026 acc=0.957802 best_loss=0.131026 patience=0/3
+2026-01-05 22:58:35,091 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep26.pt
+2026-01-05 22:58:35,091 [INFO] => router epoch 26 loss=0.130621 acc=0.957240 best_loss=0.130621 patience=0/3
+2026-01-05 22:58:50,005 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep27.pt
+2026-01-05 22:58:50,005 [INFO] => router epoch 27 loss=0.130501 acc=0.957756 best_loss=0.130501 patience=0/3
+2026-01-05 22:59:04,986 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep28.pt
+2026-01-05 22:59:04,986 [INFO] => router epoch 28 loss=0.129558 acc=0.957969 best_loss=0.129558 patience=0/3
+2026-01-05 22:59:20,236 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep29.pt
+2026-01-05 22:59:20,236 [INFO] => router epoch 29 loss=0.128926 acc=0.957369 best_loss=0.128926 patience=0/3
+2026-01-05 22:59:35,322 [INFO] => router epoch 30 loss=0.129015 acc=0.958172 best_loss=0.128926 patience=1/3
+2026-01-05 22:59:35,368 [INFO] => loaded best checkpoint for router: ckpt_mnist_v11_label5\mnist_v11_label5_router_best_ep29.pt (missing=0 unexpected=0)
+2026-01-05 23:00:32,726 [INFO] ========== [RED] OVERALL METRICS ==========
+2026-01-05 23:00:32,726 [INFO] [train][base] loss=0.182932 acc=0.9443 macro_f1=0.9439 macro_rec=0.9438 macro_prec=0.9452 w_f1=0.9441
+2026-01-05 23:00:32,726 [INFO] [train][all_fixed] loss=1.989076 acc=0.5844 macro_f1=0.5407 macro_rec=0.5921 macro_prec=0.6943 w_f1=0.5333
+2026-01-05 23:00:32,726 [INFO] [train][router] loss=0.540563 acc=0.9564 macro_f1=0.9561 macro_rec=0.9561 macro_prec=0.9563 w_f1=0.9565
+2026-01-05 23:00:32,726 [INFO] [val][base] loss=0.191119 acc=0.9455 macro_f1=0.9451 macro_rec=0.9451 macro_prec=0.9465 w_f1=0.9453
+2026-01-05 23:00:32,726 [INFO] [val][all_fixed] loss=2.032849 acc=0.5830 macro_f1=0.5416 macro_rec=0.5927 macro_prec=0.5943 w_f1=0.5334
+2026-01-05 23:00:32,726 [INFO] [val][router] loss=0.649754 acc=0.9543 macro_f1=0.9541 macro_rec=0.9541 macro_prec=0.9544 w_f1=0.9544
+2026-01-05 23:00:32,726 [INFO] [test][base] loss=0.181525 acc=0.9468 macro_f1=0.9463 macro_rec=0.9464 macro_prec=0.9475 w_f1=0.9466
+2026-01-05 23:00:32,726 [INFO] [test][all_fixed] loss=1.997532 acc=0.5801 macro_f1=0.5368 macro_rec=0.5884 macro_prec=0.5956 w_f1=0.5287
+2026-01-05 23:00:32,728 [INFO] [test][router] loss=0.562462 acc=0.9551 macro_f1=0.9547 macro_rec=0.9548 macro_prec=0.9549 w_f1=0.9551
+2026-01-05 23:00:41,245 [INFO] ========== [RED] TEST RESULTS (legacy acc only) ==========
+2026-01-05 23:00:41,245 [INFO] TEST acc: base=0.9468 all_fixed=0.5801 router=0.9551
+2026-01-05 23:00:41,247 [INFO] TEST per-domain base:   {0: 0.9934, 1: 0.9456, 2: 0.9594, 3: 0.9305, 4: 0.9027}
+2026-01-05 23:00:41,247 [INFO] TEST per-domain all:    {0: 0.461, 1: 0.8962, 2: 0.405, 3: 0.4527, 4: 0.6747}
+2026-01-05 23:00:41,247 [INFO] TEST per-domain router: {0: 0.9839, 1: 0.9569, 2: 0.9562, 3: 0.9426, 4: 0.9339}
+2026-01-05 23:00:41,247 [INFO] ========== [RED] TEST PER-DOMAIN (key metrics) ==========
+2026-01-05 23:00:41,247 [INFO] [domain 0] base(acc=0.9934,loss=0.0395,mf1=0.9968) all(acc=0.4610,loss=2.5274,mf1=0.3525) router(acc=0.9839,loss=0.1864,mf1=0.9916)
+2026-01-05 23:00:41,247 [INFO] [domain 1] base(acc=0.9456,loss=0.1973,mf1=0.9682) all(acc=0.8962,loss=0.2629,mf1=0.9013) router(acc=0.9569,loss=0.5451,mf1=0.9738)
+2026-01-05 23:00:41,247 [INFO] [domain 2] base(acc=0.9594,loss=0.1391,mf1=0.9785) all(acc=0.4050,loss=4.5154,mf1=0.4578) router(acc=0.9562,loss=0.5054,mf1=0.9775)
+2026-01-05 23:00:41,249 [INFO] [domain 3] base(acc=0.9305,loss=0.2175,mf1=0.9643) all(acc=0.4527,loss=1.7798,mf1=0.6095) router(acc=0.9426,loss=0.8516,mf1=0.9705)
+2026-01-05 23:00:41,249 [INFO] [domain 4] base(acc=0.9027,loss=0.3208,mf1=0.9429) all(acc=0.6747,loss=1.0573,mf1=0.8011) router(acc=0.9339,loss=0.7457,mf1=0.9597)
+2026-01-05 23:00:41,291 [INFO] => loaded best checkpoint for base: ckpt_mnist_v11_label5\mnist_v11_label5_base_best_ep2.pt (missing=0 unexpected=0)
+2026-01-05 23:00:41,303 [INFO] => loaded best checkpoint for expert_0: ckpt_mnist_v11_label5\mnist_v11_label5_expert_0_best_ep21.pt (missing=0 unexpected=0)
+2026-01-05 23:00:41,335 [INFO] => loaded best checkpoint for expert_1: ckpt_mnist_v11_label5\mnist_v11_label5_expert_1_best_ep30.pt (missing=0 unexpected=0)
+2026-01-05 23:00:41,354 [INFO] => loaded best checkpoint for expert_2: ckpt_mnist_v11_label5\mnist_v11_label5_expert_2_best_ep17.pt (missing=0 unexpected=0)
+2026-01-05 23:00:41,376 [INFO] => loaded best checkpoint for expert_3: ckpt_mnist_v11_label5\mnist_v11_label5_expert_3_best_ep17.pt (missing=0 unexpected=0)
+2026-01-05 23:00:41,398 [INFO] => loaded best checkpoint for expert_4: ckpt_mnist_v11_label5\mnist_v11_label5_expert_4_best_ep29.pt (missing=0 unexpected=0)
+2026-01-05 23:00:56,814 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep1.pt
+2026-01-05 23:00:56,814 [INFO] => moe epoch 1 loss=9.653588 acc=0.533777 best_loss=9.653588 patience=0/3
+2026-01-05 23:01:11,504 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep2.pt
+2026-01-05 23:01:11,504 [INFO] => moe epoch 2 loss=4.445460 acc=0.629184 best_loss=4.445460 patience=0/3
+2026-01-05 23:01:25,943 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep3.pt
+2026-01-05 23:01:25,943 [INFO] => moe epoch 3 loss=4.056428 acc=0.657284 best_loss=4.056428 patience=0/3
+2026-01-05 23:01:40,582 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep4.pt
+2026-01-05 23:01:40,582 [INFO] => moe epoch 4 loss=3.828651 acc=0.669983 best_loss=3.828651 patience=0/3
+2026-01-05 23:01:55,168 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep5.pt
+2026-01-05 23:01:55,168 [INFO] => moe epoch 5 loss=3.708796 acc=0.679432 best_loss=3.708796 patience=0/3
+2026-01-05 23:02:09,857 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep6.pt
+2026-01-05 23:02:09,857 [INFO] => moe epoch 6 loss=3.603185 acc=0.685509 best_loss=3.603185 patience=0/3
+2026-01-05 23:02:24,481 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep7.pt
+2026-01-05 23:02:24,481 [INFO] => moe epoch 7 loss=3.546195 acc=0.687680 best_loss=3.546195 patience=0/3
+2026-01-05 23:02:40,196 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep8.pt
+2026-01-05 23:02:40,196 [INFO] => moe epoch 8 loss=3.437026 acc=0.693458 best_loss=3.437026 patience=0/3
+2026-01-05 23:02:55,323 [INFO] => moe epoch 9 loss=3.455770 acc=0.699771 best_loss=3.437026 patience=1/3
+2026-01-05 23:03:10,471 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep10.pt
+2026-01-05 23:03:10,471 [INFO] => moe epoch 10 loss=3.409015 acc=0.700655 best_loss=3.409015 patience=0/3
+2026-01-05 23:03:25,817 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep11.pt
+2026-01-05 23:03:25,817 [INFO] => moe epoch 11 loss=3.369708 acc=0.701842 best_loss=3.369708 patience=0/3
+2026-01-05 23:03:41,099 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep12.pt
+2026-01-05 23:03:41,099 [INFO] => moe epoch 12 loss=3.338535 acc=0.701787 best_loss=3.338535 patience=0/3
+2026-01-05 23:03:56,154 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep13.pt
+2026-01-05 23:03:56,155 [INFO] => moe epoch 13 loss=3.306004 acc=0.706121 best_loss=3.306004 patience=0/3
+2026-01-05 23:04:11,222 [INFO] => moe epoch 14 loss=3.326103 acc=0.708072 best_loss=3.306004 patience=1/3
+2026-01-05 23:04:26,307 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep15.pt
+2026-01-05 23:04:26,307 [INFO] => moe epoch 15 loss=3.297351 acc=0.705924 best_loss=3.297351 patience=0/3
+2026-01-05 23:04:41,562 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep16.pt
+2026-01-05 23:04:41,564 [INFO] => moe epoch 16 loss=3.275357 acc=0.709032 best_loss=3.275357 patience=0/3
+2026-01-05 23:04:56,863 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep17.pt
+2026-01-05 23:04:56,863 [INFO] => moe epoch 17 loss=3.253317 acc=0.711911 best_loss=3.253317 patience=0/3
+2026-01-05 23:05:12,077 [INFO] => checkpoint saved: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep18.pt
+2026-01-05 23:05:12,082 [INFO] => moe epoch 18 loss=3.194728 acc=0.710645 best_loss=3.194728 patience=0/3
+2026-01-05 23:05:27,462 [INFO] => moe epoch 19 loss=3.248428 acc=0.712401 best_loss=3.194728 patience=1/3
+2026-01-05 23:05:42,589 [INFO] => moe epoch 20 loss=3.207836 acc=0.715465 best_loss=3.194728 patience=2/3
+2026-01-05 23:05:57,768 [INFO] => moe epoch 21 loss=3.206480 acc=0.715343 best_loss=3.194728 patience=3/3
+2026-01-05 23:05:57,768 [INFO] => Early stopping moe at epoch 21 (patience=3)
+2026-01-05 23:05:57,810 [INFO] => loaded best checkpoint for moe: ckpt_mnist_v11_label5\mnist_v11_label5_moe_best_ep18.pt (missing=0 unexpected=0)
+2026-01-05 23:06:17,182 [INFO] ========== [MoE] OVERALL METRICS ==========
+2026-01-05 23:06:17,182 [INFO] [train][moe] loss=3.062478 acc=0.7223 macro_f1=0.7027 macro_rec=0.7211 macro_prec=0.7840 w_f1=0.7062
+2026-01-05 23:06:17,182 [INFO] [val][moe] loss=3.325087 acc=0.7311 macro_f1=0.7143 macro_rec=0.7333 macro_prec=0.7875 w_f1=0.7168
+2026-01-05 23:06:17,182 [INFO] [test][moe] loss=2.971914 acc=0.7302 macro_f1=0.7133 macro_rec=0.7312 macro_prec=0.7883 w_f1=0.7162
+2026-01-05 23:06:19,994 [INFO] ========== [MoE] TEST RESULTS (legacy acc only) ==========
+2026-01-05 23:06:19,994 [INFO] TEST acc: moe=0.7302
+2026-01-05 23:06:19,994 [INFO] TEST per-domain moe: {0: 0.8165, 1: 0.7272, 2: 0.5059, 3: 0.8212, 4: 0.762}
+2026-01-05 23:06:19,994 [INFO] ========== [MoE] TEST PER-DOMAIN (key metrics) ==========
+2026-01-05 23:06:19,994 [INFO] [domain 0] moe(acc=0.8165,loss=1.4285,mf1=0.8220)
+2026-01-05 23:06:19,994 [INFO] [domain 1] moe(acc=0.7272,loss=2.6202,mf1=0.7474)
+2026-01-05 23:06:19,994 [INFO] [domain 2] moe(acc=0.5059,loss=6.5828,mf1=0.4637)
+2026-01-05 23:06:19,994 [INFO] [domain 3] moe(acc=0.8212,loss=2.2118,mf1=0.8397)
+2026-01-05 23:06:19,994 [INFO] [domain 4] moe(acc=0.7620,loss=2.3291,mf1=0.7909)
+2026-01-05 23:06:20,050 [INFO] => saved combined results to ckpt_mnist_v11_label5\mnist_v11_label5_all_results.json
