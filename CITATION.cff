@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Residual Expert Decomposition (RED)"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Shuo
+  - family-names: Li
+    given-names: Jialin
+version: 1.0.0
+date-released: "2026-01-06"
+url: "https://github.com/dancwolf-cmyk/red"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Residual Expert Decomposition (RED): A resilient and robust framework for post-hoc recomposition under routing noise"
+  authors:
+    - family-names: Wang
+      given-names: Shuo
+    - family-names: Li
+      given-names: Jialin
+  year: 2026
+  journal: "Software Impacts"
